@@ -6,6 +6,7 @@ import {
   Route,
 } from "react-router-dom";
 import Main_Page from './Componnents/My_Account/Main_Page/Main_Page';
+import YourOrders from './Componnents/My_Account/YourOrders/YourOrders';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       <Switch>
         <Route path="/home">
           <Main_Page />
+        </Route>
+        <Route path="/yourOrders">
+          <YourOrders />
         </Route>
         <Route path="/">
           <Main_Page />

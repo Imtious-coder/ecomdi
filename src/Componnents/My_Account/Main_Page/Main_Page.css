@@ -1,0 +1,14 @@
+.Cards{
+    transition: all 0.2s ease-in-out;
+}
+.Cards:hover{
+    overflow: hidden;
+    margin-bottom: -3px;
+    margin-right: -3px;
+    border-bottom: 3px solid green ;
+    border-right: 3px solid greenyellow ;
+}
+
+.Images{
+    width: 80px;
+}
