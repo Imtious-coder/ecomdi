@@ -8,6 +8,7 @@ import {
 import Main_Page from './Componnents/My_Account/Main_Page/Main_Page';
 import YourOrders from './Componnents/My_Account/YourOrders/YourOrders';
 import SecurityLogin from './Componnents/My_Account/SecurityLogin/SecurityLogin';
+import Name from './Componnents/My_Account/SecurityLogin/Name/Name';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
         </Route>
         <Route path="/securityLogin">
           <SecurityLogin />
+        </Route>
+        <Route path="/name">
+          <Name />
         </Route>
         <Route path="/">
           <Main_Page />

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SecurityLogin = () => {
     return (
@@ -12,10 +13,12 @@ const SecurityLogin = () => {
                         <p className="font-bold">Name:</p>
                         <p>Yusuf Islam</p>
                     </div>
-                    <div className="ml-20">
-                        <button className="ml-5 mt-2 rounded Button1">
-                            Edit
+                    <div className="ml-20 lol">
+                        <Link to="/name">
+                            <button className="ml-5 mt-2 rounded Button1">
+                                Edit
                         </button>
+                        </Link>
                     </div>
                 </div>
                 {/* Email */}
