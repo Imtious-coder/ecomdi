@@ -32,6 +32,7 @@ const Main_Page = () => {
                     </section>
                 </Link>
                 {/* Second card */}
+                <Link to="/securityLogin">
                 <section className=" Cards border rounded flex">
                     <div>
                         <img className="Images mt-6 m-4" src={Image2} alt="" />
@@ -41,6 +42,7 @@ const Main_Page = () => {
                         <p>Edit login, name, and mobile number</p>
                     </div>
                 </section>
+                </Link>
                 {/* Third card */}
                 <section className=" Cards border rounded flex">
                     <div>

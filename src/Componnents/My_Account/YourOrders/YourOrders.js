@@ -8,7 +8,7 @@ const YourOrders = () => {
             {/* Page title */}
             <header className="text-3xl font-bold text-center mt-5">Your Orders</header>
             <section>
-                <p className="text-xl text-green-500 font-bold ml-10 mt-20 mb-5">Orders ——</p>
+                <p className="text-2xl text-green-500 font-bold ml-10 mt-20 mb-8">Orders —</p>
                 {/* Table titles */}
                 <section className="grid md:grid-cols-6 mb-3">
                     <div className="text-center font-bold mt-5 Borders">
@@ -32,7 +32,7 @@ const YourOrders = () => {
                 </section>
                 <hr/>
                 {/* Details */}
-                <section className="grid md:grid-cols-6">
+                <section className="grid md:grid-cols-6 pb-10">
                     <div className="text-center mt-5">
                         <p>Example</p>
                     </div>
@@ -57,7 +57,7 @@ const YourOrders = () => {
 
             {/* Cancelled Orders */}
             <section>
-                <p className="text-xl text-red-400 font-bold ml-10 mt-20 mb-5">Cancelled Orders ——</p>
+                <p className="text-2xl text-red-400 font-bold ml-10 mt-20 mb-8">Cancelled Orders —</p>
                 {/* Table titles */}
                 <section className="grid md:grid-cols-6 mb-3">
                     <div className="text-center font-bold mt-5 Borders">

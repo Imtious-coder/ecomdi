@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Main_Page from './Componnents/My_Account/Main_Page/Main_Page';
 import YourOrders from './Componnents/My_Account/YourOrders/YourOrders';
+import SecurityLogin from './Componnents/My_Account/SecurityLogin/SecurityLogin';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
         </Route>
         <Route path="/yourOrders">
           <YourOrders />
+        </Route>
+        <Route path="/securityLogin">
+          <SecurityLogin />
         </Route>
         <Route path="/">
           <Main_Page />
