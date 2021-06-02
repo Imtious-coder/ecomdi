@@ -15,9 +15,11 @@ const Email = () => {
                     Enter the new email address you would like to associate with your account below. We will send a One Time Password (OTP) to that address.</p>
                     <p className="font-bold mt-8">New email address</p>
                     <input className="border-2 pl-2 pt-1 pb-1 rounded mt-1 mb-5 w-full" type="text" name="name" id="Name" placeholder="Yusuf.Islam@gmail.com" /> <br />
+                    {/* Continue button */}
                     <Link to="/emailOTP">
                     <button className="Button1 rounded shadow mr-20">Continue</button>
                     </Link>
+                    {/* Back button */}
                     <Link to="/securityLogin">
                         <button className="Button2 ml ml-20 shadow">Back</button>
                     </Link>

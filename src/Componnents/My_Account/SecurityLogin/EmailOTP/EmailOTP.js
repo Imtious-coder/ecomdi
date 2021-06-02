@@ -13,9 +13,11 @@ const EmailOTP = () => {
                     <p className="border-t-2 border-b-2 pt-2 pb-2">We've sent a One Time Password (OTP) to your email address. Please enter it below.</p>
                     <p className="font-bold mt-8">Enter OTP</p>
                     <input className="border-2 pl-2 pt-1 pb-1 rounded mt-1 mb-5 w-full" type="text" name="name" id="Name" /> <br />
+                    {/* Continue button */}
                     <Link to="/mailChangeConfirm">
                         <button className="Button1 rounded shadow mr-20">Continue</button>
                     </Link>
+                    {/* Back button */}
                     <Link to="/email">
                         <button className="Button2 ml ml-20 shadow">Back</button>
                     </Link>

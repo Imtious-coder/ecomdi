@@ -61,7 +61,7 @@ const SecurityLogin = () => {
                         </button>
                     </div>
                 </div>
-                {/* Password */}
+                {/* Country */}
                 <div className="grid grid-cols-2 ml-10 mr-10 mb-10 pt-5 border rounder shadow">
                     <div className="ml-10 mb-5">
                         <p className="font-bold">Country:</p>
@@ -113,6 +113,7 @@ const SecurityLogin = () => {
                     </div>
                 </div>
             </section>
+            {/* Back button */}
             <Link to="/home">
                 <button className="Button2 ml-10 mb-10 shadow-lg">Back</button>
             </Link>
