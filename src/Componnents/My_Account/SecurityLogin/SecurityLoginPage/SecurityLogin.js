@@ -42,9 +42,11 @@ const SecurityLogin = () => {
                         <p>+880163*****10</p>
                     </div>
                     <div className="ml-20">
-                        <button className="ml-5 mt-2 rounded Button1">
-                            Edit
+                        <Link to="/mobile">
+                            <button className="ml-5 mt-2 rounded Button1">
+                                Edit
                         </button>
+                        </Link>
                     </div>
                 </div>
                 {/* Password */}

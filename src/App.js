@@ -11,6 +11,9 @@ import Name from './Componnents/My_Account/SecurityLogin/Name/Name';
 import SecurityLogin from './Componnents/My_Account/SecurityLogin/SecurityLoginPage/SecurityLogin';
 import Email from './Componnents/My_Account/SecurityLogin/Email/Email';
 import EmailOTP from './Componnents/My_Account/SecurityLogin/EmailOTP/EmailOTP';
+import MailChangeConfirm from './Componnents/My_Account/SecurityLogin/MailChangeConfirm/MailChangeConfirm';
+import Mobile from './Componnents/My_Account/SecurityLogin/Mobile/Mobile';
+import MobileOTP from './Componnents/My_Account/SecurityLogin/MobileOTP/MobileOTP';
 
 function App() {
   return (
@@ -33,6 +36,15 @@ function App() {
         </Route>
         <Route path="/emailOTP">
           <EmailOTP />
+        </Route>
+        <Route path="/mailChangeConfirm">
+          <MailChangeConfirm />
+        </Route>
+        <Route path="/mobile">
+          <Mobile />
+        </Route>
+        <Route path="/mobileOTP">
+          <MobileOTP />
         </Route>
         <Route path="/">
           <Main_Page />
