@@ -28,9 +28,11 @@ const SecurityLogin = () => {
                         <p>Yusuf.Islam@gmail.com</p>
                     </div>
                     <div className="ml-20">
-                        <button className="ml-5 mt-2 rounded Button1">
-                            Edit
+                        <Link to="/email">
+                            <button className="ml-5 mt-2 rounded Button1">
+                                Edit
                         </button>
+                        </Link>
                     </div>
                 </div>
                 {/* Phone */}
@@ -108,8 +110,12 @@ const SecurityLogin = () => {
                         </button>
                     </div>
                 </div>
-
             </section>
+            <Link to="/home">
+                <button className="Button2 ml-10 mb-10 shadow-lg">Back</button>
+            </Link>
+
+
         </section>
     );
 };

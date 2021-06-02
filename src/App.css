@@ -53,7 +53,15 @@
 .Button1:hover{
   background-color: rgb(167, 245, 51);
 }
-.lol{
+
+.Button2{
+  font-weight: 600;
   border: none;
   outline: none;
+  border-radius: 3px;
+  background-color: rgb(190, 190, 190);
+  padding: 5px 15px 5px 15px;
+}
+.Button2:hover{
+  background-color: rgb(155, 155, 155);
 }

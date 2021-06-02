@@ -103,7 +103,7 @@ const YourOrders = () => {
                 </section>
             </section>
 
-            <Link to="/home"><button className="text-blue-700 font-bold bg-black-400 pt-3 pb-3 pl-10 pr-10 border rounded ml-10 mt-16 mb-10">Back</button></Link>
+            <Link to="/home"><button className="Button2 ml-14 mb-10 shadow-lg mt-16">Back</button></Link>
         </section>
     );
 };
