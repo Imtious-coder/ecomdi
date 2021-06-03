@@ -14,6 +14,9 @@ import EmailOTP from './Componnents/My_Account/SecurityLogin/EmailOTP/EmailOTP';
 import MailChangeConfirm from './Componnents/My_Account/SecurityLogin/MailChangeConfirm/MailChangeConfirm';
 import Mobile from './Componnents/My_Account/SecurityLogin/Mobile/Mobile';
 import MobileOTP from './Componnents/My_Account/SecurityLogin/MobileOTP/MobileOTP';
+import Password from './Componnents/My_Account/SecurityLogin/Password/Password';
+import Country from './Componnents/My_Account/SecurityLogin/Country/Country';
+import TwoStepVerification from './Componnents/My_Account/SecurityLogin/TwoStepVerification/TwoStepVerification';
 
 function App() {
   return (
@@ -45,6 +48,15 @@ function App() {
         </Route>
         <Route path="/mobileOTP">
           <MobileOTP />
+        </Route>
+        <Route path="/password">
+          <Password />
+        </Route>
+        <Route path="/country">
+          <Country />
+        </Route>
+        <Route path="/twoStepVerification">
+          <TwoStepVerification />
         </Route>
         <Route path="/">
           <Main_Page />

@@ -45,7 +45,7 @@ const SecurityLogin = () => {
                         <Link to="/mobile">
                             <button className="ml-5 mt-2 rounded Button1">
                                 Edit
-                        </button>
+                            </button>
                         </Link>
                     </div>
                 </div>
@@ -56,9 +56,11 @@ const SecurityLogin = () => {
                         <p>********</p>
                     </div>
                     <div className="ml-20">
-                        <button className="ml-5 mt-2 rounded Button1">
-                            Edit
-                        </button>
+                        <Link to="/password">
+                            <button className="ml-5 mt-2 rounded Button1">
+                                Edit
+                            </button>
+                        </Link>
                     </div>
                 </div>
                 {/* Country */}
@@ -68,9 +70,11 @@ const SecurityLogin = () => {
                         <p>Bangladesh</p>
                     </div>
                     <div className="ml-20">
-                        <button className="ml-5 mt-2 rounded Button1">
-                            Edit
-                        </button>
+                        <Link to="/country">
+                            <button className="ml-5 mt-2 rounded Button1">
+                                Edit
+                            </button>
+                        </Link>
                     </div>
                 </div>
                 {/* Address */}
@@ -95,9 +99,11 @@ const SecurityLogin = () => {
                         <p>Manage your Two Step Verification (2SV) Authenticators</p>
                     </div>
                     <div className="ml-10 flex justify-end content-center flex-wrap">
-                        <button className="rounded Button1 -mt-4 mr-5">
-                            Edit
-                        </button>
+                        <Link to="/twoStepVerification">
+                            <button className="rounded Button1 -mt-4 mr-5">
+                                Edit
+                            </button>
+                        </Link>
                     </div>
                 </div>
                 {/* Secure account */}
