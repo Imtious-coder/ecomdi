@@ -15,14 +15,17 @@ const Password = () => {
                             Use the form below to change the password for your ecomdi account
                         </p>
                     </div>
+                    {/* Current password */}
                     <p>
                         <b>Current password:</b>
                     </p>
                     <input className="border-2 pl-2 pt-1 pb-1 rounded mt-1 mb-5 w-full" type="text" name="name" id="Name" /> <br />
+                    {/* New password */}
                     <p>
                         <b>New password:</b>
                     </p>
                     <input className="border-2 pl-2 pt-1 pb-1 rounded mt-1 mb-5 w-full" type="text" name="name" id="Name" /> <br />
+                    {/* Re-enter password */}
                     <p>
                         <b>Re-enter password:</b>
                     </p>
