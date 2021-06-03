@@ -17,7 +17,7 @@ const MobileOTP = () => {
                     </p>
                     <input className="border-2 pl-2 pt-1 pb-1 rounded mt-1 mb-5 w-full" type="text" name="name" id="Name" /> <br />
                     {/* Verify button */}
-                    <Link to="/home">
+                    <Link to="/securityLogin">
                         <button className="Button1 rounded shadow mr-20">Verify</button>
                     </Link>
                     {/* Back button */}
