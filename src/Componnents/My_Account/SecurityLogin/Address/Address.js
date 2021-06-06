@@ -1,22 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Country.css'
+import './Address.css';
 
-const Country = () => {
+const Address = () => {
     return (
         <section>
             {/* Page title */}
-            <header className="text-3xl font-bold text-center mt-5">Change your country</header>
+            <header className="text-3xl font-bold text-center mt-5">Change your address</header>
             {/* Main Card */}
             <section className="flex justify-center ml-10 mr-10 mt-10 ">
                 <div className="md:w-2/5 pb-5">
                     <div className="border-t-2 border-b-2 mb-5 pt-2 pb-2">
                         <p>
-                            Add your new country below
+                            Add your new address below
                         </p>
                     </div>
                     <p>
-                        <b>New country:</b>
+                        <b>New address:</b>
                     </p>
                     <input className="border-2 pl-2 pt-1 pb-1 rounded mt-1 w-full" type="text" name="name" id="Name" /> <br />
                     <br />
@@ -35,4 +35,4 @@ const Country = () => {
     );
 };
 
-export default Country;
+export default Address;

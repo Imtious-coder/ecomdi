@@ -37,7 +37,7 @@ const TwoStepVerification = () => {
 
                 {/* Continue button */}
                 <Link
-                    to="/securityLogin">
+                    to="/step1">
                     <button className="Button1 rounded shadow mr-20">Get started</button>
                 </Link>
                 {/* Back button */}

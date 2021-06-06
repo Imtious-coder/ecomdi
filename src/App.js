@@ -17,6 +17,10 @@ import MobileOTP from './Componnents/My_Account/SecurityLogin/MobileOTP/MobileOT
 import Password from './Componnents/My_Account/SecurityLogin/Password/Password';
 import Country from './Componnents/My_Account/SecurityLogin/Country/Country';
 import TwoStepVerification from './Componnents/My_Account/SecurityLogin/TwoStepVerification/TwoStepVerification';
+import Address from './Componnents/My_Account/SecurityLogin/Address/Address';
+import Step1 from './Componnents/My_Account/SecurityLogin/Step1/Step1';
+import TwoStepMobileOTP from './Componnents/My_Account/SecurityLogin/TwoStepMobileOTP/TwoStepMobileOTP';
+import Step2 from './Componnents/My_Account/SecurityLogin/Step2/Step2';
 
 function App() {
   return (
@@ -57,6 +61,18 @@ function App() {
         </Route>
         <Route path="/twoStepVerification">
           <TwoStepVerification />
+        </Route>
+        <Route path="/address">
+          <Address />
+        </Route>
+        <Route path="/step1">
+          <Step1 />
+        </Route>
+        <Route path="/twoStepMobileOTP">
+          <TwoStepMobileOTP />
+        </Route>
+        <Route path="/step2">
+          <Step2 />
         </Route>
         <Route path="/">
           <Main_Page />
