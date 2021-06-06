@@ -25,7 +25,7 @@ const TwoStepMobileOTP = () => {
                     <Link to="/step1">
                         <button className="Button2 ml ml-20 shadow">Back</button>
                     </Link>
-                    
+
                 </div>
             </section>
         </section>

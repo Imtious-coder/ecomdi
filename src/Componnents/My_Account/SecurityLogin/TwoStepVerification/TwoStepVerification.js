@@ -35,17 +35,17 @@ const TwoStepVerification = () => {
                         </p>
                     </div>
 
-                {/* Continue button */}
-                <Link
-                    to="/step1">
-                    <button className="Button1 rounded shadow mr-20">Get started</button>
-                </Link>
-                {/* Back button */}
-                <Link to="/securityLogin">
-                    <button className="Button2 ml ml-20 shadow">Back</button>
-                </Link>
+                    {/* Continue button */}
+                    <Link
+                        to="/step1">
+                        <button className="Button1 rounded shadow mr-20">Get started</button>
+                    </Link>
+                    {/* Back button */}
+                    <Link to="/securityLogin">
+                        <button className="Button2 ml ml-20 shadow">Back</button>
+                    </Link>
                 </div>
-        </section>
+            </section>
         </section >
     );
 };

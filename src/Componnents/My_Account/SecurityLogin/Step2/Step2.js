@@ -32,7 +32,7 @@ const Step2 = () => {
                         </p>
                     </div>
 
-                    {/* Continue button */}
+                    {/* On button */}
                     <Link
                         to="/securityLogin">
                         <button className="Button1 rounded shadow mr-20">Got it. Trun Two Step Verification On</button>
