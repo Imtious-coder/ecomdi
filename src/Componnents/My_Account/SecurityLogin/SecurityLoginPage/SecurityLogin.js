@@ -115,9 +115,11 @@ const SecurityLogin = () => {
                         <p>If you think your Amazon account has been compromised, follow these steps to make your account more secure.</p>
                     </div>
                     <div className="ml-10 flex justify-end content-center flex-wrap">
-                        <button className="rounded Button1 -mt-4 mr-5">
-                            Edit
-                        </button>
+                        <Link to="/secureYourAccount">
+                            <button className="rounded Button1 -mt-4 mr-5">
+                                Edit
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </section>

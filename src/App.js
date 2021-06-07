@@ -21,6 +21,7 @@ import Address from './Componnents/My_Account/SecurityLogin/Address/Address';
 import Step1 from './Componnents/My_Account/SecurityLogin/Step1/Step1';
 import TwoStepMobileOTP from './Componnents/My_Account/SecurityLogin/TwoStepMobileOTP/TwoStepMobileOTP';
 import Step2 from './Componnents/My_Account/SecurityLogin/Step2/Step2';
+import SecureYourAccount from './Componnents/My_Account/SecurityLogin/SecureYourAccount/SecureYourAccount';
 
 function App() {
   return (
@@ -73,6 +74,9 @@ function App() {
         </Route>
         <Route path="/step2">
           <Step2 />
+        </Route>
+        <Route path="/secureYourAccount">
+          <SecureYourAccount />
         </Route>
         <Route path="/">
           <Main_Page />
