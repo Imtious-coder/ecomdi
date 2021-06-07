@@ -22,6 +22,10 @@ import Step1 from './Componnents/My_Account/SecurityLogin/Step1/Step1';
 import TwoStepMobileOTP from './Componnents/My_Account/SecurityLogin/TwoStepMobileOTP/TwoStepMobileOTP';
 import Step2 from './Componnents/My_Account/SecurityLogin/Step2/Step2';
 import SecureYourAccount from './Componnents/My_Account/SecurityLogin/SecureYourAccount/SecureYourAccount';
+import Vouchers from './Componnents/My_Account/Voucher/Vouchers/Vouchers';
+import YourPayments from './Componnents/My_Account/Payments/YourPayments/YourPayments';
+import YourProfiles from './Componnents/My_Account/Profiles/YourProfiles/YourProfiles';
+import ManageYourProfiles from './Componnents/My_Account/Profiles/ManageYourProfiles/ManageYourProfiles';
 
 function App() {
   return (
@@ -77,6 +81,18 @@ function App() {
         </Route>
         <Route path="/secureYourAccount">
           <SecureYourAccount />
+        </Route>
+        <Route path="/vouchers">
+          <Vouchers />
+        </Route>
+        <Route path="/payments">
+          <YourPayments />
+        </Route>
+        <Route path="/profiles">
+          <YourProfiles />
+        </Route>
+        <Route path="/manageYourProfiles">
+          <ManageYourProfiles />
         </Route>
         <Route path="/">
           <Main_Page />

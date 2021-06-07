@@ -33,46 +33,52 @@ const Main_Page = () => {
                 </Link>
                 {/* Second card */}
                 <Link to="/securityLogin">
-                <section className=" Cards border rounded flex">
-                    <div>
-                        <img className="Images mt-6 m-4" src={Image2} alt="" />
-                    </div>
-                    <div className="md:text-left sm:text-center m-6">
-                        <p className="text-xl font-bold">Login and security</p>
-                        <p>Edit login, name, and mobile number</p>
-                    </div>
-                </section>
+                    <section className=" Cards border rounded flex">
+                        <div>
+                            <img className="Images mt-6 m-4" src={Image2} alt="" />
+                        </div>
+                        <div className="md:text-left sm:text-center m-6">
+                            <p className="text-xl font-bold">Login and security</p>
+                            <p>Edit login, name, and mobile number</p>
+                        </div>
+                    </section>
                 </Link>
                 {/* Third card */}
-                <section className=" Cards border rounded flex">
-                    <div>
-                        <img className="Images mt-5 m-4" src={Image3} alt="" />
-                    </div>
-                    <div className="md:text-left sm:text-center m-6">
-                        <p className="text-xl font-bold">Gift Cards</p>
-                        <p>View balance, redeem, or reload cards</p>
-                    </div>
-                </section>
+                <Link to="/vouchers">
+                    <section className=" Cards border rounded flex">
+                        <div>
+                            <img className="Images mt-5 m-4" src={Image3} alt="" />
+                        </div>
+                        <div className="md:text-left sm:text-center m-6">
+                            <p className="text-xl font-bold">Voucher</p>
+                            <p>View voucher, redeem, or reload voucher</p>
+                        </div>
+                    </section>
+                </Link>
                 {/* Fourth card */}
-                <section className=" Cards border rounded flex">
-                    <div>
-                        <img className="Images mt-6 m-4" src={Image4} alt="" />
-                    </div>
-                    <div className="md:text-left sm:text-center mt-4 m-6">
-                        <p className="text-xl font-bold">Your Payments</p>
-                        <p>Manage payment methonds and settings, view all transactions</p>
-                    </div>
-                </section>
+                <Link to="/payments">
+                    <section className=" Cards border rounded flex">
+                        <div>
+                            <img className="Images mt-6 m-4" src={Image4} alt="" />
+                        </div>
+                        <div className="md:text-left sm:text-center mt-4 m-6">
+                            <p className="text-xl font-bold">Your Payments</p>
+                            <p>Manage payment methonds and settings, view all transactions</p>
+                        </div>
+                    </section>
+                </Link>
                 {/* Fifth card */}
-                <section className=" Cards border rounded flex">
-                    <div>
-                        <img className="Images mt-7 m-4" src={Image5} alt="" />
-                    </div>
-                    <div className="md:text-left sm:text-center m-6">
-                        <p className="text-xl font-bold">Your Profiles</p>
-                        <p>Manage, add, or remove user profiles for personalized experiences</p>
-                    </div>
-                </section>
+                <Link to="/profiles">
+                    <section className=" Cards border rounded flex">
+                        <div>
+                            <img className="Images mt-7 m-4" src={Image5} alt="" />
+                        </div>
+                        <div className="md:text-left sm:text-center m-6">
+                            <p className="text-xl font-bold">Your Profiles</p>
+                            <p>Manage, add, or remove user profiles for personalized experiences</p>
+                        </div>
+                    </section>
+                </Link>
                 {/* Sixth card */}
                 <section className=" Cards border rounded flex">
                     <div>
