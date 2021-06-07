@@ -13,7 +13,7 @@ const YourProfiles = () => {
                     <p className="border-t-2 border-b-2 pt-2 pb-2">Amazon programs may use these profiles to provide a personalized experience.</p>
                     {/* Account button */}
                     <Link to="/manageYourProfiles">
-                    <button className="AccountButton">Yusuf Islam</button>
+                        <button className="AccountButton">Yusuf Islam</button>
                     </Link>
                     {/* Back button */}
                     <Link to="/home">
