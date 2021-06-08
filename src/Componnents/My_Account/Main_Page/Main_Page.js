@@ -18,14 +18,14 @@ const Main_Page = () => {
             <header className="text-3xl font-bold text-center mt-5">Your Account</header>
 
             {/* All Cards */}
-            <div className="grid md:grid-cols-3 ml-20 mr-20 mt-10 gap-6">
+            <div className="grid md:grid-cols-3 ml-20 mr-20 mt-10 mb-10 gap-6">
                 {/* First card */}
                 <Link to="/yourOrders">
                     <section className="Cards border rounded flex pb-2">
                         <div>
-                            <img className="Images m-4" src={Image1} alt="" />
+                            <img className="Images mt-8 m-3" src={Image1} alt="" />
                         </div>
-                        <div className="md:text-left sm:text-center m-6">
+                        <div className="md:text-left sm:text-center mt-5 pb-8">
                             <p className="text-xl font-bold pt-2 mt-1">Your Orders</p>
                             <p>Track, return, or buy things again</p>
                         </div>
@@ -69,13 +69,13 @@ const Main_Page = () => {
                 </Link>
                 {/* Fifth card */}
                 <Link to="/profiles">
-                    <section className=" Cards border rounded flex">
+                    <section className="Cards border rounded flex">
                         <div>
                             <img className="Images mt-7 m-4" src={Image5} alt="" />
                         </div>
                         <div className="md:text-left sm:text-center m-6">
                             <p className="text-xl font-bold">Your Profiles</p>
-                            <p>Manage, add, or remove user profiles for personalized experiences</p>
+                            <p>Manage, add, or remove user profiles for personalized <br /> experiences</p>
                         </div>
                     </section>
                 </Link>
