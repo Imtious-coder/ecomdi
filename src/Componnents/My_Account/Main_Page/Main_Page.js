@@ -59,9 +59,9 @@ const Main_Page = () => {
                 <Link to="/payments">
                     <section className=" Cards border rounded flex">
                         <div>
-                            <img className="Images mt-6 m-4" src={Image4} alt="" />
+                            <img className="Images mt-10 m-4" src={Image4} alt="" />
                         </div>
-                        <div className="md:text-left sm:text-center mt-4 m-6">
+                        <div className="md:text-left sm:text-center mt-8 pb-4 m-6">
                             <p className="text-xl font-bold">Your Payments</p>
                             <p>Manage payment methonds and settings, view all transactions</p>
                         </div>
@@ -80,15 +80,17 @@ const Main_Page = () => {
                     </section>
                 </Link>
                 {/* Sixth card */}
-                <section className=" Cards border rounded flex">
-                    <div>
-                        <img className="Images mt-6 m-4" src={Image6} alt="" />
-                    </div>
-                    <div className="md:text-left sm:text-center m-6">
-                        <p className="text-xl font-bold">Your Devices and Contents</p>
-                        <p>Manage your Amazon devices and digital content</p>
-                    </div>
-                </section>
+                <Link to="/devices">
+                    <section className=" Cards border rounded flex">
+                        <div>
+                            <img className="Images mt-6 m-4" src={Image6} alt="" />
+                        </div>
+                        <div className="md:text-left sm:text-center m-6">
+                            <p className="text-xl font-bold">Your Devices and Contents</p>
+                            <p>Manage your Amazon devices and digital content</p>
+                        </div>
+                    </section>
+                </Link>
                 {/* Seventh card */}
                 <section className=" Cards border rounded flex">
                     <div>

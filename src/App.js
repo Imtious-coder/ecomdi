@@ -26,6 +26,8 @@ import Vouchers from './Componnents/My_Account/Voucher/Vouchers/Vouchers';
 import YourPayments from './Componnents/My_Account/Payments/YourPayments/YourPayments';
 import YourProfiles from './Componnents/My_Account/Profiles/YourProfiles/YourProfiles';
 import ManageYourProfiles from './Componnents/My_Account/Profiles/ManageYourProfiles/ManageYourProfiles';
+import Devices from './Componnents/My_Account/DeviceAndContents/Devices/Devices';
+import ManageDevices from './Componnents/My_Account/DeviceAndContents/ManageDevices/ManageDevices';
 
 function App() {
   return (
@@ -93,6 +95,12 @@ function App() {
         </Route>
         <Route path="/manageYourProfiles">
           <ManageYourProfiles />
+        </Route>
+        <Route path="/devices">
+          <Devices />
+        </Route>
+        <Route path="/manageDevices">
+          <ManageDevices />
         </Route>
         <Route path="/">
           <Main_Page />
