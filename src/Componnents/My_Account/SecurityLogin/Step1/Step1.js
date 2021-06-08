@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Step1.css';
 
 const Step1 = () => {
     return (
@@ -27,7 +28,7 @@ const Step1 = () => {
                     </Link>
                     {/* Back button */}
                     <Link to="/twoStepVerification">
-                        <button className="Button2 ml ml-20 shadow">Back</button>
+                        <button className="Button2 Step1_ml ml-20 shadow">Back</button>
                     </Link>
                 </div>
             </section>

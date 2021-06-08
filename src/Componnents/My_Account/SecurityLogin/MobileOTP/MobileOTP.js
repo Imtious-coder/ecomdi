@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './MobileOTP.css';
 
 const MobileOTP = () => {
     return (
@@ -22,7 +23,7 @@ const MobileOTP = () => {
                     </Link>
                     {/* Back button */}
                     <Link to="/mobile">
-                        <button className="Button2 ml ml-20 shadow">Back</button>
+                        <button className="Button2 Mobile_OTP_ml ml-20 shadow">Back</button>
                     </Link>
                 </div>
             </section>

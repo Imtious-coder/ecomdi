@@ -23,7 +23,7 @@ const TwoStepMobileOTP = () => {
                     </Link>
                     {/* Back button */}
                     <Link to="/step1">
-                        <button className="Button2 ml ml-20 shadow">Back</button>
+                        <button className="Button2 Two_Step_Mobile_OTP_ml shadow">Back</button>
                     </Link>
 
                 </div>

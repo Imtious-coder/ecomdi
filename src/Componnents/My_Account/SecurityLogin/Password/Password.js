@@ -37,7 +37,7 @@ const Password = () => {
                     </Link>
                     {/* Back button */}
                     <Link to="/securityLogin">
-                        <button className="Button2 ml ml-20 shadow">Back</button>
+                        <button className="Button2 Password_ml ml-20 shadow">Back</button>
                     </Link>
                 </div>
             </section>

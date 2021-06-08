@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Mobile.css';
 
 const Mobile = () => {
     return (
@@ -32,7 +33,7 @@ const Mobile = () => {
                     </Link>
                     {/* Back button */}
                     <Link to="/securityLogin">
-                        <button className="Button2 ml ml-20 shadow">Back</button>
+                        <button className="Button2 Mobile_ml ml-20 shadow">Back</button>
                     </Link>
                 </div>
             </section>

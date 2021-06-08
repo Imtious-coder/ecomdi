@@ -79,7 +79,7 @@ const SecurityLogin = () => {
                 </div>
                 {/* Address */}
                 <div className="grid grid-cols-2 ml-10 mr-10 mb-10 pt-5 border rounder shadow">
-                    <div className="ml-10 mb-5">
+                    <div className="ml-5 mb-5">
                         <p className="font-bold">Address:</p>
                         <p>Dhaka, Bangladesh</p>
                     </div>

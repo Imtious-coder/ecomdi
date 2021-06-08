@@ -37,7 +37,7 @@ const SecureYourAccount = () => {
                     </Link>
                     {/* Back button */}
                     <Link to="/securityLogin">
-                        <button className="Button2 ml ml-20 shadow">Back</button>
+                        <button className="Button2 Secure_Your_Account_ml shadow">Back</button>
                     </Link>
                 </div>
             </section>

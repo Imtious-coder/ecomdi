@@ -18,12 +18,12 @@ const Name = () => {
                     </p>
                     <input className="border-2 pl-2 pt-1 pb-1 rounded mt-1 mb-5" type="text" name="name" id="Name" placeholder="Yusuf Islam" /> <br />
                     {/* Save button */}
-                    <Link to="/home">
+                    <Link to="/securityLogin">
                         <button className="Button1 rounded shadow mr-20">Save</button>
                     </Link>
                     {/* Back button */}
                     <Link to="/securityLogin">
-                        <button className="Button2 ml ml-20 shadow">Back</button>
+                        <button className="Button2 Name_ml ml-20 shadow">Back</button>
                     </Link>
                 </div>
             </section>
