@@ -1,0 +1,44 @@
+.Name:hover{
+    color: rgb(211, 255, 145);
+}
+#Navbar__Search{
+    padding-left: 10px;
+    font-size: 14px;
+    color: gray;
+    border: none;
+    outline: none;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.Navbar_Search_Button{
+    padding: 3px 10px 3px 10px;
+    background-color: rgb(190, 190, 190);
+    color: black;
+    border: none;
+    font-size: 14px;
+    outline: none!important;
+    border: none!important;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    transition: 0.2s all ease-in-out;
+}
+.Navbar_Search_Button:hover{
+    background-color: rgb(201, 255, 121);
+}
+
+.Navbar__Icons{
+    font-size: 32px;
+    transition: all 0.2s ease-in-out;
+}
+.Navbar__Icons:hover{
+    color: white;
+}
+.Navbar__Cart__Count{
+    background-color: green;
+    color: white;
+    width: 15px;
+    font-weight: bold;
+    height: 15px;
+    font-size: 12px;
+    border-radius: 100%;
+}

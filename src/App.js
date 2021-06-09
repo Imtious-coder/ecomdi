@@ -28,6 +28,7 @@ import YourProfiles from './Componnents/My_Account/Profiles/YourProfiles/YourPro
 import ManageYourProfiles from './Componnents/My_Account/Profiles/ManageYourProfiles/ManageYourProfiles';
 import Devices from './Componnents/My_Account/DeviceAndContents/Devices/Devices';
 import ManageDevices from './Componnents/My_Account/DeviceAndContents/ManageDevices/ManageDevices';
+import Navbar from './Componnents/Home/Navbar/Navbar';
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
       <Switch>
         <Route path="/home">
           <Main_Page />
+        </Route>
+        <Route path="/navbar">
+          <Navbar />
         </Route>
         <Route path="/yourOrders">
           <YourOrders />
