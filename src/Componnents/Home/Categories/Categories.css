@@ -1,0 +1,83 @@
+.Categories{
+    background-color: yellow;
+}
+.Categories1{
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    text-align: center;
+    outline: none;
+    appearance: none;
+    color: rgb(75, 75, 75);
+    background-color: yellow;
+    padding: 5px 30px 5px 54px;
+    border-bottom-right-radius: 3px;
+}
+.Categories1:hover{
+    background-color: black;
+    color: yellow;
+}
+.Categories2{
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    text-align: center;
+    outline: none;
+    appearance: none;
+    color: rgb(75, 75, 75);
+    background-color: yellow;
+    padding: 5px 45px 5px 47.5px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.Categories2:hover{
+    background-color: black;
+    color: yellow;
+}
+.Categories3{
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    appearance: none;
+    color: rgb(75, 75, 75);
+    background-color: yellow;
+    padding: 5px 50px 5px 56px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    
+}
+.Categories3:hover{
+    background-color: black;
+    color: yellow;
+}
+.Categories4{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(75, 75, 75);
+    padding: 5px 20px 5px 20px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.Categories4:hover{
+    background-color: black;
+    color: yellow;
+}
+.Categories5{
+    color: rgb(75, 75, 75);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.Categories5:hover{
+    background-color: black;
+    color: yellow;
+}
+
+.Categories_Options{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

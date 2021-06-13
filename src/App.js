@@ -29,11 +29,16 @@ import ManageYourProfiles from './Componnents/My_Account/Profiles/ManageYourProf
 import Devices from './Componnents/My_Account/DeviceAndContents/Devices/Devices';
 import ManageDevices from './Componnents/My_Account/DeviceAndContents/ManageDevices/ManageDevices';
 import Navbar from './Componnents/Home/Navbar/Navbar';
+import Home_Page from './Componnents/Home/Home_Page/Home_Page';
 
 function App() {
   return (
     <Router>
+      <Navbar />
       <Switch>
+        <Route path="/mainHome">
+          <Home_Page />
+        </Route>
         <Route path="/home">
           <Main_Page />
         </Route>
@@ -107,7 +112,7 @@ function App() {
           <ManageDevices />
         </Route>
         <Route path="/">
-          <Main_Page />
+          <Home_Page />
         </Route>
       </Switch>
     </Router>

@@ -13,9 +13,11 @@ import { Link } from 'react-router-dom';
 
 const Main_Page = () => {
     return (
-        <section>
+        <section className="pt-5 pb-10">
             {/* Page title */}
-            <header className="text-3xl font-bold text-center mt-5">Your Account</header>
+            <Link to="/navbar">
+                <header className="text-3xl font-bold text-center mt-20 mb-20">Your Account</header>
+            </Link>
 
             {/* All Cards */}
             <div className="grid md:grid-cols-3 ml-20 mr-20 mt-10 mb-10 gap-6">
