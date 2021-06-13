@@ -30,6 +30,8 @@ import Devices from './Componnents/My_Account/DeviceAndContents/Devices/Devices'
 import ManageDevices from './Componnents/My_Account/DeviceAndContents/ManageDevices/ManageDevices';
 import Navbar from './Componnents/Home/Navbar/Navbar';
 import Home_Page from './Componnents/Home/Home_Page/Home_Page';
+import Banner from './Componnents/Home/Banner/Banner';
+import Products from './Componnents/Home/Products/Products';
 
 function App() {
   return (
@@ -38,6 +40,12 @@ function App() {
       <Switch>
         <Route path="/mainHome">
           <Home_Page />
+        </Route>
+        <Route path="/banner">
+          <Banner />
+        </Route>
+        <Route path="/products">
+          <Products />
         </Route>
         <Route path="/home">
           <Main_Page />

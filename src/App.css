@@ -65,3 +65,6 @@
 .Button2:hover{
   background-color: rgb(155, 155, 155);
 }
+html{
+  font-family: 'Raleway', sans-serif;
+}
