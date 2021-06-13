@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <section className="bg-gray-900 pb-1 pt-1 Main_Navbar">
+        <section className="bg-gray-900 pb-3 pt-3 Main_Navbar">
             <section className="grid flex md:grid-cols-3 justify-items-center">
                 {/* Company Name/Logo */}
                 <section className="flex justify-items-center">
@@ -15,31 +15,31 @@ const Navbar = () => {
                         <Link to="/mainHome">
                             <img style={{ width: "140px", height: "60px" }} src={Image2} alt="" />
                         </Link>
-                        {/* <p style={{color:"yellow"}} className="text-3xl font-bold pb-2 pt-1 Name">ecomdi</p> */}
                     </div>
                 </section>
                 {/* Search bar */}
                 <section>
-                    <div className="flex flex-wrap content-center mb-2 mt-3 w-full">
+                    <div className="flex flex-wrap content-center justify-center mb-2 mt-4 w-full">
                         <input type="text" id="Navbar__Search" placeholder="Search in ecomdi.." />
                         <button className="Navbar_Search_Button">Search</button>
                     </div>
                 </section>
                 {/* Others(account, cart, login) */}
-                <section className="grid flex md:grid-cols-3 gap-8 justify-items-center mb-2 mt-2">
+                <section className="grid flex md:grid-cols-4 gap-y-4 justify-items-center mb-2 mt-2">
+                    <div></div>
                     {/* Account */}
-                    <div className="flex flex-wrap content-center -ml-12">
+                    <div className="flex flex-wrap content-center">
                         <Link to="/home">
-                            <FontAwesomeIcon style={{ color: "yellow" }} className="Navbar__Icons" icon={faUserCircle} />
+                            <FontAwesomeIcon className="Navbar__Icons pt-2" icon={faUserCircle} />
                         </Link>
                     </div>
                     {/* Cart */}
-                    <div className="flex flex-wrap content-center -ml-10">
-                        <FontAwesomeIcon style={{ color: "yellow" }} className="Navbar__Icons" icon={faDolly} />
+                    <div className="flex flex-wrap content-center">
+                        <FontAwesomeIcon className="Navbar__Icons pt-2" icon={faDolly} />
                         <p className="Navbar__Cart__Count flex grid justify-items-center flex-wrap content-center">0</p>
                     </div>
                     {/* Login option */}
-                    <div className="flex flex-wrap content-center -ml-5">
+                    <div className="flex flex-wrap content-center">
                         <button className="Navbar_Login_Button ">Login</button>
                     </div>
                 </section>

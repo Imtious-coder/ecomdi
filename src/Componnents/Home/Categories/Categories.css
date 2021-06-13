@@ -11,7 +11,7 @@
     appearance: none;
     color: rgb(75, 75, 75);
     background-color: yellow;
-    padding: 5px 30px 5px 54px;
+    padding: 5px 10px 5px 45px;
     border-bottom-right-radius: 3px;
 }
 .Categories1:hover{
@@ -28,7 +28,7 @@
     appearance: none;
     color: rgb(75, 75, 75);
     background-color: yellow;
-    padding: 5px 45px 5px 47.5px;
+    padding: 5px 30px 5px 32px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
 }
@@ -45,7 +45,7 @@
     appearance: none;
     color: rgb(75, 75, 75);
     background-color: yellow;
-    padding: 5px 50px 5px 56px;
+    padding: 5px 39px 5px 40px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
     

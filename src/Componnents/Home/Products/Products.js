@@ -13,7 +13,7 @@ const Products = () => {
     return (
         <section className="bg-gray-50 pb-10">
             <h2 className="text-center font-bold text-3xl pt-20">Mobiles</h2>
-            <section className="grid md:grid-cols-5 justify-center gap-4 mt-20 mb-20 ml-5 mr-5">
+            <section className="grid md:grid-cols-5 sm:grid-cols-3 justify-center gap-4 mt-20 mb-20 ml-5 mr-5">
                 <div className="Products_Cards flex justify-center">
                     <div>
                         <img src={Image} className="Products_Images" alt="" /> <br />

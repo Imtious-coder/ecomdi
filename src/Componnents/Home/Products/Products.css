@@ -31,9 +31,12 @@
     margin-bottom: 10px;
     font-weight: 500;
     border-radius: 5px;
+    border: 1px solid yellow;
+    outline: none!important;
     transition: all .2s ease-in-out;
 }
 .AddToCart_Button:hover{
+    border: 1px solid black;
     background-color: yellow;
     color: black;
 }
