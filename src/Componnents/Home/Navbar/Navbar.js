@@ -12,7 +12,9 @@ const Navbar = () => {
                 {/* Company Name/Logo */}
                 <section className="flex justify-items-center">
                     <div className="flex flex-wrap content-center">
-                        <img style={{ width: "140px", height: "60px" }} src={Image2} alt="" />
+                        <Link to="/mainHome">
+                            <img style={{ width: "140px", height: "60px" }} src={Image2} alt="" />
+                        </Link>
                         {/* <p style={{color:"yellow"}} className="text-3xl font-bold pb-2 pt-1 Name">ecomdi</p> */}
                     </div>
                 </section>
