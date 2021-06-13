@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <section className="bg-gray-900 pb-3 pt-3 Main_Navbar">
+        <section className="bg-gray-900 pb-1 pt-1 Main_Navbar">
             <section className="grid flex md:grid-cols-3 justify-items-center">
                 {/* Company Name/Logo */}
                 <section className="flex justify-items-center">
@@ -19,9 +19,9 @@ const Navbar = () => {
                 </section>
                 {/* Search bar */}
                 <section>
-                    <div className="flex flex-wrap content-center justify-center mb-2 mt-4 w-full">
+                    <div className="flex flex-wrap content-center justify-center mb-2 w-full">
                         <input type="text" id="Navbar__Search" placeholder="Search in ecomdi.." />
-                        <button className="Navbar_Search_Button">Search</button>
+                        <button className="Navbar_Search_Button mt-4">Search</button>
                     </div>
                 </section>
                 {/* Others(account, cart, login) */}
