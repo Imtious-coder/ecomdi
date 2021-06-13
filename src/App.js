@@ -38,6 +38,9 @@ function App() {
     <Router>
       <Navbar />
       <Switch>
+      <Route path="/navbar">
+          <Navbar />
+        </Route>
         <Route path="/mainHome">
           <Home_Page />
         </Route>
@@ -49,9 +52,6 @@ function App() {
         </Route>
         <Route path="/home">
           <Main_Page />
-        </Route>
-        <Route path="/navbar">
-          <Navbar />
         </Route>
         <Route path="/yourOrders">
           <YourOrders />

@@ -3,6 +3,7 @@ import './Navbar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDolly, faUserCircle } from '@fortawesome/free-solid-svg-icons';
 import Image2 from "./cover-removebg.png";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -11,7 +12,7 @@ const Navbar = () => {
                 {/* Company Name/Logo */}
                 <section className="flex justify-items-center">
                     <div className="flex flex-wrap content-center">
-                        <img style={{width:"140px", height:"60px"}} src={Image2} alt="" />
+                        <img style={{ width: "140px", height: "60px" }} src={Image2} alt="" />
                         {/* <p style={{color:"yellow"}} className="text-3xl font-bold pb-2 pt-1 Name">ecomdi</p> */}
                     </div>
                 </section>
@@ -26,11 +27,13 @@ const Navbar = () => {
                 <section className="grid flex md:grid-cols-3 gap-8 justify-items-center mb-2 mt-2">
                     {/* Account */}
                     <div className="flex flex-wrap content-center -ml-12">
-                        <FontAwesomeIcon style={{color:"yellow"}} className="Navbar__Icons" icon={faUserCircle} />
+                        <Link to="/home">
+                            <FontAwesomeIcon style={{ color: "yellow" }} className="Navbar__Icons" icon={faUserCircle} />
+                        </Link>
                     </div>
                     {/* Cart */}
                     <div className="flex flex-wrap content-center -ml-10">
-                        <FontAwesomeIcon style={{color:"yellow"}} className="Navbar__Icons" icon={faDolly} />
+                        <FontAwesomeIcon style={{ color: "yellow" }} className="Navbar__Icons" icon={faDolly} />
                         <p className="Navbar__Cart__Count flex grid justify-items-center flex-wrap content-center">0</p>
                     </div>
                     {/* Login option */}

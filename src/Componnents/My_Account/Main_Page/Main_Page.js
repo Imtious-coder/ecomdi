@@ -16,7 +16,7 @@ const Main_Page = () => {
         <section className="pt-5 pb-10">
             {/* Page title */}
             <Link to="/navbar">
-                <header className="text-3xl font-bold text-center mt-20 mb-20">Your Account</header>
+                <header className="text-3xl font-bold text-center mt-10 mb-20">Your Account</header>
             </Link>
 
             {/* All Cards */}
@@ -87,7 +87,7 @@ const Main_Page = () => {
                         <div>
                             <img className="Images mt-6 m-4" src={Image6} alt="" />
                         </div>
-                        <div className="md:text-left sm:text-center m-6">
+                        <div className="md:text-left sm:text-center m-5">
                             <p className="text-xl font-bold">Your Devices and Contents</p>
                             <p>Manage your Amazon devices and digital content</p>
                         </div>
