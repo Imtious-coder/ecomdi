@@ -8,6 +8,8 @@ import Image5 from './g15.jpg';
 import Image6 from './hp-15s-1-500x500.jpg';
 import Image7 from './pavilion-13-01-500x500.jpg';
 import Image8 from './X515JP.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee, faStar, faStarHalf } from '@fortawesome/free-solid-svg-icons'
 
 const Laptop = () => {
     return (
@@ -15,7 +17,7 @@ const Laptop = () => {
             {/* Title */}
             <h2 className="text-center font-bold text-3xl pt-10">Laptops</h2>
             {/* All cards */}
-            <section className="grid md:grid-cols-6 justify-center gap-2 mt-20 mb-20 ml-20 mr-20">
+            <section className="grid md:grid-cols-5 grid-cols-2 justify-center gap-4 mt-20 mb-20 ml-5 mr-5">
                 {/* First Card */}
                 <div className="Laptop_Cards flex justify-center">
                     <div>
@@ -25,6 +27,14 @@ const Laptop = () => {
                         </div>
                         {/* Name */}
                         <p className="text-center font-bold mb-1 Laptop_Names">Mackbook Air</p>
+                        {/* Ratings */}
+                        <div className="flex justify-center mb-1 Laptop_Ratings">
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                        </div>
                         {/* Stock and Price */}
                         <div className="grid grid-cols-2 text-center ml-2 mb-1">
                             <div>
@@ -50,6 +60,14 @@ const Laptop = () => {
                         </div>
                         {/* Name */}
                         <p className="text-center font-bold mb-1 Laptop_Names">Mackbook Pro 13"</p>
+                        {/* Ratings */}
+                        <div className="flex justify-center mb-3 Laptop_Ratings">
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                        </div>
                         {/* Stock and Price */}
                         <div className="grid grid-cols-2 text-center ml-2 mb-1">
                             <div>
@@ -75,6 +93,14 @@ const Laptop = () => {
                         </div>
                         {/* Name */}
                         <p className="text-center font-bold mb-1 Laptop_Names">Asus Vivobook 14/15</p>
+                        {/* Ratings */}
+                        <div className="flex justify-center mb-3 Laptop_Ratings">
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                        </div>
                         {/* Stock and Price */}
                         <div className="grid grid-cols-2 text-center ml-2 mb-1">
                             <div>
@@ -100,6 +126,14 @@ const Laptop = () => {
                         </div>
                         {/* Name */}
                         <p className="text-center font-bold mb-1 Laptop_Names">Dell Inspiration 15</p>
+                        {/* Ratings */}
+                        <div className="flex justify-center mb-3 Laptop_Ratings">
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                        </div>
                         {/* Stock and Price */}
                         <div className="grid grid-cols-2 text-center ml-2 mb-1">
                             <div>
@@ -125,6 +159,14 @@ const Laptop = () => {
                         </div>
                         {/* Name */}
                         <p className="text-center font-bold mb-1 Laptop_Names">Dell g15</p>
+                        {/* Ratings */}
+                        <div className="flex justify-center mb-3 Laptop_Ratings">
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                        </div>
                         {/* Stock and Price */}
                         <div className="grid grid-cols-2 text-center ml-2 mb-1">
                             <div>
@@ -150,6 +192,14 @@ const Laptop = () => {
                         </div>
                         {/* Name */}
                         <p className="text-center font-bold mb-1 Laptop_Names">HP 15s</p>
+                        {/* Ratings */}
+                        <div className="flex justify-center mb-3 Laptop_Ratings">
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                        </div>
                         {/* Stock and Price */}
                         <div className="grid grid-cols-2 text-center ml-2 mb-1">
                             <div>
@@ -175,6 +225,14 @@ const Laptop = () => {
                         </div>
                         {/* Name */}
                         <p className="text-center font-bold mb-1 Laptop_Names">HP Pavillion</p>
+                        {/* Ratings */}
+                        <div className="flex justify-center mb-3 Laptop_Ratings">
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                        </div>
                         {/* Stock and Price */}
                         <div className="grid grid-cols-2 text-center ml-2 mb-1">
                             <div>
@@ -200,6 +258,14 @@ const Laptop = () => {
                         </div>
                         {/* Name */}
                         <p className="text-center font-bold mb-1 Laptop_Names">Asus X515JP</p>
+                        {/* Ratings */}
+                        <div className="flex justify-center mb-3 Laptop_Ratings">
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                        </div>
                         {/* Stock and Price */}
                         <div className="grid grid-cols-2 text-center ml-2 mb-1">
                             <div>
@@ -229,6 +295,14 @@ const Laptop = () => {
                         </div>
                         {/* Name */}
                         <p className="text-center font-bold mb-1 Laptop_Names">Mackbook Air</p>
+                        {/* Ratings */}
+                        <div className="flex justify-center mb-3 Laptop_Ratings">
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStarHalf} />
+                        </div>
                         {/* Stock and Price */}
                         <div className="grid grid-cols-2 text-center ml-2 mb-1">
                             <div>
@@ -254,6 +328,14 @@ const Laptop = () => {
                         </div>
                         {/* Name */}
                         <p className="text-center font-bold mb-1 Laptop_Names">Mackbook Pro 13"</p>
+                        {/* Ratings */}
+                        <div className="flex justify-center mb-3 Laptop_Ratings">
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStarHalf} />
+                        </div>
                         {/* Stock and Price */}
                         <div className="grid grid-cols-2 text-center ml-2 mb-1">
                             <div>
@@ -279,6 +361,14 @@ const Laptop = () => {
                         </div>
                         {/* Name */}
                         <p className="text-center font-bold mb-1 Laptop_Names">Asus Vivobook 14/15</p>
+                        {/* Ratings */}
+                        <div className="flex justify-center mb-3 Laptop_Ratings">
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStarHalf} />
+                        </div>
                         {/* Stock and Price */}
                         <div className="grid grid-cols-2 text-center ml-2 mb-1">
                             <div>
@@ -304,6 +394,14 @@ const Laptop = () => {
                         </div>
                         {/* Name */}
                         <p className="text-center font-bold mb-1 Laptop_Names">Dell Inspiration 15</p>
+                        {/* Ratings */}
+                        <div className="flex justify-center mb-3 Laptop_Ratings">
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStarHalf} />
+                        </div>
                         {/* Stock and Price */}
                         <div className="grid grid-cols-2 text-center ml-2 mb-1">
                             <div>
@@ -329,6 +427,14 @@ const Laptop = () => {
                         </div>
                         {/* Name */}
                         <p className="text-center font-bold mb-1 Laptop_Names">Dell g15</p>
+                        {/* Ratings */}
+                        <div className="flex justify-center mb-3 Laptop_Ratings">
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStarHalf} />
+                        </div>
                         {/* Stock and Price */}
                         <div className="grid grid-cols-2 text-center ml-2 mb-1">
                             <div>
@@ -354,6 +460,14 @@ const Laptop = () => {
                         </div>
                         {/* Name */}
                         <p className="text-center font-bold mb-1 Laptop_Names">HP 15s</p>
+                        {/* Ratings */}
+                        <div className="flex justify-center mb-3 Laptop_Ratings">
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStarHalf} />
+                        </div>
                         {/* Stock and Price */}
                         <div className="grid grid-cols-2 text-center ml-2 mb-1">
                             <div>
@@ -379,6 +493,14 @@ const Laptop = () => {
                         </div>
                         {/* Name */}
                         <p className="text-center font-bold mb-1 Laptop_Names">HP Pavillion</p>
+                        {/* Ratings */}
+                        <div className="flex justify-center mb-3 Laptop_Ratings">
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStar} />
+                            <FontAwesomeIcon icon={faStarHalf} />
+                        </div>
                         {/* Stock and Price */}
                         <div className="grid grid-cols-2 text-center ml-2 mb-1">
                             <div>

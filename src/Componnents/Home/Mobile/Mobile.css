@@ -1,41 +1,55 @@
-.Products_Cards{
-    margin-top: 20px;
+.Mobile_Cards{
+    height: 275px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 3px;
     border: 1px solid rgba(128, 128, 128, 0.548);
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(255, 255, 255);
     transition: all 0.3s ease-in-out;
 }
-.Products_Cards:hover{
+.Mobile_Cards:hover{
     border: 1px solid green;
     box-shadow: .1px .1px 8px rgb(0, 0, 0) ;
 }
-.Products_Images{
-    width: 150px;
-    height: 150px;
+.Mobile_Images{
+    width: 100%;
+    height: 130px;
     border: 1px solid rgba(128, 128, 128, 0.288);
-    margin: 25px 25px 0px 20px;
     border-radius: 3px;
 }
-.Products_Stocks{
+.Mobile_Names{
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-size: 14px;
+}
+.Mobile_Ratings{
+    color: gold;
+    font-size: 12px;
+}
+.Mobile_Stocks{
+    font-size: 10px;
     font-weight: 500;
 }
-.Products_Price{
-    font-size: 14px;
+.Mobile_Price{
+    font-weight: bold!important;
+    font-size: 12px;
     font-weight: 500;
 }
-.AddToCart_Button{
+.Mobile_AddToCart_Button{
     background-color: black;
     color: white;
+    font-size: 12px;
+    margin-top: 5px;
     padding: 5px 20px 5px 20px;
-    margin-bottom: 10px;
     font-weight: 500;
     border-radius: 5px;
     border: 1px solid yellow;
     outline: none!important;
     transition: all .2s ease-in-out;
 }
-.AddToCart_Button:hover{
+.Mobile_AddToCart_Button:hover{
     border: 1px solid black;
     background-color: yellow;
     color: black;

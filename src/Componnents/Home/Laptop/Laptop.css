@@ -1,11 +1,9 @@
 .Laptop_Cards{
-    height: 200px;
-    width: 90%;
-    margin-left: 5%;
+    height: 275px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
     border-radius: 3px;
     border: 1px solid rgba(128, 128, 128, 0.548);
     background-color: rgb(255, 255, 255);
@@ -16,8 +14,8 @@
     box-shadow: .1px .1px 8px rgb(0, 0, 0) ;
 }
 .Laptop_Images{
-    width: 80%;
-    height: 90px;
+    width: 100%;
+    height: 130px;
     border: 1px solid rgba(128, 128, 128, 0.288);
     border-radius: 3px;
 }
@@ -25,7 +23,12 @@
 
 }
 .Laptop_Names{
-    margin-top: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.Laptop_Ratings{
+    color: gold;
     font-size: 12px;
 }
 .Laptop_Stocks{
@@ -41,6 +44,7 @@
     background-color: black;
     color: white;
     font-size: 12px;
+    margin-top: 5px;
     padding: 5px 20px 5px 20px;
     font-weight: 500;
     border-radius: 5px;
