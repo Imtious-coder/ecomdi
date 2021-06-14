@@ -1,0 +1,54 @@
+.Laptop_Cards{
+    height: 200px;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: 1px solid rgba(128, 128, 128, 0.548);
+    background-color: rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+}
+.Laptop_Cards:hover{
+    border: 1px solid green;
+    box-shadow: .1px .1px 8px rgb(0, 0, 0) ;
+}
+.Laptop_Images{
+    width: 80%;
+    height: 90px;
+    border: 1px solid rgba(128, 128, 128, 0.288);
+    border-radius: 3px;
+}
+.Laptop_Images:hover{
+
+}
+.Laptop_Names{
+    margin-top: 3px;
+    font-size: 12px;
+}
+.Laptop_Stocks{
+    font-size: 10px;
+    font-weight: 500;
+}
+.Laptop_Price{
+    font-size: 10px;
+    font-weight: 500;
+}
+.Laptop_AddToCart_Button{
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    padding: 5px 20px 5px 20px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid yellow;
+    outline: none!important;
+    transition: all .2s ease-in-out;
+}
+.Laptop_AddToCart_Button:hover{
+    border: 1px solid black;
+    background-color: yellow;
+    color: black;
+}
