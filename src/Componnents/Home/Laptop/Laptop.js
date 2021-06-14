@@ -9,7 +9,7 @@ import Image6 from './hp-15s-1-500x500.jpg';
 import Image7 from './pavilion-13-01-500x500.jpg';
 import Image8 from './X515JP.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faStar, faStarHalf } from '@fortawesome/free-solid-svg-icons'
+import { faStar, faStarHalf } from '@fortawesome/free-solid-svg-icons'
 
 const Laptop = () => {
     return (

@@ -32,6 +32,8 @@ import Navbar from './Componnents/Home/Navbar/Navbar';
 import Home_Page from './Componnents/Home/Home_Page/Home_Page';
 import Banner from './Componnents/Home/Banner/Banner';
 import Products from './Componnents/Home/Products/Products';
+import Laptop from './Componnents/Home/Laptop/Laptop';
+import BickScooter from './Componnents/Home/BickScooter/BickScooter';
 
 function App() {
   return (
@@ -49,6 +51,12 @@ function App() {
         </Route>
         <Route path="/mobile">
           <Mobile />
+        </Route>
+        <Route path="/laptop">
+          <Laptop />
+        </Route>
+        <Route path="/bickScooter">
+          <BickScooter />
         </Route>
         <Route path="/products">
           <Products />
