@@ -5,7 +5,14 @@ import { faDolly, faUserCircle } from '@fortawesome/free-solid-svg-icons';
 import Image2 from "./cover-removebg.png";
 import { Link } from 'react-router-dom';
 
+import ReactDOM from 'react-dom';
+import ReactImageZoom from 'react-image-zoom';
+
+
+
 const Navbar = () => {
+    const props = { width: 400, height: 250, zoomWidth: 500, img: { Image2 } };
+   
     return (
         <section className="bg-gray-900 pb-1 pt-1 Main_Navbar">
             <section className="grid flex md:grid-cols-3 justify-items-center">
@@ -13,7 +20,7 @@ const Navbar = () => {
                 <section className="flex justify-items-center">
                     <div className="flex flex-wrap content-center">
                         <Link to="/mainHome">
-                            <img style={{ width: "140px", height: "60px" }} src={Image2} alt="" />
+                            <img style={{ width: "140px", height: "60px" }} src={Image2} alt="" id="Image" />
                         </Link>
                     </div>
                 </section>

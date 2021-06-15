@@ -46,7 +46,7 @@ const BickScooter = () => {
                             </div>
                         </div>
                         {/* Add to cart button */}
-                        <div className="flex grid justify-center">
+                        <div className="flex grid justify-right">
                             <button className="Bick_AddToCart_Button">Add to cart</button>
                         </div>
                     </div>

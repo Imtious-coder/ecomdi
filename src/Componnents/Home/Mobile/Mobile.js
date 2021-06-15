@@ -11,9 +11,109 @@ import Image8 from './Xpro.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 
+
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
+
+const responsive = {
+    superLargeDesktop: {
+        // the naming can be any, depends on you.
+        breakpoint: { max: 4000, min: 3000 },
+        items: 5
+    },
+    desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 3
+    },
+    tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 2
+    },
+    mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 1
+    }
+};
+
 const Mobile = () => {
     return (
         <section className="bg-gray-50 pb-10">
+
+
+            <Carousel responsive={responsive} >
+                <div className="grid grid-cols-3 gap-4 mt-10 ml-5 mr-5">
+
+                    <div className="Mobile_Cards flex justify-center">
+                        <img src={Image} className="Mobiles_Image" alt="" />
+                        <div className="Mobiles_Detail">
+                            <p className="text-center Mobiles_Name">Never Settle</p>
+                            <div className="flex justify-center mb-1 Mobiles_Rating">
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                            </div>
+                            <p className="text-center Mobiles_Stock">Stock: 8</p>
+                            <p className="text-center Mobiles_Price">$220</p>
+                            <button className="Mobiles_AddToCart_Button">Add to cart</button>
+                        </div>
+                    </div>
+
+                    <div className="flex justify-center border-2">
+                        <div>
+                            <img src={Image2} alt="" />
+                        </div>
+                    </div>
+
+                    <div className="flex justify-center border-2">
+                        <div>
+                            <img src={Image3} alt="" />
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div>Item 2</div>
+                <div>Item 3</div>
+                <div>Item 4</div>
+            </Carousel>
+
+            {/* 
+            <Navbar>
+    <Navbar.Header>
+      <a href="#" className="navbar-brand logo">RSUITE</a>
+    </Navbar.Header>
+    <Navbar.Body>
+      <Nav>
+        <Nav.Item icon={<Icon icon="home" />} >Home</Nav.Item>
+        <Nav.Item>News</Nav.Item>
+        <Nav.Item>Products</Nav.Item>
+        <Dropdown title="About">
+          <Dropdown.Item>Company</Dropdown.Item>
+          <Dropdown.Item>Team</Dropdown.Item>
+          <Dropdown.Item>Contact</Dropdown.Item>
+        </Dropdown>
+      </Nav>
+      <Nav pullRight>
+        <Nav.Item icon={<Icon icon="cog" />} >Settings</Nav.Item>
+      </Nav>
+    </Navbar.Body>
+  </Navbar> */}
+
+
+
+
+
+
+
+
+
+
+
+
             <h2 className="text-center font-bold text-3xl pt-20">Mobiles</h2>
 
             <section className="grid md:grid-cols-5 grid-cols-2 justify-center gap-4 mt-20 mb-20 ml-5 mr-5">
