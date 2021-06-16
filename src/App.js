@@ -35,6 +35,7 @@ import Products from './Componnents/Home/Products/Products';
 import Laptop from './Componnents/Home/Laptop/Laptop';
 import BickScooter from './Componnents/Home/BickScooter/BickScooter';
 import Groceries from './Componnents/Home/Groceries/Groceries';
+import { Footer } from 'rsuite';
 
 function App() {
   return (
@@ -64,6 +65,9 @@ function App() {
         </Route>
         <Route path="/products">
           <Products />
+        </Route>
+        <Route path="/footer">
+          <Footer />
         </Route>
         <Route path="/home">
           <Main_Page />
