@@ -10,514 +10,351 @@ import Image7 from './pavilion-13-01-500x500.jpg';
 import Image8 from './X515JP.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar, faStarHalf } from '@fortawesome/free-solid-svg-icons'
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
+
+const responsive = {
+    superLargeDesktop: {
+        breakpoint: { max: 4000, min: 3000 },
+        items: 5
+    },
+    desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 3
+    },
+    tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 2
+    },
+    Laptop: {
+        breakpoint: { max: 464, min: 0 },
+        items: 1
+    }
+};
 
 const Laptop = () => {
     return (
-        <section className="bg-blue-50 pb-10">
-            {/* Title */}
-            <h2 className="text-center font-bold text-3xl pt-10">Laptops</h2>
-            {/* All cards */}
-            <section className="grid md:grid-cols-5 grid-cols-2 justify-center gap-4 mt-20 mb-20 ml-5 mr-5">
-                {/* First Card */}
-                <div className="Laptop_Cards flex justify-center">
-                    <div>
+
+        <section className="bg-gray-50">
+            {/* Heading */}
+            <p className="Heading">Laptop</p>
+
+            <Carousel responsive={responsive} >
+                {/* ------------------Part------------------ */}
+                <div className="grid grid-cols-3 gap-1 mt-3 mb-3 ml-3">
+
+                    {/* Card1 */}
+                    <div className="Laptop_Cards flex justify-center">
                         {/* Image */}
-                        <div className="flex justify-center mr-2 ml-2">
-                            <img src={Image} className="Laptop_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Laptop_Names">Mackbook Air</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-1 Laptop_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Laptop_Stocks">Stock: 8</p>
+                        <img src={Image} className="Laptops_Image" alt="" />
+                        {/* Details */}
+                        <div className="Laptops_Detail">
+                            {/* Name */}
+                            <p className="text-center Laptops_Name">Mackbook Air</p>
+                            {/* Ratings */}
+                            <div className="flex justify-center mb-1 Laptops_Rating">
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
                             </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$520</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Laptop_AddToCart_Button">Add to cart</button>
+                            {/* Stock and Price */}
+                            <p className="text-center Laptops_Stock">Stock: 8</p>
+                            <p className="text-center Laptops_Price">$220</p>
+                            {/* Add to Cart Button */}
+                            <button className="Laptops_AddToCart_Button">Add to cart</button>
                         </div>
                     </div>
-                </div>
 
-                {/* Second Card */}
-                <div className="Laptop_Cards flex justify-center">
-                    <div>
+                    {/* Card2 */}
+                    <div className="Laptop_Cards flex justify-center">
                         {/* Image */}
-                        <div className="flex justify-center mr-2 ml-2">
-                            <img src={Image2} className="Laptop_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Laptop_Names">Mackbook Pro 13"</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Laptop_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Laptop_Stocks">Stock: 2</p>
+                        <img src={Image2} className="Laptops_Image" alt="" />
+                        {/* Details */}
+                        <div className="Laptops_Detail">
+                            {/* Name */}
+                            <p className="text-center Laptops_Name">Mackbook Pro 13"</p>
+                            {/* Ratings */}
+                            <div className="flex justify-center mb-1 Laptops_Rating">
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
                             </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$450</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Laptop_AddToCart_Button">Add to cart</button>
+                            {/* Stock and Price */}
+                            <p className="text-center Laptops_Stock">Stock: 2</p>
+                            <p className="text-center Laptops_Price">$480</p>
+                            {/* Add to Cart Button */}
+                            <button className="Laptops_AddToCart_Button">Add to cart</button>
                         </div>
                     </div>
-                </div>
 
-                {/* Third Card */}
-                <div className="Laptop_Cards flex justify-center">
-                    <div>
+                    {/* Card3 */}
+                    <div className="Laptop_Cards flex justify-center">
                         {/* Image */}
-                        <div className="flex justify-center mr-2 ml-2">
-                            <img src={Image3} className="Laptop_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Laptop_Names">Asus Vivobook 14/15</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Laptop_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Laptop_Stocks">Stock: 18</p>
+                        <img src={Image3} className="Laptops_Image" alt="" />
+                        {/* Details */}
+                        <div className="Laptops_Detail">
+                            {/* Name */}
+                            <p className="text-center Laptops_Name">Asus Vivobook 14</p>
+                            {/* Ratings */}
+                            <div className="flex justify-center mb-1 Laptops_Rating">
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
                             </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$650</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Laptop_AddToCart_Button">Add to cart</button>
+                            {/* Stock and Price */}
+                            <p className="text-center Laptops_Stock">Stock: 12</p>
+                            <p className="text-center Laptops_Price">$120</p>
+                            {/* Add to Cart Button */}
+                            <button className="Laptops_AddToCart_Button">Add to cart</button>
                         </div>
                     </div>
+
                 </div>
 
-                {/* Fourth Card */}
-                <div className="Laptop_Cards flex justify-center">
-                    <div>
+                {/* -------------------Part------------------- */}
+                <div className="grid grid-cols-3 gap-1 mt-3 mb-3 ml-1 mr-1">
+
+                    {/* Card4 */}
+                    <div className="Laptop_Cards flex justify-center">
                         {/* Image */}
-                        <div className="flex justify-center">
-                            <img src={Image4} className="Laptop_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Laptop_Names">Dell Inspiration 15</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Laptop_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Laptop_Stocks">Stock: 18</p>
+                        <img src={Image4} className="Laptops_Image" alt="" />
+                        {/* Details */}
+                        <div className="Laptops_Detail">
+                            {/* Name */}
+                            <p className="text-center Laptops_Name">Dell Inspiration 15</p>
+                            {/* Ratings */}
+                            <div className="flex justify-center mb-1 Laptops_Rating">
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
                             </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$320</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Laptop_AddToCart_Button">Add to cart</button>
+                            {/* Stock and Price */}
+                            <p className="text-center Laptops_Stock">Stock: 18</p>
+                            <p className="text-center Laptops_Price">$320</p>
+                            {/* Add to Cart Button */}
+                            <button className="Laptops_AddToCart_Button">Add to cart</button>
                         </div>
                     </div>
-                </div>
 
-                {/* Fifth Card */}
-                <div className="Laptop_Cards flex justify-center">
-                    <div >
+                    {/* Card5 */}
+                    <div className="Laptop_Cards flex justify-center">
                         {/* Image */}
-                        <div className="flex justify-center mr-2 ml-2">
-                            <img src={Image5} className="Laptop_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Laptop_Names">Dell g15</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Laptop_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Laptop_Stocks">Stock: 7</p>
+                        <img src={Image5} className="Laptops_Image" alt="" />
+                        {/* Details */}
+                        <div className="Laptops_Detail">
+                            {/* Name */}
+                            <p className="text-center Laptops_Name">Dell g15</p>
+                            {/* Ratings */}
+                            <div className="flex justify-center mb-1 Laptops_Rating">
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
                             </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$360</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Laptop_AddToCart_Button">Add to cart</button>
+                            {/* Stock and Price */}
+                            <p className="text-center Laptops_Stock">Stock: 7</p>
+                            <p className="text-center Laptops_Price">$360</p>
+                            {/* Add to Cart Button */}
+                            <button className="Laptops_AddToCart_Button">Add to cart</button>
                         </div>
                     </div>
-                </div>
 
-                {/* Sixth Card */}
-                <div className="Laptop_Cards flex justify-center">
-                    <div>
+                    {/* Card6 */}
+                    <div className="Laptop_Cards flex justify-center">
                         {/* Image */}
-                        <div className="flex justify-center ml-2 mr-2">
-                            <img src={Image6} className="Laptop_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Laptop_Names">HP 15s</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Laptop_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Laptop_Stocks">Stock: 12</p>
+                        <img src={Image6} className="Laptops_Image" alt="" />
+                        {/* Details */}
+                        <div className="Laptops_Detail">
+                            {/* Name */}
+                            <p className="text-center Laptops_Name">HP 15s</p>
+                            {/* Ratings */}
+                            <div className="flex justify-center mb-1 Laptops_Rating">
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
                             </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$370</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Laptop_AddToCart_Button">Add to cart</button>
+                            {/* Stock and Price */}
+                            <p className="text-center Laptops_Stock">Stock: 12</p>
+                            <p className="text-center Laptops_Price">$370</p>
+                            {/* Add to Cart Button */}
+                            <button className="Laptops_AddToCart_Button">Add to cart</button>
                         </div>
                     </div>
+
                 </div>
 
-                {/* Seventh Card */}
-                <div className="Laptop_Cards flex justify-center">
-                    <div>
+                {/* -------------------Part------------------- */}
+                <div className="grid grid-cols-3 gap-1 mt-3 mb-3 ml-1 mr-1">
+
+                    {/* Card7 */}
+                    <div className="Laptop_Cards flex justify-center">
                         {/* Image */}
-                        <div className="flex justify-center ml-2 mr-2">
-                            <img src={Image7} className="Laptop_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Laptop_Names">HP Pavillion</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Laptop_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Laptop_Stocks">Stock: 288</p>
+                        <img src={Image7} className="Laptops_Image" alt="" />
+                        {/* Details */}
+                        <div className="Laptops_Detail">
+                            {/* Name */}
+                            <p className="text-center Laptops_Name">HP Pavillion</p>
+                            {/* Ratings */}
+                            <div className="flex justify-center mb-1 Laptops_Rating">
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
                             </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$180</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Laptop_AddToCart_Button">Add to cart</button>
+                            {/* Stock and Price */}
+                            <p className="text-center Laptops_Stock">Stock: 288</p>
+                            <p className="text-center Laptops_Price">$180</p>
+                            {/* Add to Cart Button */}
+                            <button className="Laptops_AddToCart_Button">Add to cart</button>
                         </div>
                     </div>
-                </div>
 
-                {/* Eight Card */}
-                <div className="Laptop_Cards flex justify-center">
-                    <div>
+                    {/* Card8 */}
+                    <div className="Laptop_Cards flex justify-center">
                         {/* Image */}
-                        <div className="flex justify-center">
-                            <img src={Image8} className="Laptop_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Laptop_Names">Asus X515JP</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Laptop_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Laptop_Stocks">Stock: 23</p>
+                        <img src={Image8} className="Laptops_Image" alt="" />
+                        {/* Details */}
+                        <div className="Laptops_Detail">
+                            {/* Name */}
+                            <p className="text-center Laptops_Name">Asus X515JP</p>
+                            {/* Ratings */}
+                            <div className="flex justify-center mb-1 Laptops_Rating">
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
                             </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$680</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Laptop_AddToCart_Button">Add to cart</button>
+                            {/* Stock and Price */}
+                            <p className="text-center Laptops_Stock">Stock: 23</p>
+                            <p className="text-center Laptops_Price">$380</p>
+                            {/* Add to Cart Button */}
+                            <button className="Laptops_AddToCart_Button">Add to cart</button>
                         </div>
                     </div>
-                </div>
 
 
 
+                    {/* Extra..... */}
 
-                {/* Extra... */}
-                {/* First Card */}
-                <div className="Laptop_Cards flex justify-center">
-                    <div>
+
+                    {/* Card6 */}
+                    <div className="Laptop_Cards flex justify-center">
                         {/* Image */}
-                        <div className="flex justify-center">
-                            <img src={Image} className="Laptop_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Laptop_Names">Mackbook Air</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Laptop_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStarHalf} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Laptop_Stocks">Stock: 8</p>
+                        <img src={Image6} className="Laptops_Image" alt="" />
+                        {/* Details */}
+                        <div className="Laptops_Detail">
+                            {/* Name */}
+                            <p className="text-center Laptops_Name">HP 15s</p>
+                            {/* Ratings */}
+                            <div className="flex justify-center mb-1 Laptops_Rating">
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
                             </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$520</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Laptop_AddToCart_Button">Add to cart</button>
+                            {/* Stock and Price */}
+                            <p className="text-center Laptops_Stock">Stock: 12</p>
+                            <p className="text-center Laptops_Price">$370</p>
+                            {/* Add to Cart Button */}
+                            <button className="Laptops_AddToCart_Button">Add to cart</button>
                         </div>
                     </div>
+
                 </div>
 
-                {/* Second Card */}
-                <div className="Laptop_Cards flex justify-center">
-                    <div>
+                {/* -------------------Part------------------- */}
+                <div className="grid grid-cols-3 gap-1 mt-3 mb-3 ml-1 mr-1">
+
+                    {/* Card4 */}
+                    <div className="Laptop_Cards flex justify-center">
                         {/* Image */}
-                        <div className="flex justify-center mr-2 ml-2">
-                            <img src={Image2} className="Laptop_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Laptop_Names">Mackbook Pro 13"</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Laptop_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStarHalf} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Laptop_Stocks">Stock: 2</p>
+                        <img src={Image4} className="Laptops_Image" alt="" />
+                        {/* Details */}
+                        <div className="Laptops_Detail">
+                            {/* Name */}
+                            <p className="text-center Laptops_Name">Dell Inspiration 15</p>
+                            {/* Ratings */}
+                            <div className="flex justify-center mb-1 Laptops_Rating">
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
                             </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$450</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Laptop_AddToCart_Button">Add to cart</button>
+                            {/* Stock and Price */}
+                            <p className="text-center Laptops_Stock">Stock: 18</p>
+                            <p className="text-center Laptops_Price">$320</p>
+                            {/* Add to Cart Button */}
+                            <button className="Laptops_AddToCart_Button">Add to cart</button>
                         </div>
                     </div>
-                </div>
 
-                {/* Third Card */}
-                <div className="Laptop_Cards flex justify-center">
-                    <div>
+                    {/* Card5 */}
+                    <div className="Laptop_Cards flex justify-center">
                         {/* Image */}
-                        <div className="flex justify-center">
-                            <img src={Image3} className="Laptop_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Laptop_Names">Asus Vivobook 14/15</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Laptop_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStarHalf} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Laptop_Stocks">Stock: 18</p>
+                        <img src={Image5} className="Laptops_Image" alt="" />
+                        {/* Details */}
+                        <div className="Laptops_Detail">
+                            {/* Name */}
+                            <p className="text-center Laptops_Name">Dell g15</p>
+                            {/* Ratings */}
+                            <div className="flex justify-center mb-1 Laptops_Rating">
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
                             </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$650</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Laptop_AddToCart_Button">Add to cart</button>
+                            {/* Stock and Price */}
+                            <p className="text-center Laptops_Stock">Stock: 7</p>
+                            <p className="text-center Laptops_Price">$360</p>
+                            {/* Add to Cart Button */}
+                            <button className="Laptops_AddToCart_Button">Add to cart</button>
                         </div>
                     </div>
-                </div>
 
-                {/* Fourth Card */}
-                <div className="Laptop_Cards flex justify-center">
-                    <div>
+                    {/* Card6 */}
+                    <div className="Laptop_Cards flex justify-center">
                         {/* Image */}
-                        <div className="flex justify-center">
-                            <img src={Image4} className="Laptop_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Laptop_Names">Dell Inspiration 15</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Laptop_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStarHalf} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Laptop_Stocks">Stock: 18</p>
+                        <img src={Image6} className="Laptops_Image" alt="" />
+                        {/* Details */}
+                        <div className="Laptops_Detail">
+                            {/* Name */}
+                            <p className="text-center Laptops_Name">HP 15s</p>
+                            {/* Ratings */}
+                            <div className="flex justify-center mb-1 Laptops_Rating">
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
                             </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$320</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Laptop_AddToCart_Button">Add to cart</button>
+                            {/* Stock and Price */}
+                            <p className="text-center Laptops_Stock">Stock: 12</p>
+                            <p className="text-center Laptops_Price">$370</p>
+                            {/* Add to Cart Button */}
+                            <button className="Laptops_AddToCart_Button">Add to cart</button>
                         </div>
                     </div>
-                </div>
 
-                {/* Fifth Card */}
-                <div className="Laptop_Cards flex justify-center">
-                    <div>
-                        {/* Image */}
-                        <div className="flex justify-center mr-2 ml-2">
-                            <img src={Image5} className="Laptop_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Laptop_Names">Dell g15</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Laptop_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStarHalf} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Laptop_Stocks">Stock: 7</p>
-                            </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$360</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Laptop_AddToCart_Button">Add to cart</button>
-                        </div>
-                    </div>
                 </div>
+            </Carousel>
 
-                {/* Sixth Card */}
-                <div className="Laptop_Cards flex justify-center">
-                    <div>
-                        {/* Image */}
-                        <div className="flex justify-center mr-2 ml-2">
-                            <img src={Image6} className="Laptop_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Laptop_Names">HP 15s</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Laptop_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStarHalf} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Laptop_Stocks">Stock: 12</p>
-                            </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$370</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Laptop_AddToCart_Button">Add to cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Seventh Card */}
-                <div className="Laptop_Cards flex justify-center">
-                    <div>
-                        {/* Image */}
-                        <div className="flex justify-center mr-4 ml-4">
-                            <img src={Image7} className="Laptop_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Laptop_Names">HP Pavillion</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Laptop_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStarHalf} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Laptop_Stocks">Stock: 288</p>
-                            </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$180</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Laptop_AddToCart_Button">Add to cart</button>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
         </section>
     );
 };

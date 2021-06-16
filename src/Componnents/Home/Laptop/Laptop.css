@@ -1,59 +1,109 @@
+.Heading{
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 5%;
+    background-color: yellow;
+}
 .Laptop_Cards{
-    height: 275px;
+    position: relative;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-    border: 1px solid rgba(128, 128, 128, 0.548);
-    background-color: rgb(255, 255, 255);
-    transition: all 0.3s ease-in-out;
-}
-.Laptop_Cards:hover{
-    border: 1px solid green;
-    box-shadow: .1px .1px 8px rgb(0, 0, 0) ;
-}
-.Laptop_Images{
-    width: 100%;
-    height: 130px;
-    border: 1px solid rgba(128, 128, 128, 0.288);
+    height:150px;
     border-radius: 3px;
 }
-.Laptop_Images:hover{
-
+.Laptops_Image{
+    width: 100%;
+    height: 90%;
+    margin-top: 5%;
+    border-radius: 3px;
+    margin-bottom: 5%;
 }
-.Laptop_Names{
-    margin-top: 5px;
+.Laptops_Name{
+    margin-top: 10px;
     margin-bottom: 5px;
+    font-weight: bold;
     font-size: 14px;
+    color: white;
 }
-.Laptop_Ratings{
+.Laptops_Rating{
     color: gold;
-    font-size: 12px;
-}
-.Laptop_Stocks{
     font-size: 10px;
+}
+.Laptops_Stock{
+    font-size: 8px;
+    color: white;
     font-weight: 500;
 }
-.Laptop_Price{
-    font-weight: bold!important;
-    font-size: 12px;
+.Laptops_Price{
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+    color: white;
+    font-family: sans-serif;
     font-weight: 500;
 }
-.Laptop_AddToCart_Button{
+.Laptops_AddToCart_Button{
     background-color: black;
     color: white;
-    font-size: 12px;
-    margin-top: 5px;
-    padding: 5px 20px 5px 20px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 10px;
+    margin-top: 10px;
+    padding: 5px 5px 5px 5px;
     font-weight: 500;
-    border-radius: 5px;
-    border: 1px solid yellow;
+    border-radius: 3px;
     outline: none!important;
     transition: all .2s ease-in-out;
 }
-.Laptop_AddToCart_Button:hover{
-    border: 1px solid black;
-    background-color: yellow;
-    color: black;
+
+
+.Laptops_Detail{
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: -10px;
+    position: absolute;
+    transition: 0.5s;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
+.Laptops_Detail:hover{
+    opacity: 1;
+    margin-left: 0px;
+}
+
+.react-multiple-carousel__arrow{
+    border: none!important;
+    outline: none!important;
+} 
+
+@media(max-width: 280px){
+    .Laptops_Name{
+        font-size: 10px;
+    }
+    .Laptops_Rating{
+        font-size: 8px;
+    }
+    .Laptops_Stock{
+        font-size: 6px;
+    }
+    .Laptops_Price{
+        font-size: 8px;
+        margin: 0px;
+    }
+    .Laptops_AddToCart_Button{
+        font-size: 8px;
+        margin-top: 0px;
+    }
+}
+@media (max-width: 700px){
+    .Heading{
+        text-align: center;
+        font-size: 18px;
+        background-color: rgba(248, 248, 248, 0.705);
+    }
+}
+

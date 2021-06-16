@@ -10,8 +10,6 @@ import Image7 from './X50.jpg';
 import Image8 from './Xpro.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
-
-
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -355,9 +353,7 @@ const Mobile = () => {
 
                 </div>
             </Carousel>
-
-            
-            </section>
+        </section>
     );
 };
 
