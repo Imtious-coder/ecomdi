@@ -18,7 +18,6 @@ import "react-multi-carousel/lib/styles.css";
 
 const responsive = {
     superLargeDesktop: {
-        // the naming can be any, depends on you.
         breakpoint: { max: 4000, min: 3000 },
         items: 5
     },
@@ -38,12 +37,13 @@ const responsive = {
 
 const Mobile = () => {
     return (
-        <section className="bg-gray-50 pb-10">
+        <section className="bg-gray-50">
 
+            <p className="Heading">Mobile</p>
 
             <Carousel responsive={responsive} >
-                {/* Part */}
-                <div className="grid grid-cols-3 gap-1 mt-10 ml-3">
+                {/* ------------------Part------------------ */}
+                <div className="grid grid-cols-3 gap-1 mt-3 mb-3 ml-3">
 
                     {/* Card1 */}
                     <div className="Mobile_Cards flex justify-center">
@@ -69,7 +69,7 @@ const Mobile = () => {
                         </div>
                     </div>
 
-                     {/* Card1 */}
+                    {/* Card2 */}
                     <div className="Mobile_Cards flex justify-center">
                         {/* Image */}
                         <img src={Image2} className="Mobiles_Image" alt="" />
@@ -93,14 +93,14 @@ const Mobile = () => {
                         </div>
                     </div>
 
-                     {/* Card1 */}
-                     <div className="Mobile_Cards flex justify-center">
+                    {/* Card3 */}
+                    <div className="Mobile_Cards flex justify-center">
                         {/* Image */}
-                        <img src={Image} className="Mobiles_Image" alt="" />
+                        <img src={Image3} className="Mobiles_Image" alt="" />
                         {/* Details */}
                         <div className="Mobiles_Detail">
                             {/* Name */}
-                            <p className="text-center Mobiles_Name">Never Settle</p>
+                            <p className="text-center Mobiles_Name">Realme c15</p>
                             {/* Ratings */}
                             <div className="flex justify-center mb-1 Mobiles_Rating">
                                 <FontAwesomeIcon icon={faStar} />
@@ -110,32 +110,8 @@ const Mobile = () => {
                                 <FontAwesomeIcon icon={faStar} />
                             </div>
                             {/* Stock and Price */}
-                            <p className="text-center Mobiles_Stock">Stock: 8</p>
-                            <p className="text-center Mobiles_Price">$220</p>
-                            {/* Add to Cart Button */}
-                            <button className="Mobiles_AddToCart_Button">Add to cart</button>
-                        </div>
-                    </div>
-
-                     {/* Card1 */}
-                     <div className="Mobile_Cards flex justify-center">
-                        {/* Image */}
-                        <img src={Image} className="Mobiles_Image" alt="" />
-                        {/* Details */}
-                        <div className="Mobiles_Detail">
-                            {/* Name */}
-                            <p className="text-center Mobiles_Name">Never Settle</p>
-                            {/* Ratings */}
-                            <div className="flex justify-center mb-1 Mobiles_Rating">
-                                <FontAwesomeIcon icon={faStar} />
-                                <FontAwesomeIcon icon={faStar} />
-                                <FontAwesomeIcon icon={faStar} />
-                                <FontAwesomeIcon icon={faStar} />
-                                <FontAwesomeIcon icon={faStar} />
-                            </div>
-                            {/* Stock and Price */}
-                            <p className="text-center Mobiles_Stock">Stock: 8</p>
-                            <p className="text-center Mobiles_Price">$220</p>
+                            <p className="text-center Mobiles_Stock">Stock: 12</p>
+                            <p className="text-center Mobiles_Price">$120</p>
                             {/* Add to Cart Button */}
                             <button className="Mobiles_AddToCart_Button">Add to cart</button>
                         </div>
@@ -143,18 +119,17 @@ const Mobile = () => {
 
                 </div>
 
+                {/* -------------------Part------------------- */}
+                <div className="grid grid-cols-3 gap-1 mt-3 mb-3 ml-1 mr-1">
 
-                {/* Part */}
-                <div className="grid grid-cols-3 gap-1 mt-10 ml-3 mr-3">
-
-                    {/* Card1 */}
+                    {/* Card4 */}
                     <div className="Mobile_Cards flex justify-center">
                         {/* Image */}
-                        <img src={Image} className="Mobiles_Image" alt="" />
+                        <img src={Image4} className="Mobiles_Image" alt="" />
                         {/* Details */}
                         <div className="Mobiles_Detail">
                             {/* Name */}
-                            <p className="text-center Mobiles_Name">Never Settle</p>
+                            <p className="text-center Mobiles_Name">Galaxy A11</p>
                             {/* Ratings */}
                             <div className="flex justify-center mb-1 Mobiles_Rating">
                                 <FontAwesomeIcon icon={faStar} />
@@ -164,21 +139,21 @@ const Mobile = () => {
                                 <FontAwesomeIcon icon={faStar} />
                             </div>
                             {/* Stock and Price */}
-                            <p className="text-center Mobiles_Stock">Stock: 8</p>
-                            <p className="text-center Mobiles_Price">$220</p>
+                            <p className="text-center Mobiles_Stock">Stock: 18</p>
+                            <p className="text-center Mobiles_Price">$320</p>
                             {/* Add to Cart Button */}
                             <button className="Mobiles_AddToCart_Button">Add to cart</button>
                         </div>
                     </div>
 
-                     {/* Card1 */}
+                    {/* Card5 */}
                     <div className="Mobile_Cards flex justify-center">
                         {/* Image */}
-                        <img src={Image} className="Mobiles_Image" alt="" />
+                        <img src={Image5} className="Mobiles_Image" alt="" />
                         {/* Details */}
                         <div className="Mobiles_Detail">
                             {/* Name */}
-                            <p className="text-center Mobiles_Name">Never Settle</p>
+                            <p className="text-center Mobiles_Name">iphone X</p>
                             {/* Ratings */}
                             <div className="flex justify-center mb-1 Mobiles_Rating">
                                 <FontAwesomeIcon icon={faStar} />
@@ -188,21 +163,21 @@ const Mobile = () => {
                                 <FontAwesomeIcon icon={faStar} />
                             </div>
                             {/* Stock and Price */}
-                            <p className="text-center Mobiles_Stock">Stock: 8</p>
-                            <p className="text-center Mobiles_Price">$220</p>
+                            <p className="text-center Mobiles_Stock">Stock: 7</p>
+                            <p className="text-center Mobiles_Price">$360</p>
                             {/* Add to Cart Button */}
                             <button className="Mobiles_AddToCart_Button">Add to cart</button>
                         </div>
                     </div>
 
-                     {/* Card1 */}
-                     <div className="Mobile_Cards flex justify-center">
+                    {/* Card6 */}
+                    <div className="Mobile_Cards flex justify-center">
                         {/* Image */}
-                        <img src={Image} className="Mobiles_Image" alt="" />
+                        <img src={Image6} className="Mobiles_Image" alt="" />
                         {/* Details */}
                         <div className="Mobiles_Detail">
                             {/* Name */}
-                            <p className="text-center Mobiles_Name">Never Settle</p>
+                            <p className="text-center Mobiles_Name">Oppo A5</p>
                             {/* Ratings */}
                             <div className="flex justify-center mb-1 Mobiles_Rating">
                                 <FontAwesomeIcon icon={faStar} />
@@ -212,32 +187,8 @@ const Mobile = () => {
                                 <FontAwesomeIcon icon={faStar} />
                             </div>
                             {/* Stock and Price */}
-                            <p className="text-center Mobiles_Stock">Stock: 8</p>
-                            <p className="text-center Mobiles_Price">$220</p>
-                            {/* Add to Cart Button */}
-                            <button className="Mobiles_AddToCart_Button">Add to cart</button>
-                        </div>
-                    </div>
-
-                     {/* Card1 */}
-                     <div className="Mobile_Cards flex justify-center">
-                        {/* Image */}
-                        <img src={Image} className="Mobiles_Image" alt="" />
-                        {/* Details */}
-                        <div className="Mobiles_Detail">
-                            {/* Name */}
-                            <p className="text-center Mobiles_Name">Never Settle</p>
-                            {/* Ratings */}
-                            <div className="flex justify-center mb-1 Mobiles_Rating">
-                                <FontAwesomeIcon icon={faStar} />
-                                <FontAwesomeIcon icon={faStar} />
-                                <FontAwesomeIcon icon={faStar} />
-                                <FontAwesomeIcon icon={faStar} />
-                                <FontAwesomeIcon icon={faStar} />
-                            </div>
-                            {/* Stock and Price */}
-                            <p className="text-center Mobiles_Stock">Stock: 8</p>
-                            <p className="text-center Mobiles_Price">$220</p>
+                            <p className="text-center Mobiles_Stock">Stock: 12</p>
+                            <p className="text-center Mobiles_Price">$370</p>
                             {/* Add to Cart Button */}
                             <button className="Mobiles_AddToCart_Button">Add to cart</button>
                         </div>
@@ -245,311 +196,168 @@ const Mobile = () => {
 
                 </div>
 
-                <div>Item 3</div>
-                <div>Item 4</div>
+                {/* -------------------Part------------------- */}
+                <div className="grid grid-cols-3 gap-1 mt-3 mb-3 ml-1 mr-1">
+
+                    {/* Card7 */}
+                    <div className="Mobile_Cards flex justify-center">
+                        {/* Image */}
+                        <img src={Image7} className="Mobiles_Image" alt="" />
+                        {/* Details */}
+                        <div className="Mobiles_Detail">
+                            {/* Name */}
+                            <p className="text-center Mobiles_Name">Realme X15</p>
+                            {/* Ratings */}
+                            <div className="flex justify-center mb-1 Mobiles_Rating">
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                            </div>
+                            {/* Stock and Price */}
+                            <p className="text-center Mobiles_Stock">Stock: 288</p>
+                            <p className="text-center Mobiles_Price">$180</p>
+                            {/* Add to Cart Button */}
+                            <button className="Mobiles_AddToCart_Button">Add to cart</button>
+                        </div>
+                    </div>
+
+                    {/* Card8 */}
+                    <div className="Mobile_Cards flex justify-center">
+                        {/* Image */}
+                        <img src={Image8} className="Mobiles_Image" alt="" />
+                        {/* Details */}
+                        <div className="Mobiles_Detail">
+                            {/* Name */}
+                            <p className="text-center Mobiles_Name">Realme X Pro</p>
+                            {/* Ratings */}
+                            <div className="flex justify-center mb-1 Mobiles_Rating">
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                            </div>
+                            {/* Stock and Price */}
+                            <p className="text-center Mobiles_Stock">Stock: 23</p>
+                            <p className="text-center Mobiles_Price">$380</p>
+                            {/* Add to Cart Button */}
+                            <button className="Mobiles_AddToCart_Button">Add to cart</button>
+                        </div>
+                    </div>
+
+
+
+                    {/* Extra..... */}
+
+
+                    {/* Card6 */}
+                    <div className="Mobile_Cards flex justify-center">
+                        {/* Image */}
+                        <img src={Image6} className="Mobiles_Image" alt="" />
+                        {/* Details */}
+                        <div className="Mobiles_Detail">
+                            {/* Name */}
+                            <p className="text-center Mobiles_Name">Oppo A5</p>
+                            {/* Ratings */}
+                            <div className="flex justify-center mb-1 Mobiles_Rating">
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                            </div>
+                            {/* Stock and Price */}
+                            <p className="text-center Mobiles_Stock">Stock: 12</p>
+                            <p className="text-center Mobiles_Price">$370</p>
+                            {/* Add to Cart Button */}
+                            <button className="Mobiles_AddToCart_Button">Add to cart</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                {/* -------------------Part------------------- */}
+                <div className="grid grid-cols-3 gap-1 mt-3 mb-3 ml-1 mr-1">
+
+                    {/* Card4 */}
+                    <div className="Mobile_Cards flex justify-center">
+                        {/* Image */}
+                        <img src={Image4} className="Mobiles_Image" alt="" />
+                        {/* Details */}
+                        <div className="Mobiles_Detail">
+                            {/* Name */}
+                            <p className="text-center Mobiles_Name">Galaxy A11</p>
+                            {/* Ratings */}
+                            <div className="flex justify-center mb-1 Mobiles_Rating">
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                            </div>
+                            {/* Stock and Price */}
+                            <p className="text-center Mobiles_Stock">Stock: 18</p>
+                            <p className="text-center Mobiles_Price">$320</p>
+                            {/* Add to Cart Button */}
+                            <button className="Mobiles_AddToCart_Button">Add to cart</button>
+                        </div>
+                    </div>
+
+                    {/* Card5 */}
+                    <div className="Mobile_Cards flex justify-center">
+                        {/* Image */}
+                        <img src={Image5} className="Mobiles_Image" alt="" />
+                        {/* Details */}
+                        <div className="Mobiles_Detail">
+                            {/* Name */}
+                            <p className="text-center Mobiles_Name">iphone X</p>
+                            {/* Ratings */}
+                            <div className="flex justify-center mb-1 Mobiles_Rating">
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                            </div>
+                            {/* Stock and Price */}
+                            <p className="text-center Mobiles_Stock">Stock: 7</p>
+                            <p className="text-center Mobiles_Price">$360</p>
+                            {/* Add to Cart Button */}
+                            <button className="Mobiles_AddToCart_Button">Add to cart</button>
+                        </div>
+                    </div>
+
+                    {/* Card6 */}
+                    <div className="Mobile_Cards flex justify-center">
+                        {/* Image */}
+                        <img src={Image6} className="Mobiles_Image" alt="" />
+                        {/* Details */}
+                        <div className="Mobiles_Detail">
+                            {/* Name */}
+                            <p className="text-center Mobiles_Name">Oppo A5</p>
+                            {/* Ratings */}
+                            <div className="flex justify-center mb-1 Mobiles_Rating">
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                                <FontAwesomeIcon icon={faStar} />
+                            </div>
+                            {/* Stock and Price */}
+                            <p className="text-center Mobiles_Stock">Stock: 12</p>
+                            <p className="text-center Mobiles_Price">$370</p>
+                            {/* Add to Cart Button */}
+                            <button className="Mobiles_AddToCart_Button">Add to cart</button>
+                        </div>
+                    </div>
+
+                </div>
             </Carousel>
 
-            {/* 
-            <Navbar>
-    <Navbar.Header>
-      <a href="#" className="navbar-brand logo">RSUITE</a>
-    </Navbar.Header>
-    <Navbar.Body>
-      <Nav>
-        <Nav.Item icon={<Icon icon="home" />} >Home</Nav.Item>
-        <Nav.Item>News</Nav.Item>
-        <Nav.Item>Products</Nav.Item>
-        <Dropdown title="About">
-          <Dropdown.Item>Company</Dropdown.Item>
-          <Dropdown.Item>Team</Dropdown.Item>
-          <Dropdown.Item>Contact</Dropdown.Item>
-        </Dropdown>
-      </Nav>
-      <Nav pullRight>
-        <Nav.Item icon={<Icon icon="cog" />} >Settings</Nav.Item>
-      </Nav>
-    </Navbar.Body>
-  </Navbar> */}
-
-
-
-
-
-
-
-
-
-
-
-
-            <h2 className="text-center font-bold text-3xl pt-20">Mobiles</h2>
-
-            <section className="grid md:grid-cols-5 grid-cols-2 justify-center gap-4 mt-20 mb-20 ml-5 mr-5">
-                {/* First Card */}
-                <div className="Mobile_Cards flex justify-center">
-                    <div>
-                        {/* Image */}
-                        <div className="flex justify-center mr-2 ml-2">
-                            <img src={Image} className="Mobile_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Mobile_Names">Never Settle</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-1 Mobile_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Mobile_Stocks">Stock: 8</p>
-                            </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$220</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Mobile_AddToCart_Button">Add to cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Second Card */}
-                <div className="Mobile_Cards flex justify-center">
-                    <div>
-                        {/* Image */}
-                        <div className="flex justify-center mr-2 ml-2">
-                            <img src={Image2} className="Mobile_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Mobile_Names">iphone 12"</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Mobile_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Mobile_Stocks">Stock: 2</p>
-                            </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$450</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Mobile_AddToCart_Button">Add to cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Third Card */}
-                <div className="Mobile_Cards flex justify-center">
-                    <div>
-                        {/* Image */}
-                        <div className="flex justify-center mr-2 ml-2">
-                            <img src={Image3} className="Mobile_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Mobile_Names">Realme c15</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Mobile_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Mobile_Stocks">Stock: 12</p>
-                            </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$120</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Mobile_AddToCart_Button">Add to cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Fourth Card */}
-                <div className="Mobile_Cards flex justify-center">
-                    <div>
-                        {/* Image */}
-                        <div className="flex justify-center">
-                            <img src={Image4} className="Mobile_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Mobile_Names">Galaxy A11</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Mobile_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Mobile_Stocks">Stock: 18</p>
-                            </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$320</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Mobile_AddToCart_Button">Add to cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Fifth Card */}
-                <div className="Mobile_Cards flex justify-center">
-                    <div >
-                        {/* Image */}
-                        <div className="flex justify-center mr-2 ml-2">
-                            <img src={Image5} className="Mobile_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Mobile_Names">iphone X</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Mobile_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Mobile_Stocks">Stock: 7</p>
-                            </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$360</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Mobile_AddToCart_Button">Add to cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Sixth Card */}
-                <div className="Mobile_Cards flex justify-center">
-                    <div>
-                        {/* Image */}
-                        <div className="flex justify-center ml-2 mr-2">
-                            <img src={Image6} className="Mobile_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Mobile_Names">Oppo A5</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Mobile_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Mobile_Stocks">Stock: 12</p>
-                            </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$370</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Mobile_AddToCart_Button">Add to cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Seventh Card */}
-                <div className="Mobile_Cards flex justify-center">
-                    <div>
-                        {/* Image */}
-                        <div className="flex justify-center ml-2 mr-2">
-                            <img src={Image7} className="Mobile_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Mobile_Names">Realme X15</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Mobile_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Mobile_Stocks">Stock: 288</p>
-                            </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$180</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Mobile_AddToCart_Button">Add to cart</button>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Eight Card */}
-                <div className="Mobile_Cards flex justify-center">
-                    <div>
-                        {/* Image */}
-                        <div className="flex justify-center">
-                            <img src={Image8} className="Mobile_Images mt-0 m-2" alt="" />
-                        </div>
-                        {/* Name */}
-                        <p className="text-center font-bold mb-1 Mobile_Names">Realme X Pro</p>
-                        {/* Ratings */}
-                        <div className="flex justify-center mb-3 Mobile_Ratings">
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                            <FontAwesomeIcon icon={faStar} />
-                        </div>
-                        {/* Stock and Price */}
-                        <div className="grid grid-cols-2 text-center ml-2 mb-1">
-                            <div>
-                                <p className="text-center Mobile_Stocks">Stock: 23</p>
-                            </div>
-                            <div>
-                                <p className="text-center Laptop_Price">$680</p>
-                            </div>
-                        </div>
-                        {/* Add to cart button */}
-                        <div className="flex grid justify-center">
-                            <button className="Mobile_AddToCart_Button">Add to cart</button>
-                        </div>
-                    </div>
-                </div>
+            
             </section>
-        </section>
     );
 };
 

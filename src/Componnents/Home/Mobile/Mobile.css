@@ -1,7 +1,14 @@
+.Heading{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 5%;
+    background-color: yellow;
+}
 .Mobile_Cards{
     position: relative;
     width: 100%;
-    height:100%;
+    height:150px;
     border-radius: 3px;
 }
 .Mobiles_Image{
@@ -84,6 +91,13 @@
     .Mobiles_AddToCart_Button{
         font-size: 8px;
         margin-top: 0px;
+    }
+}
+@media (max-width: 700px){
+    .Heading{
+        text-align: center;
+        font-size: 18px;
+        background-color: white;
     }
 }
 
