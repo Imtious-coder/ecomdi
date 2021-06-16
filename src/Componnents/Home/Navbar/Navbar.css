@@ -1,10 +1,14 @@
+.Logo{
+    width: 140px;
+    height: 60px;
+}
 .Main_Navbar{
     font-family: 'Montserrat', sans-serif;
 }
 .Name:hover{
     color: red;
 }
-#Navbar__Search{
+.Navbar__Search{
     padding-left: 10px;
     font-size: 15px;
     color: gray;
@@ -70,67 +74,34 @@
     color: black;
 }
 
-
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
-
-
-.Imagesss{
-    width: 120px;
-    height: 80px;
-    position: relative;
-}
-
-nav{
-    background-color: red;
-    height: 80px;
-    width: 100%;
-}
-
-label.Logo{
-
-}
-
-nav ul{
-    float: right;
-    color: white;
-    margin-top: 10px;
-    margin-right: 20px;
-}
-nav ul li{
-    display: inline-block;
-    margin-right: 10px;
-}
-
-nav ul li a{
-    font-size: 17px;
-    padding: 5px;
-    margin-top: 10px;
-    border-radius:3px;
-}
-
-a.active,a:hover{
-    background-color: black;
-    transition: 0.5s;
-}
-.checkbtn{
-    font-size: 24px;
-    color: white;
-    float: right;
-    display: none;
-}
-#check{
-    display: none;
-}
-
-@media(max-width: 952px){
-    .Imagesss{
-        height: 60px;
-        width: 80px;
+@media (max-width: 770px){
+    .Logo{
+        height: 50px;
+        width: 100px;
+        padding: 0;
+        margin: 0;
+    }
+    .Navbar__Search{
+        padding: 0;
+        padding-left: 5px;
+        margin: 0;
+        height: 25px;
+        font-size: 12px;
+    }
+    .Navbar_Search_Button{
+        padding: 0px 5px 0px 5px;
+        margin: 0;
+        height: 25px;
+        font-size: 12px;
+    }
+    .Icons{
+        margin-left: -100px;
+    }
+    .Navbar__Icons{
+        font-size: 32px;
+    }
+    .Navbar_Login_Button{
+        padding: 3px 10px 3px 10px;
+        margin-left: 10px;
     }
 }

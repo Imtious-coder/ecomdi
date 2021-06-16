@@ -81,3 +81,23 @@
     color: white;
     text-align: center;
 }
+
+@media (max-width: 770px){
+    .Categories1{
+        font-size: 12px;
+        padding: 0px;
+    }
+    .Categories2{
+        font-size: 12px;
+        padding: 0px;
+    }
+    .Categories3{
+        font-size: 11px;
+        padding: 0px;
+    }
+    .Categories4{
+        font-size: 12px;
+        padding: 0px;
+        border-top: 1px solid rgba(128, 128, 128, 0.233);
+    }
+}

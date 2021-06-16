@@ -5,7 +5,7 @@ import './Categories.css';
 
 const Categories = () => {
     return (
-        <section className="grid md:grid-cols-6 flex Categories border-b">
+        <section className="grid md:grid-cols-6 grid-cols-3 flex Categories border-b">
             {/* All categories */}
             <div class="flex justify-center border-r Categories5">
                 <select className="Categories1">
