@@ -1,8 +1,8 @@
-.Heading{
+.Mobile_Heading{
     font-weight: bold;
     font-size: 22px;
     padding-left: 5%;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 .Mobile_Cards{
     position: relative;
@@ -78,32 +78,25 @@
     outline: none!important;
 } 
 
-@media(max-width: 280px){
+@media(max-width: 600px){
     .Mobiles_Name{
-        font-size: 10px;
-    }
-    .Mobiles_Rating{
-        font-size: 8px;
-    }
-    .Mobiles_Stock{
-        font-size: 6px;
-    }
-    .Mobiles_Price{
-        font-size: 8px;
-        margin: 0px;
+        font-size: 13px;
     }
     .Mobiles_AddToCart_Button{
-        font-size: 8px;
         margin-top: 0px;
     }
+    
 }
 @media (max-width: 700px){
-    .Heading{
+    .Mobile_Heading{
         padding-top: 20px;
         padding-bottom: 10px;
         text-align: center;
         font-size: 18px;
         background-color: rgba(248, 248, 248, 0.705);
+    }
+    .Mobile_Heading:hover{
+        color: rgb(255, 141, 10);
     }
 }
 

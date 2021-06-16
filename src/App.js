@@ -34,6 +34,7 @@ import Banner from './Componnents/Home/Banner/Banner';
 import Products from './Componnents/Home/Products/Products';
 import Laptop from './Componnents/Home/Laptop/Laptop';
 import BickScooter from './Componnents/Home/BickScooter/BickScooter';
+import Groceries from './Componnents/Home/Groceries/Groceries';
 
 function App() {
   return (
@@ -57,6 +58,9 @@ function App() {
         </Route>
         <Route path="/bickScooter">
           <BickScooter />
+        </Route>
+        <Route path="/groceries">
+          <Groceries />
         </Route>
         <Route path="/products">
           <Products />

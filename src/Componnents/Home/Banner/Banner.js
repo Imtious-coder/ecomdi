@@ -4,7 +4,7 @@ import Image from './brush-sale-banner-vector-260nw-1090866878.jpg';
 
 const Banner = () => {
     return (
-        <section className="pt-10 pb-10 bg-blue-100">
+        <section className="pt-10 pb-10 bg-blue-50">
             <img src={Image} alt="" id="Banner_Image" />
         </section>
     );

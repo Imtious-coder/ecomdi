@@ -9,7 +9,7 @@ import Image6 from './hp-15s-1-500x500.jpg';
 import Image7 from './pavilion-13-01-500x500.jpg';
 import Image8 from './X515JP.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faStar, faStarHalf } from '@fortawesome/free-solid-svg-icons'
+import { faStar } from '@fortawesome/free-solid-svg-icons'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -36,9 +36,9 @@ const responsive = {
 const Laptop = () => {
     return (
 
-        <section className="bg-gray-50">
+        <section className="bg-blue-50">
             {/* Heading */}
-            <p className="Heading">Laptop</p>
+            <p className="Laptop_Heading bg-blue-100">Laptop</p>
 
             <Carousel responsive={responsive} >
                 {/* ------------------Part------------------ */}
