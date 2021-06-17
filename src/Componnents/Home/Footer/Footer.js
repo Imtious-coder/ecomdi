@@ -1,8 +1,9 @@
 import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
     return (
-        <section className="grid md:grid-cols-4 grid-cols-2 bg-gray-900">
+        <section className="grid md:grid-cols-4 grid-cols-2 bg-gray-900 Test">
             <div className="text-white text-xs m-10 leading-5">
                 <a href="" className="text-base"><p><b>Get to Know Us</b></p></a>
                 <a href=""><p>Careers</p></a>

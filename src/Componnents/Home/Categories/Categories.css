@@ -1,5 +1,5 @@
 .Categories{
-    background-color: rgb(177, 177, 177);
+  
 }
 .Categories1{
     display: flex;
@@ -9,13 +9,14 @@
     text-align: center;
     outline: none;
     appearance: none;
-    background-color: rgb(177, 177, 177);
     padding: 5px 10px 5px 45px;
     border-bottom-right-radius: 3px;
 }
 .Categories1:hover{
-    background-color: black;
-    color: yellow;
+    color: #ff4747;
+    border-bottom: 1px solid #ff4747;
+    border-right: 1px solid #ff4747;
+    cursor: pointer;
 }
 .Categories2{
     display: flex;
@@ -25,7 +26,6 @@
     text-align: center;
     outline: none;
     appearance: none;
-    background-color: rgb(177, 177, 177);
     padding: 5px 30px 5px 32px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
@@ -41,7 +41,6 @@
     border: none;
     outline: none;
     appearance: none;
-   background-color: rgb(177, 177, 177);
     padding: 5px 39px 5px 40px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;

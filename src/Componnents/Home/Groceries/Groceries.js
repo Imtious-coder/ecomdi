@@ -36,9 +36,9 @@ const responsive = {
 
 const Groceries = () => {
     return (
-        <section className="bg-blue-50">
+        <section className="">
             {/* Heading */}
-            <p className="Groceries_Heading bg-blue-100">Groceries</p>
+            <p className="Groceries_Heading">Groceries</p>
 
             <Carousel responsive={responsive} >
                 {/* ------------------Part------------------ */}

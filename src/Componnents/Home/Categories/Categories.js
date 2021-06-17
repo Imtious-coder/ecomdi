@@ -9,7 +9,7 @@ const Categories = () => {
             {/* All categories */}
             <div class="flex justify-center border-r Categories5">
                 <select className="Categories1">
-                    <option value="" className="Categories_Options"> All Categories</option>
+                    <option value="" className="Categories_Options">All Categories</option>
                     <option value="" className="Categories_Options">Electronics Devices</option>
                     <option value="" className="Categories_Options">Mobile</option>
                     <option value="" className="Categories_Options">Laptop</option>
