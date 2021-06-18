@@ -3,9 +3,9 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <section className="grid md:grid-cols-4 grid-cols-2 bg-gray-900 Test">
-            <div className="text-white text-xs m-10 leading-5">
-                <a href="" className="text-base"><p><b>Get to Know Us</b></p></a>
+        <section className="grid md:grid-cols-4 grid-cols-2 bg-gray-900 Font2">
+            <div className="text-white text-sm m-10 leading-5 text-gray-300">
+                <a href="" className="text-xl Font1"><p><b>Get to Know Us</b></p></a>
                 <a href=""><p>Careers</p></a>
                 <a href=""><p>Blogs</p></a>
                 <a href=""><p>About ecomdi</p></a>
@@ -14,8 +14,8 @@ const Footer = () => {
                 <a href=""><p>Investor Relations</p></a>
                 <a href=""><p>Amazon Devices</p></a>
             </div>
-            <div className="text-white text-xs m-10 leading-6">
-                <a href="" className="text-base"><p><b>Make Money with Us</b></p></a>
+            <div className="text-white text-sm m-10 leading-6 text-gray-300">
+                <a href="" className="text-xl Font1"><p><b>Make Money with Us</b></p></a>
                 <a href=""><p>Sell products on ecomdi</p></a>
                 <a href=""><p>Sell apps on ecomdi</p></a>
                 <a href=""><p>Become an Affiliate</p></a>
@@ -26,8 +26,8 @@ const Footer = () => {
                 <a href=""><p>Host an ecomdi Hub</p></a>
                 <a href=""><p>› See More Make Money with Us</p></a>
             </div>
-            <div className="text-white text-xs m-10 leading-5">
-                <a href="" className="text-base"><p><b>ecomdi Payment Products</b></p></a>
+            <div className="text-white text-sm m-10 leading-5 text-gray-300">
+                <a href="" className="text-xl Font1"><p><b>Ecomdi Payment Products</b></p></a>
                 <a href=""><p>ecomdi Making payments</p></a>
                 <a href=""><p>Blogs</p></a>
                 <a href=""><p>ecomdi.com Store Card</p></a>
@@ -38,8 +38,8 @@ const Footer = () => {
                 <a href=""><p>Reload Your Balance</p></a>
                 <a href=""><p>ecomdi Currency Converter</p></a>
             </div>
-            <div className="text-white text-xs m-10 leading-5">
-                <a href="" className="text-base"><p><b>Let Us Help You</b></p></a>
+            <div className="text-white text-sm m-10 leading-5 text-gray-300">
+                <a href="" className="text-xl Font1"><p><b>Let Us Help You</b></p></a>
                 <a href=""><p>Amazon and COVID-19</p></a>
                 <a href=""><p>Blogs</p></a>
                 <a href=""><p>Your Account</p></a>

@@ -5,60 +5,35 @@ import './Categories.css';
 
 const Categories = () => {
     return (
-        <section className="grid md:grid-cols-6 grid-cols-3 flex Categories border-b">
-            {/* All categories */}
-            <div class="flex justify-center border-r Categories5">
-                <select className="Categories1">
-                    <option value="" className="Categories_Options">All Categories</option>
-                    <option value="" className="Categories_Options">Electronics Devices</option>
-                    <option value="" className="Categories_Options">Mobile</option>
-                    <option value="" className="Categories_Options">Laptop</option>
-                    <option value="" className="Categories_Options">Television</option>
-                    <option value="" className="Categories_Options"> Desktops</option>
-                    <option value="" className="Categories_Options">Security Cameras</option>
-                    <option value="" className="Categories_Options">Bick and Scooter</option>
-                    <option value="" className="Categories_Options">Home and Lifestyles</option>
-                    <option value="" className="Categories_Options"> Health and Beauty</option>
-                    <option value="" className="Categories_Options">Groceries</option>
-                    <option value="" className="Categories_Options">Women's Fasion</option>
-                    <option value="" className="Categories_Options">Men's Fasion</option>
-                    <option value="" className="Categories_Options">Babies and Toy's</option>
-                    <option value="" className="Categories_Options">Sports</option>
-                </select>
-            </div>
-            {/* Electronics categories */}
-            <div class="flex justify-center border-r Categories5">
-                <select className="Categories2">
-                    <option value="" className="Categories_Options">Electronics Devices</option>
-                    <option value="" className="Categories_Options">Mobile</option>
-                    <option value="" className="Categories_Options">Tablets</option>
-                    <option value="" className="Categories_Options">Laptop</option>
-                    <option value="" className="Categories_Options">Television</option>
-                    <option value="" className="Categories_Options"> Desktops</option>
-                    <option value="" className="Categories_Options">Security Cameras</option>
-                </select>
-            </div>
-            {/* Bick and Scooter categories */}
-            <div class="flex justify-center border-r Categories5">
-                <select name="" id="" className="Categories3">
-                    <option value="" className="Categories_Options">Bick and Scooter </option>
-                    <option value="" className="Categories_Options">Bick</option>
-                    <option value="" className="Categories_Options">Scooter</option>
-                    <option value="" className="Categories_Options">Sports Bick</option>
-                </select>
-            </div>
-            {/* Home and Lifestyle */}
-            <div class="flex justify-center Categories4 border-r">
-                <p>Home and Lifestyles</p>
-            </div>
-            {/* Groceries */}
-            <div class="flex justify-center Categories4 border-r">
-                <p>Groceries</p>
-            </div>
-            {/* Sports */}
-            <div class="flex justify-center pb-2 pt-2 Categories4 border-r">
-                <p>Sports</p>
-            </div>
+        <section className="">
+
+            <ul className="Categories Font2">
+                <li className="All_Categories All"><p>All Categories</p>
+                    <ul className="Nested_Categorie">
+                        <li><p>Electronics Devices</p></li>
+                        <li><p>Mobile</p></li>
+                        <li><p>Laptop</p></li>
+                        <li><p>Television</p></li>
+                        <li><p>Security Cameras</p></li>
+                        <li><p>Bick and Scooter</p></li>
+                        <li><p>Home and Lifestyles</p></li>
+                        <li><p>Health and Beauty</p></li>
+                        <li><p>Groceries</p></li>
+                        <li><p>Women's Fasion</p></li>
+                        <li><p>Men's Fasion</p></li>
+                        <li><p>Babies and Toy's</p></li>
+                        <li><p>Sports</p></li>
+
+                    </ul>
+                </li>
+                <li className="All_Categories"><p>Mobile</p></li>
+                <li className="All_Categories"><p>Laptop</p></li>
+                <li className="All_Categories"><p>Bick and Scooter</p></li>
+                <li className="All_Categories"><p>Groceries</p></li>
+                <li className="All_Categories"><p>Television</p></li>
+                <li className="All_Categories"><p>Sports</p></li>
+                <li className="All_Categories"><p>Health & Beauty</p></li>
+            </ul>
         </section>
     );
 };

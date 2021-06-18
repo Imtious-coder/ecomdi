@@ -1,14 +1,14 @@
 .Products_Cards{
     background-color: rgba(0, 132, 255, 0.082);
     border-radius: 5px;
-    width: 100%;
+    width: 220px;
     margin-left: 8px;
     margin-right: 8px;
     padding-bottom: 10px;
 }
 .Products_Images{
     height: 150px;
-    width: 100%;
+    width: 220px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }

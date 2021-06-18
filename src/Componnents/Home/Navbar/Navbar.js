@@ -20,7 +20,7 @@ const Navbar = () => {
                 {/* Search bar */}
                 <section>
                     <div className="flex flex-wrap content-center justify-center mb-2 w-full">
-                        <input type="text" className="Navbar__Search" placeholder="Search in ecomdi.." />
+                        <input type="text" className="Navbar__Search Font2" placeholder="Search in ecomdi.." />
                         <button className="Navbar_Search_Button mt-4">Search</button>
                     </div>
                 </section>

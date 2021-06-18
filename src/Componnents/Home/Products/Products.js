@@ -19,11 +19,11 @@ const responsive = {
         items: 5
     },
     desktop: {
-        breakpoint: { max: 3000, min: 1024 },
+        breakpoint: { max: 1200, min: 824 },
         items: 5
     },
     tablet: {
-        breakpoint: { max: 1024, min: 464 },
+        breakpoint: { max: 823, min: 464 },
         items: 3
     },
     mobile: {
@@ -56,8 +56,8 @@ const Products = () => {
     return (
         <div className="bg-blue-50">
 
-            <section>
-                <p className="grid font-bold text-2xl text-center mt-5">Mobile</p>
+            {/* <section>
+                <p className="grid font-bold text-2xl text-center mt-5">Mobile</p> */}
                 <Carousel className=" grid grid-cols-3" responsive={responsive}>
                     {
                         mobiles.map((e) => {
@@ -76,7 +76,7 @@ const Products = () => {
                         })
                     }
                 </Carousel>
-            </section>
+            {/* </section> */}
 
             <section>
                 <p className="grid font-bold text-2xl text-center mt-5">Groceries</p>

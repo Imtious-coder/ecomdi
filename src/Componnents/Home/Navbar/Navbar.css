@@ -10,14 +10,14 @@
 }
 .Navbar__Search{
     padding-left: 10px;
-    font-size: 15px;
+    font-size: 16px;
     color: gray;
     width: 310px;
     margin-top: 16px;
     padding-top: 3px;
     padding-bottom: 4px;
     border: none;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
     outline: none;
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;

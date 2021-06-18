@@ -1,99 +1,62 @@
 .Categories{
-  
-}
-.Categories1{
+    width: 100%;
     display: flex;
-    font-size: 14px;
-    font-weight: 500;
-    border: none;
+    background-color: rgb(0, 0, 73);
+}
+.All_Categories{
+    color: rgba(255, 255, 255, 0.678);
     text-align: center;
-    outline: none;
-    appearance: none;
-    padding: 5px 10px 5px 45px;
-    border-bottom-right-radius: 3px;
+    width: 100%;
+    font-size: 16px;
+    padding: 3px 15px 3px 15px;
+    transition: 0.2s;
 }
-.Categories1:hover{
-    color: #ff4747;
-    border-bottom: 1px solid #ff4747;
-    border-right: 1px solid #ff4747;
-    cursor: pointer;
+.All_Categories:hover{
+    border-right: .5px solid#ff4747;
+    border-left: .5px solid#ff4747;
+    color: white;
+    font-size: 15px;
 }
-.Categories2{
-    display: flex;
-    font-size: 14px;
-    font-weight: 500;
-    border: none;
-    text-align: center;
-    outline: none;
-    appearance: none;
-    padding: 5px 30px 5px 32px;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+.Nested_Categorie{
+    display: none;
 }
-.Categories2:hover{
-    background-color: black;
-    color: yellow;
-}
-.Categories3{
-    display: flex;
-    font-size: 14px;
-    font-weight: 500;
-    border: none;
-    outline: none;
-    appearance: none;
-    padding: 5px 39px 5px 40px;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+.All:hover .Nested_Categorie{
+    display: block;
     
-}
-.Categories3:hover{
-    background-color: black;
-    color: yellow;
-}
-.Categories4{
-    font-size: 14px;
-    font-weight: 500;
-    color: rgb(75, 75, 75);
-    padding: 5px 20px 0px 20px;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-}
-.Categories4:hover{
-    background-color: black;
-    color: yellow;
-}
-.Categories5{
-    color: rgb(75, 75, 75);
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-}
-.Categories5:hover{
-    background-color: black;
-    color: yellow;
-}
-
-.Categories_Options{
-    background-color: black;
     color: white;
     text-align: center;
+    width: 100%;
 }
-
-@media (max-width: 770px){
-    .Categories1{
-        font-size: 11px;
-        padding: 0px;
+.Nested_Categorie li{
+    border: .5px solid white;
+    width: 100%;
+    font-size: 14px;
+}
+.Nested_Categorie li :hover{
+    background-color: #ff4747;
+}
+@media(max-width: 1150px){
+    .All_Categories{
+        padding: 0;
+        font-size: 12px;
     }
-    .Categories2{
-        font-size: 11px;
-        padding: 0px;
+}
+@media(max-width: 690px){
+    .All_Categories{
+        padding: 0;
+        font-size: 9px;
     }
-    .Categories3{
-        font-size: 11px;
-        padding: 0px;
+}
+@media(max-width: 533px){
+    .All_Categories{
+        display: none;
     }
-    .Categories4{
-        font-size: 11px;
-        padding: 0px;
-        border-top: 1px solid rgba(128, 128, 128, 0.233);
+    .All{
+        display: block;
+        font-size: 16px;
+        color: white;
+        padding: 0;
+        margin: 0;
+       
     }
 }
