@@ -14,7 +14,7 @@ const Footer = () => {
                 <a href=""><p>Investor Relations</p></a>
                 <a href=""><p>Amazon Devices</p></a>
             </div>
-            <div className="text-white text-xs m-10 leading-5">
+            <div className="text-white text-xs m-10 leading-6">
                 <a href="" className="text-base"><p><b>Make Money with Us</b></p></a>
                 <a href=""><p>Sell products on ecomdi</p></a>
                 <a href=""><p>Sell apps on ecomdi</p></a>

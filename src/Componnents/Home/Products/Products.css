@@ -1,0 +1,28 @@
+.Products_Cards{
+    background-color: rgba(0, 132, 255, 0.082);
+    border-radius: 5px;
+    width: 100%;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-bottom: 10px;
+}
+.Products_Images{
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.Product_Discount{
+    background-color: #ff4747;
+    border-radius: 25px;
+    color: white;
+    font-size: 14px;
+    height: 20px;
+}
+.Product_Cart_Icon{
+    font-size: 20px;
+    color: #ff4747;
+}
+.Product_Cart_Icon:hover{
+    color: green;
+}

@@ -1,12 +1,16 @@
 import React, { useEffect, useState } from 'react';
-import BickScooter from '../BickScooter/BickScooter';
-import Groceries from '../Groceries/Groceries';
-import Laptop from '../Laptop/Laptop';
-import Mobile from '../Mobile/Mobile';
 import './Products.css';
-import Data from './FAKE_DATA.json';
+
+import Bick_Data from './Bick_Data.json';
+import Laptop_Data from './Laptop_Data.json';
+import Mobile_Data from './Mobile_Data.json';
+import Grocerie_Data from './Groceries_Data.json';
+
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 
 
 const responsive = {
@@ -16,38 +20,130 @@ const responsive = {
     },
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
-        items: 3
+        items: 5
     },
     tablet: {
         breakpoint: { max: 1024, min: 464 },
-        items: 2
+        items: 3
     },
-    Bick: {
+    mobile: {
         breakpoint: { max: 464, min: 0 },
-        items: 1
+        items: 2
     }
 };
 
 
 
 const Products = () => {
-    const [datas, setDatas] = useState([]);
+    const [bicks, setBicks] = useState([]);
+    const [laptops, setLaptops] = useState([]);
+    const [mobiles, setMobiles] = useState([]);
+    const [groceries, setGroceries] = useState([]);
+
     useEffect(() => {
-        setDatas(Data);
-        console.log(Data)
+        setBicks(Bick_Data);
     }, [])
+    useEffect(() => {
+        setLaptops(Laptop_Data);
+    }, [])
+    useEffect(() => {
+        setMobiles(Mobile_Data);
+    }, [])
+    useEffect(() => {
+        setGroceries(Grocerie_Data);
+    }, [])
+
     return (
-        <div>
-            <Mobile />
-            <Laptop />
-            <Groceries />
-            
-                <div className="grid md:grid-cols-6 grid-cols-2">
+        <div className="bg-blue-50">
+
+            <section>
+                <p className="grid font-bold text-2xl text-center mt-5">Mobile</p>
+                <Carousel className=" grid grid-cols-3" responsive={responsive}>
                     {
-                        datas.map(bick => <BickScooter bick={bick}></BickScooter>)
+                        mobiles.map((e) => {
+                            return (
+                                <div className="flex justify-center bg-blue-50">
+                                    <div className="mb-3 mt-5 Products_Cards">
+                                        <img className="mb-2 Products_Images" src={e.image} alt="" />
+                                        <p className="text-center font-bold text-xl">{e.name}</p>
+                                        <div className="grid grid-cols-3 mb-2 text-center mt-3 flex justify-center">
+                                            <p className="Font1 Product_Price">{e.price}</p>
+                                            <p className="Product_Discount Font1">-35%</p>
+                                            <p className="Product_Cart_Icon flex justify-center"><FontAwesomeIcon icon={faCartPlus} /></p>
+                                        </div>
+                                    </div>
+                                </div>)
+                        })
                     }
-                </div>
-           
+                </Carousel>
+            </section>
+
+            <section>
+                <p className="grid font-bold text-2xl text-center mt-5">Groceries</p>
+                <Carousel className=" grid grid-cols-3" responsive={responsive}>
+                    {
+                        groceries.map((e) => {
+                            return (
+                                <div className="flex justify-center bg-blue-50">
+                                    <div className="mb-3 mt-5 Products_Cards">
+                                        <img className="mb-2 Products_Images" src={e.image} alt="" />
+                                        <p className="text-center font-bold text-xl">{e.name}</p>
+                                        <div className="grid grid-cols-3 mb-2 text-center mt-3 flex justify-center">
+                                            <p className="Font1 Product_Price">{e.price}</p>
+                                            <p className="Product_Discount Font1">-35%</p>
+                                            <p className="Product_Cart_Icon flex justify-center"><FontAwesomeIcon icon={faCartPlus} /></p>
+                                        </div>
+                                    </div>
+                                </div>)
+                        })
+                    }
+                </Carousel>
+            </section>
+
+            <section>
+                <p className="grid font-bold text-2xl text-center mt-5">Laptop</p>
+                <Carousel className=" grid grid-cols-3" responsive={responsive}>
+                    {
+                        laptops.map((e) => {
+                            return (
+                                <div className="flex justify-center bg-blue-50">
+                                    <div className="mb-3 mt-5 Products_Cards">
+                                        <img className="mb-2 Products_Images" src={e.image} alt="" />
+                                        <p className="text-center font-bold text-xl">{e.name}</p>
+                                        <div className="grid grid-cols-3 mb-2 text-center mt-3 flex justify-center">
+                                            <p className="Font1 Product_Price">{e.price}</p>
+                                            <p className="Product_Discount Font1">-35%</p>
+                                            <p className="Product_Cart_Icon flex justify-center"><FontAwesomeIcon icon={faCartPlus} /></p>
+                                        </div>
+                                    </div>
+                                </div>)
+                        })
+                    }
+                </Carousel>
+            </section>
+
+            <section>
+                <p className="grid font-bold text-2xl text-center mt-5">Bick & Scooter</p>
+                <Carousel className=" grid grid-cols-3" responsive={responsive}>
+                    {
+                        bicks.map((e) => {
+                            return (
+                                <div className="flex justify-center bg-blue-50">
+                                    <div className="mb-5 mt-5 Products_Cards">
+                                        <img className="mb-2 Products_Images" src={e.image} alt="" />
+                                        <p className="text-center font-bold text-xl">{e.name}</p>
+                                        <div className="grid grid-cols-3 mb-2 text-center mt-3 flex justify-center">
+                                            <p className="Font1 Product_Price">{e.price}</p>
+                                            <p className="Product_Discount Font1">-35%</p>
+                                            <p className="Product_Cart_Icon flex justify-center"><FontAwesomeIcon icon={faCartPlus} /></p>
+                                        </div>
+                                    </div>
+                                </div>)
+                        })
+                    }
+                </Carousel>
+            </section>
+
         </div>
     );
 };
