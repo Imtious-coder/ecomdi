@@ -8,17 +8,24 @@
 .Name:hover{
     color: red;
 }
+.ImageSection{
+    margin-left: -100px;
+}
+.SearchSection{
+    margin-left: -20px;
+    margin-right: -100px;
+}
+.Icons{
+    margin-left: 100px;
+}
 .Navbar__Search{
-    padding-left: 10px;
     font-size: 16px;
     color: gray;
-    width: 310px;
+    width: 410px;
     margin-top: 16px;
-    padding-top: 3px;
-    padding-bottom: 4px;
     border: none;
-    /* font-family: 'Raleway', sans-serif; */
     outline: none;
+    padding: 2px 0px 3px 10px;
     border-bottom-left-radius: 3px;
     border-top-left-radius: 3px;
 }
@@ -37,10 +44,15 @@
 .Navbar_Search_Button:hover{
     background-color: rgb(236, 236, 0);
 }
-
+.Profile_Icon{
+    margin-left: -10px;
+}
+.Cart_Icon{
+    margin-right: 10px;
+}
 .Navbar__Icons{
     margin-top: 5px;
-    font-size: 40px;
+    font-size: 36px;
     color: yellow;
     margin-top: -5px;
     transition: all 0.2s ease-in-out;
@@ -50,16 +62,18 @@
     border-top: 3px solid yellow;
 }
 .Navbar__Cart__Count{
-    background-color: green;
+    background-color: rgb(175, 175, 175);
     color: white;
     width: 15px;
     font-weight: bold;
     height: 15px;
+    margin-left: -6px;
+    margin-right: 6px;
     font-size: 12px;
     border-radius: 100%;
 }
 .Navbar_Login_Button{
-    padding: 5px 20px 5px 20px;
+    padding: 2px 10px 2px 10px;
     font-size: 14px;
     font-weight: bold;
     background-color: yellow;
@@ -95,19 +109,140 @@
         font-size: 12px;
     }
     .Icons{
-        margin-left: -70px;
+        margin-left: -10px;
+        margin-top: 15px;
     }
     .Navbar__Icons{
         font-size: 32px;
     }
     .Navbar_Login_Button{
-        padding: 1px 5px 1px 5px;
+        padding: 0px;
         margin-left: 10px;
     }
 }
 
-@media(max-width: 362px){
+ @media(max-width: 1073px){
+     .SearchSection{
+         margin-left: -150px;
+     }
     .Navbar__Search{
-        width: 250px;
+        width: 350px;
     }
+    .Icons{
+        margin-left: 10px;
+    }
+}
+@media(max-width: 850px){
+    .SearchSection{
+        margin-left: -50px;
+    }
+   .Navbar__Search{
+       width: 250px;
+   }
+   .Icons{
+       margin-left: 20px;
+   }
+   .Navbar__Icons{
+       font-size: 32px;
+   }
+   .Navbar_Login_Button{
+       font-size: 12px!important;
+   }
+   .Navbar__Cart__Count{
+       height: 12px;
+       width: 12px;
+       font-size: 10px;
+   }
+}
+ @media(max-width: 780px){
+     .Logo{
+         height: 50px;
+         width: 80px;
+     }
+    .SearchSection{
+        margin-left: -200px;
+    }
+   .Navbar__Search{
+    width: 250px;
+    margin-top: 13px;
+    font-size: 13px;
+    padding: 0px 0px 0px 5px;
+    
+   }
+   .Navbar_Search_Button{
+       margin-top: 13px;
+   }
+   .Icons{
+       margin-left: -50px;
+       margin-top: 10px;
+   }.Navbar__Icons{
+    font-size: 30px;
+   }
+   .Navbar_Login_Button{
+       padding: 2px 5px 2px 5px;
+       font-size: 11px!important;
+   }
+}
+
+@media(max-width:664px){
+    .Navbar__Search{
+        width: 180px;
+        margin-top: 13px;
+        padding: 0px 0px 0px 5px;
+    }
+    .Navbar_Search_Button{
+        font-size: 10px!important;
+        margin-top: 13px;
+    }
+    .Navbar_Login_Button{
+        padding: 1px 5px 1px 5px;
+    }
+    .Profile_Icon{
+        font-size: 28px;
+        margin-right: -20px;
+    }
+    .Navbar__Icons{
+        font-size: 28px;
+    }
+    .Navbar_Login_Button{
+        margin-left: -10px;
+    }
+    .Navbar_Login_Button{
+        font-size: 10px!important;
+        padding: 3px 10px 3px 10px;
+    }
+}
+@media(max-width:550px){
+    .Logo{
+        height: 40px;
+        width: 80px;
+        margin-left: 10px;
+    }
+    .SearchSection{
+        margin: 0px;
+    }
+    .Navbar__Search{
+        width: 100px;
+        height: 20px;
+        margin-top: 13px;
+        font-size: 10px;
+        padding: 0px 0px 0px 5px;
+    }
+    .Navbar_Search_Button{
+        height: 20px;
+        font-size: 8px!important;
+        margin-top: 13px;
+    }
+    .Icons{
+        margin-left: -10px;
+    }
+    .Navbar__Icons{
+
+    }
+    /* .Navbar_Login_Button{
+        padding: 1px 5px 1px 5px;
+    } */
+    /* .Navbar__Icons{
+        font-size: 32px;
+    } */
 }
