@@ -56,9 +56,7 @@ const Products = () => {
     return (
         <div className="ml-5">
             <p className="grid font-bold text-2xl ml-3 test mt-5">Mobile</p>
-            <section style={{overflowX:"scroll"}} className="flex lol">
-
-                {/* <Carousel className=" grid grid-cols-3" responsive={responsive}> */}
+            <section style={{ overflowX: "scroll" }} className="flex Scroll">
                 {
                     mobiles.map((e) => {
                         return (
@@ -75,72 +73,66 @@ const Products = () => {
                             </div>)
                     })
                 }
-                {/* </Carousel> */}
             </section>
 
-            <section>
-            <p className="grid font-bold text-2xl ml-3 test mt-5">Groceries</p>                <Carousel className=" grid grid-cols-3" responsive={responsive}>
-                    {
-                        groceries.map((e) => {
-                            return (
-                                <div className="flex justify-center ">
-                                    <div className="mb-3 mt-5 Products_Cards">
-                                        <img className="mb-2 Products_Images" src={e.image} alt="" />
-                                        <p className="text-center font-bold text-xl">{e.name}</p>
-                                        <div className="grid grid-cols-3 mb-2 text-center mt-3 flex justify-center">
-                                            <p className="Font1 Product_Price">{e.price}</p>
-                                            <p className="Product_Discount Font1">-35%</p>
-                                            <p className="Product_Cart_Icon flex justify-center"><FontAwesomeIcon icon={faCartPlus} /></p>
-                                        </div>
+            <p className="grid font-bold text-2xl ml-3 test mt-5">Groceries</p>
+            <section style={{ overflowX: "scroll" }} className="flex Scroll">
+                {
+                    groceries.map((e) => {
+                        return (
+                            <div className="flex justify-center ">
+                                <div className="mb-3 mt-5 Products_Cards">
+                                    <img className="mb-2 Products_Images" src={e.image} alt="" />
+                                    <p className="text-center font-bold text-xl">{e.name}</p>
+                                    <div className="grid grid-cols-3 mb-2 text-center mt-3 flex justify-center">
+                                        <p className="Font1 Product_Price">{e.price}</p>
+                                        <p className="Product_Discount Font1">-35%</p>
+                                        <p className="Product_Cart_Icon flex justify-center"><FontAwesomeIcon icon={faCartPlus} /></p>
                                     </div>
-                                </div>)
-                        })
-                    }
-                </Carousel>
+                                </div>
+                            </div>)
+                    })
+                }
             </section>
 
-            <section>
-                <p className="grid font-bold text-2xl text-center mt-5">Laptop</p>
-                <Carousel className=" grid grid-cols-3" responsive={responsive}>
-                    {
-                        laptops.map((e) => {
-                            return (
-                                <div className="flex justify-center bg-blue-50">
-                                    <div className="mb-3 mt-5 Products_Cards">
-                                        <img className="mb-2 Products_Images" src={e.image} alt="" />
-                                        <p className="text-center font-bold text-xl">{e.name}</p>
-                                        <div className="grid grid-cols-3 mb-2 text-center mt-3 flex justify-center">
-                                            <p className="Font1 Product_Price">{e.price}</p>
-                                            <p className="Product_Discount Font1">-35%</p>
-                                            <p className="Product_Cart_Icon flex justify-center"><FontAwesomeIcon icon={faCartPlus} /></p>
-                                        </div>
+            <p className="grid font-bold text-2xl text-center mt-5">Laptop</p>
+            <section style={{ overflowX: "scroll" }} className="flex Scroll">
+                {
+                    laptops.map((e) => {
+                        return (
+                            <div className="flex justify-center bg-blue-50">
+                                <div className="mb-3 mt-5 Products_Cards">
+                                    <img className="mb-2 Products_Images" src={e.image} alt="" />
+                                    <p className="text-center font-bold text-xl">{e.name}</p>
+                                    <div className="grid grid-cols-3 mb-2 text-center mt-3 flex justify-center">
+                                        <p className="Font1 Product_Price">{e.price}</p>
+                                        <p className="Product_Discount Font1">-35%</p>
+                                        <p className="Product_Cart_Icon flex justify-center"><FontAwesomeIcon icon={faCartPlus} /></p>
                                     </div>
-                                </div>)
-                        })
-                    }
-                </Carousel>
+                                </div>
+                            </div>)
+                    })
+                }
             </section>
 
-            <section>
-                <p className="grid font-bold text-2xl text-center mt-5">Bick & Scooter</p>
-                <Carousel className=" grid grid-cols-3" responsive={responsive}>
-                    {
-                        bicks.map((e) => {
-                            return (
-                                <div className="flex justify-center bg-blue-50">
-                                    <div className="mb-5 mt-5 Products_Cards">
-                                        <img className="mb-2 Products_Images" src={e.image} alt="" />
-                                        <p className="text-center font-bold text-xl">{e.name}</p>
-                                        <div className="grid grid-cols-3 mb-2 text-center mt-3 flex justify-center">
-                                            <p className="Font1 Product_Price">{e.price}</p>
-                                            <p className="Product_Discount Font1">-35%</p>
-                                            <p className="Product_Cart_Icon flex justify-center"><FontAwesomeIcon icon={faCartPlus} /></p>
-                                        </div>
+            <p className="grid font-bold text-2xl text-center mt-5">Bick & Scooter</p>
+            <section style={{ overflowX: "scroll" }} className="flex Scroll mb-10">
+                {
+                    bicks.map((e) => {
+                        return (
+                            <div className="flex justify-center bg-blue-50">
+                                <div className="mb-5 mt-5 Products_Cards">
+                                    <img className="mb-2 Products_Images" src={e.image} alt="" />
+                                    <p className="text-center font-bold text-xl">{e.name}</p>
+                                    <div className="grid grid-cols-3 mb-2 text-center mt-3 flex justify-center">
+                                        <p className="Font1 Product_Price">{e.price}</p>
+                                        <p className="Product_Discount Font1">-35%</p>
+                                        <p className="Product_Cart_Icon flex justify-center"><FontAwesomeIcon icon={faCartPlus} /></p>
                                     </div>
-                                </div>)
-                        })
-                    }
-                </Carousel>
+                                </div>
+                            </div>)
+                    })
+                }
             </section>
 
         </div>

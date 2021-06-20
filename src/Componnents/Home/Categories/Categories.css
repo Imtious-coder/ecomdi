@@ -1,62 +1,44 @@
 .Categories{
-    width: 100%;
-    display: flex;
     background-color: rgb(0, 0, 73);
 }
-.All_Categories{
+ 
+.Categories_Button{
+    background-color: rgb(0, 0, 73);
+    border: none;
     color: rgba(255, 255, 255, 0.678);
-    text-align: center;
-    width: 100%;
-    font-size: 16px;
-    padding: 3px 15px 3px 15px;
-    transition: 0.2s;
 }
-.All_Categories:hover{
-    border-right: .5px solid#ff4747;
-    border-left: .5px solid#ff4747;
+.Categories_Button:hover{
+    background-color: rgb(0, 0, 134);
     color: white;
-    font-size: 15px;
 }
-.Nested_Categorie{
-    display: none;
+.Item{
+    box-shadow: inset 0px 0px 8px rgb(0, 0, 134);
 }
-.All:hover .Nested_Categorie{
-    display: block;
-    
-    color: white;
-    text-align: center;
-    width: 100%;
-}
-.Nested_Categorie li{
-    border: .5px solid white;
-    width: 100%;
-    font-size: 14px;
-}
-.Nested_Categorie li :hover{
-    background-color: #ff4747;
-}
-@media(max-width: 1150px){
-    .All_Categories{
-        padding: 0;
-        font-size: 12px;
+@media(max-width: 948px){
+    .Categories_Button{
+        font-size: 13px;
     }
 }
-@media(max-width: 690px){
-    .All_Categories{
-        padding: 0;
-        font-size: 9px;
-    }
-}
-@media(max-width: 533px){
-    .All_Categories{
+@media(max-width: 850px){
+    .Categories_Button{
         display: none;
+        border: none;
     }
-    .All{
-        display: block;
-        font-size: 16px;
-        color: white;
+    .Item{
+        border: none;
+    }
+  
+}
+@media(max-width: 850px){
+    .All_Categories{
         padding: 0;
-        margin: 0;
-       
+        text-align: center;
+        display: block;
+    }
+    .Lol{
+        display: flex;
+        justify-content: center;
+        border: none;
+        border-bottom: 1px solid grey;
     }
 }

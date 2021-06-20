@@ -1,39 +1,112 @@
+import { Menu, Dropdown, Button } from 'antd';
 import React from 'react';
 import './Categories.css';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
+
+
+const menu = (
+    <Menu>
+        <Menu.Item>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.antgroup.com">
+                Electronics Devices
+            </a>
+        </Menu.Item>
+        <Menu.Item>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.aliyun.com">
+                Mobile
+            </a>
+        </Menu.Item>
+        <Menu.Item>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+                Laptop
+            </a>
+        </Menu.Item>
+        <Menu.Item>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+                Television
+            </a>
+        </Menu.Item>
+        <Menu.Item>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+                Security Cameras
+            </a>
+        </Menu.Item>
+        <Menu.Item>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+                Bick and Scooter
+            </a>
+        </Menu.Item>
+        <Menu.Item>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+                Home and Lifestyles
+            </a>
+        </Menu.Item>
+        <Menu.Item>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+                Health and Beauty
+            </a>
+        </Menu.Item>
+        <Menu.Item>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+                Groceries
+            </a>
+        </Menu.Item>
+        <Menu.Item>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+                Women's Fasion
+            </a>
+        </Menu.Item>
+        <Menu.Item>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+                Men's Fasion
+            </a>
+        </Menu.Item>
+        <Menu.Item>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+                Babies and Toy's
+            </a>
+        </Menu.Item>
+        <Menu.Item>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+                Sports
+            </a>
+        </Menu.Item>
+    </Menu>
+);
+
 const Categories = () => {
     return (
         <section className="">
-
-            <ul className="Categories Font2">
-                <li className="All_Categories All"><p>All Categories</p>
-                    <ul className="Nested_Categorie">
-                        <li><p>Electronics Devices</p></li>
-                        <li><p>Mobile</p></li>
-                        <li><p>Laptop</p></li>
-                        <li><p>Television</p></li>
-                        <li><p>Security Cameras</p></li>
-                        <li><p>Bick and Scooter</p></li>
-                        <li><p>Home and Lifestyles</p></li>
-                        <li><p>Health and Beauty</p></li>
-                        <li><p>Groceries</p></li>
-                        <li><p>Women's Fasion</p></li>
-                        <li><p>Men's Fasion</p></li>
-                        <li><p>Babies and Toy's</p></li>
-                        <li><p>Sports</p></li>
-
-                    </ul>
-                </li>
-                <li className="All_Categories"><p>Mobile</p></li>
-                <li className="All_Categories"><p>Laptop</p></li>
-                <li className="All_Categories"><p>Bick and Scooter</p></li>
-                <li className="All_Categories"><p>Groceries</p></li>
-                <li className="All_Categories"><p>Television</p></li>
-                <li className="All_Categories"><p>Sports</p></li>
-                <li className="All_Categories"><p>Health & Beauty</p></li>
-            </ul>
+            <div className="grid md:grid-cols-8 grid-cols-1 Categories Font2 text-center pl-10 pr-10">
+                <div className="Lol Item">
+                    <Dropdown overlay={menu} placement="bottomCenter" arrow>
+                        <Button className="Categories_Button All_Categories">All Categories</Button>
+                    </Dropdown>
+                </div>
+                <div className="Item">
+                    <Button className="Categories_Button">Mobile</Button>
+                </div>
+                <div className=" Item">
+                    <Button className="Categories_Button">Laptop</Button>
+                </div>
+                <div className=" Item">
+                    <Button className="Categories_Button">Bick & Scooter</Button>
+                </div>
+                <div className=" Item">
+                    <Button className="Categories_Button">Groceries</Button>
+                </div>
+                <div className=" Item">
+                    <Button className="Categories_Button">Television</Button>
+                </div>
+                <div className=" Item">
+                    <Button className="Categories_Button">Sports</Button>
+                </div>
+                <div className=" Item">
+                    <Button className="Categories_Button">Health & Beauty</Button>
+                </div>
+            </div>
         </section>
     );
 };
