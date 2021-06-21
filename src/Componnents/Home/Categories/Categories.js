@@ -1,5 +1,6 @@
 import { Menu, Dropdown, Button } from 'antd';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Categories.css';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faCoffee } from '@fortawesome/free-solid-svg-icons'
@@ -82,7 +83,9 @@ const Categories = () => {
             <div className="grid md:grid-cols-8 grid-cols-1 Categories Font2 text-center pl-10 pr-10">
                 <div className="Lol Item">
                     <Dropdown overlay={menu} placement="bottomCenter" arrow>
-                        <Button className="Categories_Button All_Categories">All Categories</Button>
+                        <Link to="/categories">
+                            <Button className="Categories_Button All_Categories">All Categories</Button>
+                        </Link>
                     </Dropdown>
                 </div>
                 <div className="Item">

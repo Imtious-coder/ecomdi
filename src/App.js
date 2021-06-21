@@ -33,6 +33,7 @@ import Home_Page from './Componnents/Home/Home_Page/Home_Page';
 import Banner from './Componnents/Home/Banner/Banner';
 import Products from './Componnents/Home/Products/Products';
 import { Footer } from 'rsuite';
+import AllCategories from './Componnents/Categories/AllCategories/AllCategories';
 
 function App() {
   return (
@@ -56,6 +57,9 @@ function App() {
         </Route>
         <Route path="/home">
           <Main_Page />
+        </Route>
+        <Route path="/categories">
+          <AllCategories />
         </Route>
         <Route path="/yourOrders">
           <YourOrders />
