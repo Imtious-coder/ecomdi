@@ -21,14 +21,14 @@ const AllCategories = () => {
                 {
                     allProducts.map((e) => {
                         return (
-                            <div className="justify-center bg-blue-50">
-                                <div className="mb-5 mt-5 ">
-                                    <img className="mb-2 " src={e.image} alt="" />
+                            <div className="flex justify-center">
+                                <div className="mb-3 mt-5 Products_Cards">
+                                    <img className="mb-2 Products_Images" src={e.image} alt="" />
                                     <p className="text-center font-bold text-xl">{e.name}</p>
                                     <div className="grid grid-cols-3 mb-2 text-center mt-3 flex justify-center">
-                                        <p className="Font1 ">{e.price}</p>
-                                        <p className=" Font1">-35%</p>
-                                        <p className=" flex justify-center"><FontAwesomeIcon icon={faCartPlus} /></p>
+                                        <p className="Font1 Product_Price">{e.price}</p>
+                                        <p className="Product_Discount Font1">-35%</p>
+                                        <p className="Product_Cart_Icon flex justify-center"><FontAwesomeIcon icon={faCartPlus} /></p>
                                     </div>
                                 </div>
                             </div>)
