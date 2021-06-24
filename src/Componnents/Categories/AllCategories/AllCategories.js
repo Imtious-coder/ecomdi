@@ -3,6 +3,7 @@ import CategoriesNavigation from '../CategoriesNavigation/CategoriesNavigation';
 import AllProducts from '../AllProducts.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
+import { Footer } from 'antd/lib/layout/layout';
 
 
 const AllCategories = () => {

@@ -31,9 +31,9 @@ import Navbar from './Componnents/Home/Navbar/Navbar';
 import Home_Page from './Componnents/Home/Home_Page/Home_Page';
 import Banner from './Componnents/Home/Banner/Banner';
 import Products from './Componnents/Home/Products/Products';
-import { Footer } from 'rsuite';
 import AllCategories from './Componnents/Categories/AllCategories/AllCategories';
 import DetailsPage from './Componnents/DetailsPage/DetailsPage';
+import Footer from './Componnents/Home/Footer/Footer';
 
 function App() {
   return (
@@ -93,9 +93,6 @@ function App() {
         </Route>
         <Route path="/country">
           <Country />
-        </Route>
-        <Route path="/footer">
-          <Footer />
         </Route>
         <Route path="/twoStepVerification">
           <TwoStepVerification />
