@@ -88,9 +88,43 @@
       font-size: 14px;
       padding-left: 5px;
   }
+  #vendorSearchBar{
+      width: 100%;
+      border-radius: 3px;
+      font-size: 12px;
+      outline: none;
+      padding: 5px 0px 5px 5px;
+      border: 1px solid grey;
+      box-shadow: inset 0px 0px 5px rgb(177, 177, 177);
+  }
+
+.Reviews_Image{
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: red;
+}
+
+.Details_Page_Review_Stars{
+    color: gold;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
   @media(max-width:575px){
       .Details_Details{
           font-size: 12.5px;
-          height: 30px;
+          height: 40px;
       }
   }

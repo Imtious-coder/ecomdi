@@ -1,18 +1,13 @@
-.Categories{
-    background-color: rgb(0, 0, 73);
-}
- 
 .Categories_Button{
-    background-color: rgb(0, 0, 73);
     border: none;
-    color: rgba(255, 255, 255, 0.678);
+    width: 100%;
+    color: rgba(0, 0, 0, 0.678);
 }
 .Categories_Button:hover{
     background-color: rgb(0, 0, 134);
     color: white;
 }
 .Item{
-    box-shadow: inset 0px 0px 8px rgb(0, 0, 134);
 }
 @media(max-width: 948px){
     .Categories_Button{
@@ -32,6 +27,8 @@
 @media(max-width: 850px){
     .All_Categories{
         padding: 0;
+        width: 100%;
+
         text-align: center;
         display: block;
     }

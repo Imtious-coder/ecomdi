@@ -55,9 +55,9 @@ const Products = () => {
     }, [])
 
     return (
-        <div className="ml-5">
+        <div className="ml-5 mb-5">
             <p className="grid font-bold text-2xl ml-5 test mt-5">Mobile</p>
-            <section style={{ overflowX: "scroll" }} className="flex Scroll ml-5 mr-10">
+            <section style={{ overflowX: "scroll" }} className="flex Scroll ml-2">
                 {
                     mobiles.map((e) => {
                         return (
