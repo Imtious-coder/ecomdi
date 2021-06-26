@@ -79,3 +79,22 @@ html{
 .Roboto{
   font-family: 'Roboto', sans-serif;
 }
+
+.BG1{
+  background-color: #272727;
+}
+.BG2{
+  background-color: #747474;
+}
+.BG3{
+  background-color: #FF652F;
+}
+.BG3_2{
+  background-color: rgba(196, 245, 179, 0.13);
+}
+.BG4{
+  background-color: Yellow;
+}
+.BG5{
+  background-color: #6fe395;
+}

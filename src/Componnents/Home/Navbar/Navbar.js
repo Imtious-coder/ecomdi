@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <section className="bg-gray-900 pb-1 pt-1 Main_Navbar">
+        <section className="pb-1 pt-1 Main_Navbar">
             <section className="grid flex grid-cols-3 justify-items-center">
                 {/* Company Name/Logo */}
                 <section className="flex justify-items-center ImageSection">

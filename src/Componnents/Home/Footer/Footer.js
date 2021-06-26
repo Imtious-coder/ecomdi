@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <section className="grid md:grid-cols-4 grid-cols-2 bg-gray-900 Roboto">
+        <section className="grid md:grid-cols-4 grid-cols-2 bg-gray-900 Roboto mt-20">
             <div className="text-sm m-10 leading-5">
                 <a href="" className="text-xl text-gray-300"><p><b>Get to Know Us</b></p></a>
                 <a href=""><p className="text-gray-400">Careers</p></a>

@@ -23,6 +23,7 @@
 .Product_Cart_Icon{
     font-size: 20px;
     color: #ff4747;
+    cursor: pointer;
 }
 .Product_Cart_Icon:hover{
     color: green;
