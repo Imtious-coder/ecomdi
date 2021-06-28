@@ -94,6 +94,10 @@
         font-size: 10px;
     }
     .Cart_Checkout{
+        font-size: 12px;
         margin-top: 5px;
+    }
+    .Cart_Checkouts{
+        margin-left: 50px;
     }
 }

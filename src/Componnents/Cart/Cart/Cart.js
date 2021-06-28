@@ -7,7 +7,7 @@ import { faMinus, faPlus } from '@fortawesome/free-solid-svg-icons';
 const Cart = () => {
     return (
         <div>
-            <section className="flex mt-10 mb-10 ml-10 mr-10 Roboto">
+            <section className="flex mt-10 mb-10 ml-3 mr-3 Roboto">
                 <div className="flex gap-4 grid grid-cols-2">
 
                     {/* Products and Details */}
@@ -97,9 +97,9 @@ const Cart = () => {
 
                     </div>
                     {/* Cart */}
-                    <div className="ml-20 border-t-2">
-                        <div className="text-center ml-5 mt-5">
-                            <p className="mr-2 Cart_Subtotal">Subtotal: $450</p>
+                    <div className="ml-20 Cart_Checkouts border-t-2">
+                        <div className="text-center mt-5 ml-3">
+                            <p className="Cart_Subtotal m-0 mb-2">Subtotal: $450</p>
                             <p className="Cart_Quantity">Quantity: 3</p>
                             <p className="Cart_Tax">Tax + Vat : $2.5</p>
                             <p className="Cart_Total">Total: $1350</p>
