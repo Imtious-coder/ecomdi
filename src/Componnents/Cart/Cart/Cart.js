@@ -6,8 +6,8 @@ import { faMinus, faPlus } from '@fortawesome/free-solid-svg-icons';
 
 const Cart = () => {
     return (
-        <div>
-            <section className="flex mt-10 mb-10 ml-3 mr-3 Roboto">
+        <div className="bg-blue-50">
+            <section className="flex pt-3 mb-10 ml-3 mr-3 Roboto">
                 <div className="flex gap-4 grid grid-cols-2">
 
                     {/* Products and Details */}
@@ -48,7 +48,7 @@ const Cart = () => {
                             </div>
                             {/* Details */}
                             <div>
-                            <p className="m-0 text-xl font-bold">Lorem ipsum dolor sit amet consectetur.</p>
+                                <p className="m-0 text-xl font-bold">Lorem ipsum dolor sit amet consectetur.</p>
                                 <p className="text-blue-400 m-0 text-xs">The mega store</p>
                                 <p className="m-0 text-xs mt-1 font-bold">128/8GB</p>
                                 <p className="m-0 text-xs font-bold">2G/3G/4G/5G</p>
@@ -61,7 +61,9 @@ const Cart = () => {
                                         <p className="Cart_Item_Count text-gray-800">0</p>
                                         <FontAwesomeIcon className="Cart_Page_Item_Icons" icon={faMinus} />
                                     </div>
-                                    {/* Buttons */}
+                                </div>
+                                {/* Buttons */}
+                                <div className="grid grid-cols-3 gap-4">
                                     <button className="Cart_Delete">Delete</button>
                                     <button className="Cart_Delete">Save for later</button>
                                 </div>
@@ -75,7 +77,7 @@ const Cart = () => {
                             </div>
                             {/* Details */}
                             <div>
-                            <p className="m-0 text-xl font-bold">Lorem ipsum dolor sit amet consectetur.</p>
+                                <p className="m-0 text-xl font-bold">Lorem ipsum dolor sit amet consectetur.</p>
                                 <p className="text-blue-400 m-0 text-xs">The mega store</p>
                                 <p className="m-0 text-xs mt-1 font-bold">128/8GB</p>
                                 <p className="m-0 text-xs font-bold">2G/3G/4G/5G</p>
@@ -88,7 +90,9 @@ const Cart = () => {
                                         <p className="Cart_Item_Count text-gray-800">0</p>
                                         <FontAwesomeIcon className="Cart_Page_Item_Icons" icon={faMinus} />
                                     </div>
-                                    {/* Buttons */}
+                                </div>
+                                {/* Buttons */}
+                                <div className="grid grid-cols-3 gap-4">
                                     <button className="Cart_Delete">Delete</button>
                                     <button className="Cart_Delete">Save for later</button>
                                 </div>

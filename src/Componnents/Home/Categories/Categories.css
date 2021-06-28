@@ -4,7 +4,9 @@
 .All_Categories{
     width: 100%;
     font-size: 16px;
-    color: rgb(88, 88, 88);
+    outline: none!important;
+    color: rgb(48, 48, 48);
+    padding: 0px 20px 0.5px 20px;
     background-color: rgb(193, 240, 197);
 }
 .All_Categories:hover{
@@ -14,7 +16,7 @@
 .Categories_Button{
     width: 100%;
     font-size: 16px;
-    color: rgb(88, 88, 88);
+    color: rgb(71, 71, 71);
     background-color: rgb(193, 240, 197);
 }
 .Categories_Button:hover{
@@ -34,19 +36,14 @@
         padding: 0;
         text-align: center;
         display: block;
+        outline: none!important;
         padding-left: 20px;
         padding-right: 20px;
     }
     .All_Categories:hover{
         background-color: rgb(4, 255, 25);
     }
-    .Lol{
-        display: flex;
-        justify-content: center;
-        border: none;
-        border-bottom: 1px solid grey;
+    .Categories:hover{
+        background-color: rgb(4, 255, 25);
     }
-}
-@media(max-width: 850px){
-    
 }

@@ -82,7 +82,7 @@ const Categories = () => {
                 <div className="flex justify-center">
                     <Dropdown overlay={menu} placement="bottomRight" arrow>
                         <Link to="/categories">
-                            <button className="All_Categories">All Categories</button>
+                            <button className="All_Categories pb-1">All Categories</button>
                         </Link>
                     </Dropdown>
                 </div>

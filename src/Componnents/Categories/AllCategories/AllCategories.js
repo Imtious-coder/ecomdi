@@ -17,7 +17,7 @@ const AllCategories = () => {
                 <CategoriesNavigation />
             </div>
             <div className="">
-            <section className="grid md:grid-cols-3 grid-cols-1 mb-10">
+            <section className="grid md:grid-cols-5 grid-cols-1 mb-10">
                 {
                     allProducts.map((e) => {
                         return (
