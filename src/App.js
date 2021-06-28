@@ -34,6 +34,8 @@ import Products from './Componnents/Home/Products/Products';
 import AllCategories from './Componnents/Categories/AllCategories/AllCategories';
 import DetailsPage from './Componnents/DetailsPage/DetailsPage';
 import Footer from './Componnents/Home/Footer/Footer';
+import Categories from './Componnents/Home/Categories/Categories';
+import Cart from './Componnents/Cart/Cart/Cart';
 
 function App() {
   return (
@@ -61,6 +63,9 @@ function App() {
         <Route path="/categories">
           <AllCategories />
         </Route>
+        <Route path="/categorie">
+          <Categories />
+        </Route>
         <Route path="/detailsPage">
           <DetailsPage />
         </Route>
@@ -69,6 +74,9 @@ function App() {
         </Route>
         <Route path="/securityLogin">
           <SecurityLogin />
+        </Route>
+        <Route path="/cart">
+          <Cart />
         </Route>
         <Route path="/name">
           <Name />

@@ -43,7 +43,7 @@
     font-weight: 600;
     border: none;
     height: 30px;
-    outline: none;
+    outline: none!important;
     color: rgb(78, 78, 78);
     background-color: rgb(167, 245, 51);
     padding: 0px 20px 0px 20px;
