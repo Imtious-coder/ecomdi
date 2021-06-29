@@ -3,13 +3,14 @@ import Image from './cart.jpg';
 import './Cart.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMinus, faPlus } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Cart = () => {
     const [count, setCount] = useState(1);
     const handleDecrease = () => {
         const newCount = count - 1;
         setCount(newCount)
-        if (count <= 0){
+        if (count <= 0) {
             setCount(0)
         }
     };
@@ -120,9 +121,11 @@ const Cart = () => {
                             <p className="Cart_Tax">Tax + Vat : $2.5</p>
                             <p className="Cart_Total">Total: $1350</p>
                         </div>
-                        <div className="flex justify-center ml-5">
-                            <button className="Cart_Checkout">Checkout</button>
-                        </div>
+                        <Link to="/checkout">
+                            <div className="flex justify-center ml-5">
+                                <button className="Cart_Checkout">Checkout</button>
+                            </div>
+                        </Link>
                     </div>
                 </div>
 
