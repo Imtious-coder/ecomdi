@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Checkout.css';
 
 const Checkout = () => {
@@ -43,7 +44,9 @@ const Checkout = () => {
                     <input className="Checkout_Inputs" type="text" name="" id="" />
                     <p className="font-bold mb-1">Phone Number:</p>
                     <input className="Checkout_Inputs" type="text" name="" id="" /> <br />
-                    <button className="Checkout_Confirm_Button">Confirm</button>
+                    <Link to="/shipment">
+                        <button className="Checkout_Confirm_Button">Confirm</button>
+                    </Link>
                 </form>
             </section>
         </div>

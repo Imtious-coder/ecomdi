@@ -32,7 +32,8 @@
 .Checkout_Confirm_Button{
     padding: 3px 20px 3px 20px;
     border-radius: 3px;
-    outline: none;
+    outline: none!important;
+    color: black;
     font-weight: 500;
     background-color:  #bbff00;
 }

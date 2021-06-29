@@ -37,6 +37,7 @@ import Footer from './Componnents/Home/Footer/Footer';
 import Categories from './Componnents/Home/Categories/Categories';
 import Cart from './Componnents/Cart/Cart/Cart';
 import Checkout from './Componnents/Cart/Checkout/Checkout';
+import Shipment from './Componnents/Cart/Shipment/Shipment';
 
 function App() {
   return (
@@ -138,6 +139,9 @@ function App() {
         </Route>
         <Route path="/checkout">
           <Checkout />
+        </Route>
+        <Route path="/shipment">
+          <Shipment />
         </Route>
         <Route path="/manageDevices">
           <ManageDevices />
