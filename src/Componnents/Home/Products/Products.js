@@ -6,7 +6,6 @@ import Laptop_Data from './Laptop_Data.json';
 import Mobile_Data from './Mobile_Data.json';
 import Grocerie_Data from './Groceries_Data.json';
 
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

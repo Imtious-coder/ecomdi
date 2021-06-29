@@ -1,10 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Image from './cart.jpg';
 import './Cart.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMinus, faPlus } from '@fortawesome/free-solid-svg-icons';
 
 const Cart = () => {
+    const [count, setCount] = useState(1);
+    const handleDecrease = () => {
+        const newCount = count - 1;
+        setCount(newCount)
+        if (count <= 0){
+            setCount(0)
+        }
+    };
+    const handleIncrease = () => {
+        const newCounts = count + 1;
+        setCount(newCounts);
+    }
     return (
         <div className="bg-blue-50">
             <section className="flex pt-3 mb-10 ml-3 mr-3 Roboto">
@@ -28,9 +40,9 @@ const Cart = () => {
                                 <div className="grid grid-cols-3 gap-2 m-1 mr-2">
                                     {/* Quantity */}
                                     <div className="flex Cart_Increase_Decrease Font2 border-1">
-                                        <FontAwesomeIcon className="Cart_Page_Item_Icons" icon={faPlus} />
-                                        <p className="Cart_Item_Count text-gray-800">0</p>
-                                        <FontAwesomeIcon className="Cart_Page_Item_Icons" icon={faMinus} />
+                                        <FontAwesomeIcon onClick={handleIncrease} className="Cart_Page_Item_Icons" icon={faPlus} />
+                                        <p className="Cart_Item_Count text-gray-800">{count}</p>
+                                        <FontAwesomeIcon onClick={handleDecrease} className="Cart_Page_Item_Icons" icon={faMinus} />
                                     </div>
                                 </div>
                                 {/* Buttons */}
@@ -57,9 +69,9 @@ const Cart = () => {
                                 <div className="grid grid-cols-3 gap-2 m-1 mr-2">
                                     {/* Quantity */}
                                     <div className="flex Cart_Increase_Decrease Font2 border-1">
-                                        <FontAwesomeIcon className="Cart_Page_Item_Icons" icon={faPlus} />
-                                        <p className="Cart_Item_Count text-gray-800">0</p>
-                                        <FontAwesomeIcon className="Cart_Page_Item_Icons" icon={faMinus} />
+                                        <FontAwesomeIcon onClick={handleIncrease} className="Cart_Page_Item_Icons" icon={faPlus} />
+                                        <p className="Cart_Item_Count text-gray-800">{count}</p>
+                                        <FontAwesomeIcon onClick={handleDecrease} className="Cart_Page_Item_Icons" icon={faMinus} />
                                     </div>
                                 </div>
                                 {/* Buttons */}
@@ -86,9 +98,9 @@ const Cart = () => {
                                 <div className="grid grid-cols-3 gap-2 m-1 mr-2">
                                     {/* Quantity */}
                                     <div className="flex Cart_Increase_Decrease Font2 border-1">
-                                        <FontAwesomeIcon className="Cart_Page_Item_Icons" icon={faPlus} />
-                                        <p className="Cart_Item_Count text-gray-800">0</p>
-                                        <FontAwesomeIcon className="Cart_Page_Item_Icons" icon={faMinus} />
+                                        <FontAwesomeIcon onClick={handleIncrease} className="Cart_Page_Item_Icons" icon={faPlus} />
+                                        <p className="Cart_Item_Count text-gray-800">{count}</p>
+                                        <FontAwesomeIcon onClick={handleDecrease} className="Cart_Page_Item_Icons" icon={faMinus} />
                                     </div>
                                 </div>
                                 {/* Buttons */}

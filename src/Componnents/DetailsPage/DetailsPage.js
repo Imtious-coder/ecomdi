@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Images1 from './download (1).jpg';
 import './DetailsPage.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -6,6 +6,18 @@ import { faMinus, faPlus, faStar, faStarHalf } from '@fortawesome/free-solid-svg
 import Products from '../Home/Products/Products';
 
 const DetailsPage = () => {
+    const [count, setCount] = useState(12);
+    const handleDecrease = () => {
+        const newCount = count - 1;
+        setCount(newCount)
+        if (count <= 0){
+            setCount(0)
+        }
+    };
+    const handleIncrease = () => {
+        const newCounts = count + 1;
+        setCount(newCounts);
+    }
     return (
         <section className="m-10 pb-10">
             {/* Top section */}
@@ -52,9 +64,9 @@ const DetailsPage = () => {
                         <div className="grid grid-cols-3 mt-5">
                             <p className="Details_Page_Price">$450</p>
                             <div className="flex Details_Page_Increase Font2 border-1 text-center justify-center">
-                                <FontAwesomeIcon className="Details_Page_Item_Icons" icon={faPlus} />
-                                <p className="Details_Page_Item_Count">0</p>
-                                <FontAwesomeIcon className="Details_Page_Item_Icons" icon={faMinus} />
+                                <FontAwesomeIcon onClick={handleIncrease} className="Details_Page_Item_Icons" icon={faPlus} />
+                                <p className="Details_Page_Item_Count">{count}</p>
+                                <FontAwesomeIcon onClick={handleDecrease} className="Details_Page_Item_Icons" icon={faMinus} />
                             </div>
                         </div>
                         <div className="grid grid-cols-2 gap-2 mt-5">

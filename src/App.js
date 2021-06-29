@@ -36,6 +36,7 @@ import DetailsPage from './Componnents/DetailsPage/DetailsPage';
 import Footer from './Componnents/Home/Footer/Footer';
 import Categories from './Componnents/Home/Categories/Categories';
 import Cart from './Componnents/Cart/Cart/Cart';
+import Checkout from './Componnents/Cart/Checkout/Checkout';
 
 function App() {
   return (
@@ -134,6 +135,9 @@ function App() {
         </Route>
         <Route path="/devices">
           <Devices />
+        </Route>
+        <Route path="/checkout">
+          <Checkout />
         </Route>
         <Route path="/manageDevices">
           <ManageDevices />
