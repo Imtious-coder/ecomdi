@@ -92,7 +92,9 @@ const Categories = () => {
                 <button className="Categories_Button">Groceries</button>
                 <button className="Categories_Button">Television</button>
                 <button className="Categories_Button">Sports</button>
-                <button className="Categories_Button">Health & Beauty</button>
+                <Link to="/switchToSellerPage">
+                    <button className="Categories_Button Roboto text-2xl Sell"><b>Sell</b></button>
+                </Link>
             </div>
         </section>
     );

@@ -17,11 +17,21 @@
     width: 100%;
     font-size: 16px;
     color: rgb(71, 71, 71);
+    outline: none!important;
     background-color: rgb(193, 240, 197);
 }
 .Categories_Button:hover{
     background-color: rgb(148, 247, 156);
     color: black;
+}
+.Sell{
+    color:blanchedalmond;
+    background-image: linear-gradient(to right, black, rgb(2, 16, 99));
+}
+.Sell:hover{
+    color: white;
+    background-image: linear-gradient(to right, rgb(2, 16, 99), black);
+
 }
 @media(max-width: 948px){
     .Categories_Button{
