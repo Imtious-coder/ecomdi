@@ -4,6 +4,7 @@ import BoxImage from './download.png';
 import Image2 from './Anker-01._CB1580163796_.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBoxes, faCartPlus, faChartLine, faClipboard, faHandHoldingUsd, faLuggageCart, faPlaneDeparture, faQuoteLeft, faTruck, faTv } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
 
 const SwitchToSellerPage = () => {
     return (
@@ -16,7 +17,9 @@ const SwitchToSellerPage = () => {
                 <div></div>
                 <div></div>
                 <div className="flex justify-center">
-                    <button className="Seller_SignUp_Button">Sign up</button>
+                    <Link to="/sellerInfo">
+                        <button className="Seller_SignUp_Button">Sign up</button>
+                    </Link>
                 </div>
             </section>
             {/* Banner Section */}
@@ -24,7 +27,9 @@ const SwitchToSellerPage = () => {
                 <div>
                     <p className="Banner_Section_Title">Become an Ecomdi seller</p>
                     <p className="Banner_Section_Details mt-5 mb-10">More than half the units sold in our stores are from independent sellers.</p>
+                    <Link to="/sellerInfo">
                     <button className="Banner_SignUp_Button">Sign up</button>
+                    </Link>
                 </div>
                 <div className="flex justify-center w-full h-full mt-5">
                     <img className="Banner_Box_Image" src={BoxImage} alt="" />

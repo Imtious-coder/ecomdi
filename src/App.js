@@ -39,133 +39,127 @@ import Cart from './Componnents/Cart/Cart/Cart';
 import Checkout from './Componnents/Cart/Checkout/Checkout';
 import Shipment from './Componnents/Cart/Shipment/Shipment';
 import SwitchToSellerPage from './Componnents/Seller/SwitchToSellerPage/SwitchToSellerPage';
+import SellerInfo from './Componnents/Seller/SellerInfo/SellerInfo';
 
 function App() {
   return (
-    <div>
-      <Router>
-        <Switch>
-          <Route path="/sellerHome">
-
-          </Route>
-        </Switch>
-      </Router>
-      {/* User Part */}
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route path="/navbar">
-            <Navbar />
-          </Route>
-          <Route path="/mainHome">
-            <Home_Page />
-          </Route>
-          <Route path="/banner">
-            <Banner />
-          </Route>
-          <Route path="/products">
-            <Products />
-          </Route>
-          <Route path="/footer">
-            <Footer />
-          </Route>
-          <Route path="/home">
-            <Main_Page />
-          </Route>
-          <Route path="/categories">
-            <AllCategories />
-          </Route>
-          <Route path="/categorie">
-            <Categories />
-          </Route>
-          <Route path="/detailsPage">
-            <DetailsPage />
-          </Route>
-          <Route path="/yourOrders">
-            <YourOrders />
-          </Route>
-          <Route path="/switchToSellerPage">
-            <SwitchToSellerPage />
-          </Route>
-          <Route path="/securityLogin">
-            <SecurityLogin />
-          </Route>
-          <Route path="/cart">
-            <Cart />
-          </Route>
-          <Route path="/name">
-            <Name />
-          </Route>
-          <Route path="/email">
-            <Email />
-          </Route>
-          <Route path="/emailOTP">
-            <EmailOTP />
-          </Route>
-          <Route path="/mailChangeConfirm">
-            <MailChangeConfirm />
-          </Route>
-          <Route path="/mobile">
-            <Mobile />
-          </Route>
-          <Route path="/mobileOTP">
-            <MobileOTP />
-          </Route>
-          <Route path="/password">
-            <Password />
-          </Route>
-          <Route path="/country">
-            <Country />
-          </Route>
-          <Route path="/twoStepVerification">
-            <TwoStepVerification />
-          </Route>
-          <Route path="/address">
-            <Address />
-          </Route>
-          <Route path="/step1">
-            <Step1 />
-          </Route>
-          <Route path="/twoStepMobileOTP">
-            <TwoStepMobileOTP />
-          </Route>
-          <Route path="/step2">
-            <Step2 />
-          </Route>
-          <Route path="/secureYourAccount">
-            <SecureYourAccount />
-          </Route>
-          <Route path="/vouchers">
-            <Vouchers />
-          </Route>
-          <Route path="/payments">
-            <YourPayments />
-          </Route>
-          <Route path="/profiles">
-            <YourProfiles />
-          </Route>
-          <Route path="/manageYourProfiles">
-            <ManageYourProfiles />
-          </Route>
-          <Route path="/devices">
-            <Devices />
-          </Route>
-          <Route path="/checkout">
-            <Checkout />
-          </Route>
-          <Route path="/shipment">
-            <Shipment />
-          </Route>
-          <Route path="/manageDevices">
-            <ManageDevices />
-          </Route>
-          <Route path="/">
-            <Home_Page />
-          </Route>
-        </Switch>
-        <Footer />
-      </Router>
-    </div>
+    <Router>
+      <Navbar />
+      <Switch>
+        <Route path="/navbar">
+          <Navbar />
+        </Route>
+        <Route path="/mainHome">
+          <Home_Page />
+        </Route>
+        <Route path="/banner">
+          <Banner />
+        </Route>
+        <Route path="/products">
+          <Products />
+        </Route>
+        <Route path="/footer">
+          <Footer />
+        </Route>
+        <Route path="/home">
+          <Main_Page />
+        </Route>
+        <Route path="/categories">
+          <AllCategories />
+        </Route>
+        <Route path="/categorie">
+          <Categories />
+        </Route>
+        <Route path="/detailsPage">
+          <DetailsPage />
+        </Route>
+        <Route path="/yourOrders">
+          <YourOrders />
+        </Route>
+        <Route path="/switchToSellerPage">
+          <SwitchToSellerPage />
+        </Route>
+        <Route path="/securityLogin">
+          <SecurityLogin />
+        </Route>
+        <Route path="/cart">
+          <Cart />
+        </Route>
+        <Route path="/sellerInfo">
+          <SellerInfo />
+        </Route>
+        <Route path="/name">
+          <Name />
+        </Route>
+        <Route path="/email">
+          <Email />
+        </Route>
+        <Route path="/emailOTP">
+          <EmailOTP />
+        </Route>
+        <Route path="/mailChangeConfirm">
+          <MailChangeConfirm />
+        </Route>
+        <Route path="/mobile">
+          <Mobile />
+        </Route>
+        <Route path="/mobileOTP">
+          <MobileOTP />
+        </Route>
+        <Route path="/password">
+          <Password />
+        </Route>
+        <Route path="/country">
+          <Country />
+        </Route>
+        <Route path="/twoStepVerification">
+          <TwoStepVerification />
+        </Route>
+        <Route path="/address">
+          <Address />
+        </Route>
+        <Route path="/step1">
+          <Step1 />
+        </Route>
+        <Route path="/twoStepMobileOTP">
+          <TwoStepMobileOTP />
+        </Route>
+        <Route path="/step2">
+          <Step2 />
+        </Route>
+        <Route path="/secureYourAccount">
+          <SecureYourAccount />
+        </Route>
+        <Route path="/vouchers">
+          <Vouchers />
+        </Route>
+        <Route path="/payments">
+          <YourPayments />
+        </Route>
+        <Route path="/profiles">
+          <YourProfiles />
+        </Route>
+        <Route path="/manageYourProfiles">
+          <ManageYourProfiles />
+        </Route>
+        <Route path="/devices">
+          <Devices />
+        </Route>
+        <Route path="/checkout">
+          <Checkout />
+        </Route>
+        <Route path="/shipment">
+          <Shipment />
+        </Route>
+        <Route path="/manageDevices">
+          <ManageDevices />
+        </Route>
+        <Route path="/">
+          <Home_Page />
+        </Route>
+      </Switch>
+      <Footer />
+    </Router>
   );
 }
 
