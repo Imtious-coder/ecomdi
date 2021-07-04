@@ -40,6 +40,8 @@ import Checkout from './Componnents/Cart/Checkout/Checkout';
 import Shipment from './Componnents/Cart/Shipment/Shipment';
 import SwitchToSellerPage from './Componnents/Seller/SwitchToSellerPage/SwitchToSellerPage';
 import SellerInfo from './Componnents/Seller/SellerInfo/SellerInfo';
+import StoreInfo from './Componnents/Seller/StoreInfo/StoreInfo';
+import Career from './Componnents/Career/Careers/Career';
 
 function App() {
   return (
@@ -142,6 +144,9 @@ function App() {
         <Route path="/manageYourProfiles">
           <ManageYourProfiles />
         </Route>
+        <Route path="/storeInfo">
+          <StoreInfo />
+        </Route>
         <Route path="/devices">
           <Devices />
         </Route>
@@ -153,6 +158,9 @@ function App() {
         </Route>
         <Route path="/manageDevices">
           <ManageDevices />
+        </Route>
+        <Route path="/career">
+          <Career />
         </Route>
         <Route path="/">
           <Home_Page />
