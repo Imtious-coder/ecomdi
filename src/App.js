@@ -42,6 +42,10 @@ import SwitchToSellerPage from './Componnents/Seller/SwitchToSellerPage/SwitchTo
 import SellerInfo from './Componnents/Seller/SellerInfo/SellerInfo';
 import StoreInfo from './Componnents/Seller/StoreInfo/StoreInfo';
 import Career from './Componnents/Career/Careers/Career';
+import JobByCategories from './Componnents/Career/JobByCategories/JobByCategories';
+import JobsNavigation from './Componnents/Career/JobsNavigation/JobsNavigation';
+import JobsByTeam from './Componnents/Career/JobsByTeam/JobsByTeam';
+import JobsByLocation from './Componnents/Career/JobsByLocation/JobsByLocation';
 
 function App() {
   return (
@@ -161,6 +165,18 @@ function App() {
         </Route>
         <Route path="/career">
           <Career />
+        </Route>
+        <Route path="/jobByCategories">
+          <JobByCategories />
+        </Route>
+        <Route path="/jobsByTeam">
+          <JobsByTeam />
+        </Route>
+        <Route path="/jobsByLocation">
+          <JobsByLocation />
+        </Route>
+        <Route path="/jobsNavigation">
+          <JobsNavigation />
         </Route>
         <Route path="/">
           <Home_Page />

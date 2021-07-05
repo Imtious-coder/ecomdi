@@ -3,6 +3,9 @@ import './Career.css';
 import Image1 from './Teams_3_copy.jpg';
 import Image2 from './Job_Categories-s.jpg';
 import Image3 from './Location_copy.jpg';
+import { Link } from 'react-router-dom';
+import JobByCategories from '../JobByCategories/JobByCategories';
+import JobsNavigation from '../JobsNavigation/JobsNavigation';
 
 const Career = () => {
     return (
@@ -101,6 +104,7 @@ const Career = () => {
                     </div>
                 </div>
             </section>
+            <JobsNavigation />
         </div>
     );
 };

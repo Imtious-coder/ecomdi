@@ -76,6 +76,10 @@
     color: rgb(0, 30, 94);
     background: white;
 }
+.Jobs_Links:hover{
+    color: white;
+    text-decoration: underline;
+}
 @media (max-width:360px) {
     .Fifth_Section_Button{
         font-size: 10px;

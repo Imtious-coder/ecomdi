@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <section className="grid md:grid-cols-4 grid-cols-2 bg-gray-900 Roboto">
+        <section className="grid md:grid-cols-4 grid-cols-2 bg-gray-900">
             <div className="text-sm m-10 leading-5">
                 <p className="text-xl text-gray-300"><b>Get to Know Us</b></p>
                 <Link to="/career">
