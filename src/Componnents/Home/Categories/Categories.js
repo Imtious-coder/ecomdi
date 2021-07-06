@@ -5,6 +5,7 @@ import './Categories.css';
 
 
 
+
 const menu = (
     <Menu>
         <Menu.Item>
@@ -35,16 +36,6 @@ const menu = (
         <Menu.Item>
             <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
                 Bick and Scooter
-            </a>
-        </Menu.Item>
-        <Menu.Item>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
-                Home and Lifestyles
-            </a>
-        </Menu.Item>
-        <Menu.Item>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
-                Health and Beauty
             </a>
         </Menu.Item>
         <Menu.Item>

@@ -40,13 +40,50 @@ import Checkout from './Componnents/Cart/Checkout/Checkout';
 import Shipment from './Componnents/Cart/Shipment/Shipment';
 import SwitchToSellerPage from './Componnents/Seller/SwitchToSellerPage/SwitchToSellerPage';
 import SellerInfo from './Componnents/Seller/SellerInfo/SellerInfo';
-import StoreInfo from './Componnents/Seller/StoreInfo/StoreInfo';
-import Career from './Componnents/Career/Careers/Career';
-import JobByCategories from './Componnents/Career/JobByCategories/JobByCategories';
-import JobsNavigation from './Componnents/Career/JobsNavigation/JobsNavigation';
-import JobsByTeam from './Componnents/Career/JobsByTeam/JobsByTeam';
-import JobsByLocation from './Componnents/Career/JobsByLocation/JobsByLocation';
-
+import Bikes from './Componnents/Home/Categories/Bikes/Bikes';
+import Scooter from './Componnents/Home/Categories/Scooter/Scooter';
+import MobileData from './Componnents/Home/Categories/Mobile/MobileData';
+import Laptop from './Componnents/Home/Categories/Laptop/Laptop';
+import Groceries from './Componnents/Home/Categories/Groceries/Groceries';
+import Suzuki from './Componnents/Home/Categories/Suzuki/Suzuki';
+import Honda from './Componnents/Home/Categories/Honda/Honda';
+import Hero from './Componnents/Home/Categories/Hero/Hero';
+import TVS from './Componnents/Home/Categories/TVS/TVS';
+import Yamaha from './Componnents/Home/Categories/Yamaha/Yamaha';
+import Comuter from './Componnents/Home/Categories/Comuter/Comuter';
+import Sportsb from './Componnents/Home/Categories/Sports-bike/Sportsb';
+import Nacbike from './Componnents/Home/Categories/Nacked-Bike/Nacbike';
+import Oil from './Componnents/Home/Categories/Groceries/Oil/Oil';
+import Chal from './Componnents/Home/Categories/Groceries/Chal/Chal';
+import Spices from './Componnents/Home/Categories/Groceries/Spices/Spices';
+import Df from './Componnents/Home/Categories/Groceries/Dryfruits/Df';
+import Nokia from './Componnents/Home/Categories/Mobile/Nokia/Nokia';
+import Blackberry from './Componnents/Home/Categories/Mobile/BlackBerry/Blackberry';
+import Realme from './Componnents/Home/Categories/Mobile/Realme/Realme';
+import Samsung from './Componnents/Home/Categories/Mobile/Samsung/Samsung';
+import Walton from './Componnents/Home/Categories/Mobile/Walton/Walton';
+import Iphone from './Componnents/Home/Categories/Mobile/Iphone/Iphone';
+import Android from './Componnents/Home/Categories/Mobile/Android/Android';
+import Asus from './Componnents/Home/Categories/Laptop/Asus/Asus';
+import Dell from './Componnents/Home/Categories/Laptop/Dell/Dell';
+import Hp from './Componnents/Home/Categories/Laptop/Hp/Hp';
+import Lenovo from './Componnents/Home/Categories/Laptop/Lenovo/Lenovo';
+import Macbook from './Componnents/Home/Categories/Laptop/Macbook/Macbook';
+import Television from './Componnents/Home/Categories/Television/Television';
+import HealthBeauty from './Componnents/Home/Categories/HealthandBeauty/HealthBeauty';
+import ManFashion from './Componnents/Home/Categories/MansFashion/ManFashion';
+import WomenFashion from './Componnents/Home/Categories/WomensFashion/WomenFashion';
+import SecurityCam  from './Componnents/Home/Categories/SecurityCamera/SecurityCam';
+import SmartGadgets from './Componnents/Home/Categories/SmartGadgets/SmartGadgets';
+import Sports from './Componnents/Home/Categories/Sports/Sports';
+import Touring from './Componnents/Home/Categories/Touring/Touring';
+import Babytoy from './Componnents/Home/Categories/BabiesandToys/Babytoy'
+import Blender from './Componnents/Home/Categories/HomeandLifestyle/Blender/Blender';
+import ChairTable from './Componnents/Home/Categories/HomeandLifestyle/ChairandTable/ChairTable';
+import Doormat from './Componnents/Home/Categories/HomeandLifestyle/DoorMats/Doormat';
+import WaterFilter from './Componnents/Home/Categories/HomeandLifestyle/Water Filter/WaterFilter';
+import Homeaccess from './Componnents/Home/Categories/HomeandLifestyle/Home Accecories/Homeaccess';
+import Kitchen from './Componnents/Home/Categories/HomeandLifestyle/Kitchen Items/Kitchen';
 function App() {
   return (
     <Router>
@@ -63,6 +100,138 @@ function App() {
         </Route>
         <Route path="/products">
           <Products />
+        </Route>
+        <Route path="/bikes">
+          <Bikes />
+        </Route>
+        <Route path="/scooter">
+          <Scooter />
+        </Route>
+        <Route path="/tvs">
+          <TVS />
+        </Route>
+        <Route path="/suzuki">
+          <Suzuki />
+        </Route>
+        <Route path="/yamaha">
+          <Yamaha />
+        </Route>
+        <Route path="/honda">
+          <Honda />
+        </Route>  
+        <Route path="/hero">
+          <Hero />
+        </Route>
+        <Route path="/comuter-bike">
+          <Comuter />
+        </Route>
+        <Route path="/sports-bike">
+          <Sportsb />
+        </Route>
+        <Route path="/nacked-bike">
+          <Nacbike />
+        </Route>
+        <Route path="/mobile">
+          <MobileData />
+        </Route>
+        <Route path="/nokia">
+          <Nokia />
+        </Route>
+        <Route path="/blackberry">
+          <Blackberry />
+        </Route>
+        <Route path="/realme">
+          <Realme />
+        </Route>
+        <Route path="/samsung">
+          <Samsung />
+        </Route>
+        <Route path="/walton">
+          <Walton />
+        </Route>
+        <Route path="/iphone">
+          <Iphone />
+        </Route>
+        <Route path="/android">
+          <Android />
+        </Route>
+        <Route path="/laptop">
+          <Laptop />
+        </Route>
+        <Route path="/asus">
+          <Asus />
+        </Route>
+        <Route path="/dell">
+          <Dell />
+        </Route>
+        <Route path="/lenovo">
+          <Lenovo />
+        </Route>
+        <Route path="/macbook">
+          <Macbook />
+        </Route>
+        <Route path="/hp">
+          <Hp />
+        </Route>
+        <Route path="/groceries">
+          <Groceries />
+        </Route>
+        <Route path="/oil">
+          <Oil />
+        </Route>
+        <Route path="/chal">
+          <Chal />
+        </Route>
+        <Route path="/spices">
+          <Spices />
+        </Route>
+        <Route path="/dry-fruits">
+          <Df />
+        </Route>
+        <Route path="/television">
+          <Television />
+        </Route>
+        <Route path="/security-camera">
+          <SecurityCam />
+        </Route>
+        <Route path="/health-and-beauty">
+          <HealthBeauty />
+        </Route>
+        <Route path="/men-fashion">
+          <ManFashion />
+        </Route>
+        <Route path="/women-fashion">
+          <WomenFashion />
+        </Route>
+        <Route path="/blender">
+          <Blender />
+        </Route>
+        <Route path="/chair-table">
+          <ChairTable />
+        </Route>
+        <Route path="/doormats">
+          <Doormat />
+        </Route>
+        <Route path="/home-accecories">
+          <Homeaccess />
+        </Route>
+        <Route path="/kitchen">
+          <Kitchen />
+        </Route>
+        <Route path="/water-filter">
+          <WaterFilter />
+        </Route>
+        <Route path="/babies-toys">
+          <Babytoy />
+        </Route>
+        <Route path="/smart-gadgets">
+          <SmartGadgets />
+        </Route>
+        <Route path="/sports">
+          <Sports />
+        </Route>
+        <Route path="/touring">
+          <Touring />
         </Route>
         <Route path="/footer">
           <Footer />
@@ -148,9 +317,6 @@ function App() {
         <Route path="/manageYourProfiles">
           <ManageYourProfiles />
         </Route>
-        <Route path="/storeInfo">
-          <StoreInfo />
-        </Route>
         <Route path="/devices">
           <Devices />
         </Route>
@@ -162,21 +328,6 @@ function App() {
         </Route>
         <Route path="/manageDevices">
           <ManageDevices />
-        </Route>
-        <Route path="/career">
-          <Career />
-        </Route>
-        <Route path="/jobByCategories">
-          <JobByCategories />
-        </Route>
-        <Route path="/jobsByTeam">
-          <JobsByTeam />
-        </Route>
-        <Route path="/jobsByLocation">
-          <JobsByLocation />
-        </Route>
-        <Route path="/jobsNavigation">
-          <JobsNavigation />
         </Route>
         <Route path="/">
           <Home_Page />
