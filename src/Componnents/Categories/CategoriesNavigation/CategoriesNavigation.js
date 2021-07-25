@@ -13,11 +13,11 @@ const CategoriesNavigation = () => {
         <section className="Tes">
             <Menu onClick={handleClick} mode="vertical">
                 <SubMenu title="Mobiles & Laptop">
-                    <Menu.Item className="loll">All Phone</Menu.Item>
-                    <Menu.Item  className="loll">All Laptops</Menu.Item>
-                    <Menu.Item  className="loll">Nokia</Menu.Item>
-                    <Menu.Item  className="loll">Blackberry</Menu.Item>
-                    <Menu.Item  className="loll">Realme</Menu.Item>
+                    <Menu.Item>All Phone</Menu.Item>
+                    <Menu.Item>All Laptops</Menu.Item>
+                    <Menu.Item>Nokia</Menu.Item>
+                    <Menu.Item>Blackberry</Menu.Item>
+                    <Menu.Item>Realme</Menu.Item>
                     <Menu.Item >Samsung</Menu.Item>
                     <Menu.Item >Walton</Menu.Item>
                     <Menu.Item >iphone</Menu.Item>
@@ -67,7 +67,6 @@ const CategoriesNavigation = () => {
                 <Menu.Item >Sports</Menu.Item>
                 <Menu.Item >Touring</Menu.Item>
                 <Menu.Item >Smart Gadgets</Menu.Item>
-
             </Menu>
         </section>
     );

@@ -45,12 +45,12 @@ const SwitchToSellerPage = () => {
                 <div className="Info_Card">
                     <FontAwesomeIcon className="Info_Card_Icon" icon={faPlaneDeparture} />
                     <p className="Info_Card_Title">Scale with FBA</p>
-                    <p className="text-gray-400 Roboto mt-2">Leave the shipping, returns, and customer service to us with Fulfillment by Amazon (FBA). It’s the easiest way to reach 150 million paid Prime members around the world.</p>
+                    <p className="text-gray-400 Roboto mt-2">Leave the shipping, returns, and customer service to us with Fulfillment by Ecomdi (FBA). It’s the easiest way to reach 150 million paid Prime members around the world.</p>
                 </div>
                 <div className="Info_Card">
                     <FontAwesomeIcon className="Info_Card_Icon" icon={faHandHoldingUsd} />
                     <p className="Info_Card_Title">Make money</p>
-                    <p className="text-gray-400 Roboto mt-2">In 2019, nearly 225,000 Amazon sellers worldwide eclipsed $100,000 in sales, up from nearly 200,000 in 2018—and 15,000 U.S. businesses broke $1 million.</p>
+                    <p className="text-gray-400 Roboto mt-2">In 2019, nearly 225,000 Ecomdi sellers worldwide eclipsed $100,000 in sales, up from nearly 200,000 in 2018—and 15,000 U.S. businesses broke $1 million.</p>
                 </div>
             </section>
             {/* Section four */}
@@ -89,12 +89,12 @@ const SwitchToSellerPage = () => {
                 <div className="Info_Card">
                     <FontAwesomeIcon className="Info_Card_Icon" icon={faClipboard} />
                     <p className="Info_Card_Title">What is dropshipping?</p>
-                    <p className="text-gray-400 Roboto mt-2">This guide covers the definition of dropshipping, how it works, pros and cons, related Amazon policies, and alternatives to consider for ecommerce businesses.</p>
+                    <p className="text-gray-400 Roboto mt-2">This guide covers the definition of dropshipping, how it works, pros and cons, related Ecomdi policies, and alternatives to consider for ecommerce businesses.</p>
                 </div>
                 <div className="Info_Card">
                     <FontAwesomeIcon className="Info_Card_Icon" icon={faCartPlus} />
                     <p className="Info_Card_Title">Create an Ecomdi storefront</p>
-                    <p className="text-gray-400 Roboto mt-2">Learn how to tell your brand story using Amazon tools. Build immersivei storefronts and customize product detail pages with rich media and content.</p>
+                    <p className="text-gray-400 Roboto mt-2">Learn how to tell your brand story using Ecomdi tools. Build immersivei storefronts and customize product detail pages with rich media and content.</p>
                 </div>
             </section>
         </div>

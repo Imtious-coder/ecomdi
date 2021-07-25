@@ -42,6 +42,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://unpkg.com/js-image-zoom@0.7.0/js-image-zoom.js" type="application/javascript"></script>
     <title>ecomDi</title>
   </head>
   <body>
@@ -57,5 +58,23 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+
+    <script>
+  var options = {
+      width: 400,
+      height: 250,
+      zoomWidth: 500,
+      offset: {vertical: 0, horizontal: 10},
+      scale: 1.5
+  };
+  var options2 = {
+      fillContainer: true,
+      offset: {vertical: 0, horizontal: 10}
+  }
+    
+    new ImageZoom(document.getElementById("Product_Main_Image"), options);
+
+    </script>
   </body>
 </html>

@@ -11,7 +11,7 @@ import "react-multi-carousel/lib/styles.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
-
+import { HandOutline } from 'heroicons-react';
 
 const responsive = {
     superLargeDesktop: {
@@ -31,8 +31,6 @@ const responsive = {
         items: 2
     }
 };
-
-
 
 const Products = () => {
     const [bicks, setBicks] = useState([]);
@@ -59,6 +57,7 @@ const Products = () => {
             <section style={{ overflowX: "scroll" }} className="flex Scroll ml-3 mr-10">
                 {
                     mobiles.map((e) => {
+
                         return (
                             <div className="flex justify-center">
                                 <Link to="/detailsPage">

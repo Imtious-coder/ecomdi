@@ -22,7 +22,7 @@ const Step2 = () => {
                         <p className="mt-5 ml-5">1. Sign in with your password. An error message will occur.</p>
                         <p className="ml-5">2. An OTP will be sent to your preferred phone. You may also use an authenticator app.</p>
                         <p className="ml-5 mb-5">3. Add ("append") the OTP to the end of your password, and click "Sign-In" again.</p>
-                        <p>You will then be signed in to your Amazon account.</p>
+                        <p>You will then be signed in to your Ecomdi account.</p>
                     </div>
                     <div className="border-t-2 border-b-2 mb-5 pt-3 pb-3">
                         <b className="text-2xl">2. Suppress OTP challenge during Sign-In</b>

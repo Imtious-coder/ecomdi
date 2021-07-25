@@ -52,7 +52,7 @@ const Devices = () => {
                                 <img src={Image1} alt="" className="Images" />
                             </div>
                             <h1 className="font-bold text-lg mb-2">Ask the ecomdi Community</h1>
-                            <p>Get answers from other Amazon customers on the Digital and Device Forum.</p>
+                            <p>Get answers from other Ecomdi customers on the Digital and Device Forum.</p>
                             <a href="https://www.facebook.com/cdiltd" target="_blank" className="text-blue-600 font-bold">Our page</a>
                         </div>
                         <div className="mt-5">

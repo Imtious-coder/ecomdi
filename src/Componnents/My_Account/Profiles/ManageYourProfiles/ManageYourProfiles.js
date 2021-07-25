@@ -14,7 +14,7 @@ const ManageYourProfiles = () => {
                     <p className="font-bold border-b-2 pb-2">Account holder</p>
                     {/* Information */}
                     <p className="border-t-2 text-2xl font-bold pt-2 mt-4">Enrolled Programs</p>
-                    <p className="border-b-2 pb-2">This profile is enrolled in the following Amazon programs. Tap a program to customize program settings.</p>
+                    <p className="border-b-2 pb-2">This profile is enrolled in the following Ecomdi programs. Tap a program to customize program settings.</p>
                     {/* Back button */}
                     <Link to="/profiles">
                         <button className="Button2 shadow mt-4">Back</button>

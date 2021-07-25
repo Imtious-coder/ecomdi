@@ -22,7 +22,7 @@ const Mobile = () => {
                     <input className="border-2 pl-2 pt-1 pb-1 rounded mt-1 mb-5 w-full" type="text" name="name" id="Name" /> <br />
                     <div className="border-t-2 border-b-2 mb-8 mt-3 pt-2 pb-2">
                         {/* Ingo msg */}
-                        <p>By enrolling a mobile phone number, you consent to receive automated text messages from or on behalf of Amazon
+                        <p>By enrolling a mobile phone number, you consent to receive automated text messages from or on behalf of Ecomdi
                         related to account management and security. Remove your number in Login and Security to cancel. Message and data rates may apply.
                         </p>
                     </div>

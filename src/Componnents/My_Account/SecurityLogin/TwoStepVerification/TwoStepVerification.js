@@ -14,7 +14,7 @@ const TwoStepVerification = () => {
                         <p>
                             <b>Why do I need this?</b>
                         </p>
-                        <p>Passwords can get stolen - especially if you use the same password for multiple sites. Adding Two-Step Verification means that even if your password gets stolen, your Amazon account will remain secure.
+                        <p>Passwords can get stolen - especially if you use the same password for multiple sites. Adding Two-Step Verification means that even if your password gets stolen, your Ecomdi account will remain secure.
 
                         </p>
                     </div>

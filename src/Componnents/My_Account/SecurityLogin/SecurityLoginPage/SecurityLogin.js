@@ -112,7 +112,7 @@ const SecurityLogin = () => {
                 <div className="grid grid-cols-2 ml-10 mr-10 mb-10 pt-5 border rounder shadow-lg">
                     <div className="-mr-20 ml-10 mb-5 ">
                         <p className="font-bold">Secure Your Account:</p>
-                        <p>If you think your Amazon account has been compromised, follow these steps to make your account more secure.</p>
+                        <p>If you think your Ecomdi account has been compromised, follow these steps to make your account more secure.</p>
                     </div>
                     <div className="ml-10 flex justify-end content-center flex-wrap">
                         <Link to="/secureYourAccount">

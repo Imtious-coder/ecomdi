@@ -1,13 +1,15 @@
 .Categories{
-    background-color: rgb(193, 240, 197);
+    /* background-color: rgb(193, 240, 197); */
+    background-image: linear-gradient(to right, black, rgb(2, 16, 99));
+
 }
 .All_Categories{
     width: 100%;
     font-size: 16px;
     outline: none!important;
-    color: rgb(48, 48, 48);
-    padding: 0px 20px 0.5px 20px;
-    background-color: rgb(193, 240, 197);
+    color: rgb(180, 180, 180);
+    padding: 3px 20px 3.5px 20px;
+    background-color: transparent;
 }
 .All_Categories:hover{
     background-color: rgb(148, 247, 156);
@@ -16,9 +18,9 @@
 .Categories_Button{
     width: 100%;
     font-size: 16px;
-    color: rgb(71, 71, 71);
+    color: rgb(209, 209, 209);
     outline: none!important;
-    background-color: rgb(193, 240, 197);
+    background-color: transparent;
 }
 .Categories_Button:hover{
     background-color: rgb(148, 247, 156);
@@ -26,7 +28,7 @@
 }
 .Sell{
     color:blanchedalmond;
-    background-image: linear-gradient(to right, black, rgb(2, 16, 99));
+    background-image: linear-gradient(to right, black, rgb(0, 79, 85));
 }
 .Sell:hover{
     color: white;

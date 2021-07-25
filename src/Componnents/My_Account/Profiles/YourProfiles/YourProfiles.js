@@ -10,7 +10,7 @@ const YourProfiles = () => {
             {/* Main Card */}
             <section className="flex justify-center ml-10 mr-10 mt-10 ">
                 <div className="md:w-2/5 border-b-2 pb-4">
-                    <p className="border-t-2 border-b-2 pt-2 pb-2">Amazon programs may use these profiles to provide a personalized experience.</p>
+                    <p className="border-t-2 border-b-2 pt-2 pb-2">Ecomdi programs may use these profiles to provide a personalized experience.</p>
                     {/* Account button */}
                     <Link to="/manageYourProfiles">
                         <button className="AccountButton">Yusuf Islam</button>

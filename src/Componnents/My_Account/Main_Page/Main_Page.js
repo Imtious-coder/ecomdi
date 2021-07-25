@@ -89,7 +89,7 @@ const Main_Page = () => {
                         </div>
                         <div className="md:text-left sm:text-center m-5">
                             <p className="text-xl font-bold">Your Devices and Contents</p>
-                            <p>Manage your Amazon devices and digital content</p>
+                            <p>Manage your Ecomdi devices and digital content</p>
                         </div>
                     </section>
                 </Link>
@@ -100,7 +100,7 @@ const Main_Page = () => {
                     </div>
                     <div className="md:text-left sm:text-center m-6">
                         <p className="text-xl font-bold">Your Messages</p>
-                        <p>View messages to and from Amazon, sellers, and buyers</p>
+                        <p>View messages to and from Ecomdi, sellers, and buyers</p>
                     </div>
                 </section>
                 {/* Eighth card */}

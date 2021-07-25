@@ -11,7 +11,7 @@ const Name = () => {
             <section className="flex justify-center ml-10 mr-10 mt-10 ">
                 <div className="md:w-2/5">
                     <p className="border-t-2 border-b-2 pt-2 pb-2">
-                        If you want to change the name associated with your Amazon customer account, you may do so below. Be sure to click the Save Changes button when you are done.
+                        If you want to change the name associated with your Ecomdi customer account, you may do so below. Be sure to click the Save Changes button when you are done.
                     </p>
                     <p className="font-bold mt-8">
                         New name

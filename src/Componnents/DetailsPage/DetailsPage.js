@@ -10,7 +10,7 @@ const DetailsPage = () => {
     const handleDecrease = () => {
         const newCount = count - 1;
         setCount(newCount)
-        if (count <= 0){
+        if (count <= 0) {
             setCount(0)
         }
     };
@@ -18,6 +18,7 @@ const DetailsPage = () => {
         const newCounts = count + 1;
         setCount(newCounts);
     }
+
     return (
         <section className="m-10 pb-10">
             {/* Top section */}
