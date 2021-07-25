@@ -72,7 +72,7 @@ const SellerInfo = () => {
                     <p className="font-bold mb-1">Phone number for verify</p>
                     <input className="Seller_Info_Inputs" type="text" name="" id="" placeholder="+8801674729222" />
                     {/* Send Button */}
-                    <Link to="storeInfo">
+                    <Link to="mainHome">
                     <button className="Seller_Info_Send_Button mt-3" type="submit">Send SMS</button>
                     </Link>
                 </form>
