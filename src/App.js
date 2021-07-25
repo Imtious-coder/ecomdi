@@ -84,6 +84,9 @@ import Doormat from './Componnents/Home/Categories/HomeandLifestyle/DoorMats/Doo
 import WaterFilter from './Componnents/Home/Categories/HomeandLifestyle/Water Filter/WaterFilter';
 import Homeaccess from './Componnents/Home/Categories/HomeandLifestyle/Home Accecories/Homeaccess';
 import Kitchen from './Componnents/Home/Categories/HomeandLifestyle/Kitchen Items/Kitchen';
+import Aboutecomdi from './Componnents/Footerpages/About/Aboutecomdi'
+import InvestRelation from './Componnents/Footerpages/InvRel/InvRel'
+import SellonProduct from './Componnents/Footerpages/SellProduct/Sellpro'
 function App() {
   return (
     <Router>
@@ -329,10 +332,21 @@ function App() {
         <Route path="/manageDevices">
           <ManageDevices />
         </Route>
+        {/* footer navigation start */}
+        <Route path="/about-ecomdi">
+          <Aboutecomdi />
+        </Route>
+        <Route path="/investor-relation">
+          <InvestRelation />
+        </Route>
+        <Route path='/sell-on-product'>
+          <SellonProduct />
+        </Route>
         <Route path="/">
           <Home_Page />
-        </Route>
+        </Route> 
       </Switch>
+      
       <Footer />
     </Router>
   );
