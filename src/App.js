@@ -47,6 +47,53 @@ import JobsNavigation from './Componnents/Career/JobsNavigation/JobsNavigation';
 import JobsByTeam from './Componnents/Career/JobsByTeam/JobsByTeam';
 import JobsByLocation from './Componnents/Career/JobsByLocation/JobsByLocation';
 
+import Bikes from './Componnents/Home/Categories/Bikes/Bikes';
+import Scooter from './Componnents/Home/Categories/Scooter/Scooter';
+import MobileData from './Componnents/Home/Categories/Mobile/MobileData';
+import Laptop from './Componnents/Home/Categories/Laptop/Laptop';
+import Groceries from './Componnents/Home/Categories/Groceries/Groceries';
+import Suzuki from './Componnents/Home/Categories/Suzuki/Suzuki';
+import Honda from './Componnents/Home/Categories/Honda/Honda';
+import Hero from './Componnents/Home/Categories/Hero/Hero';
+import TVS from './Componnents/Home/Categories/TVS/TVS';
+import Yamaha from './Componnents/Home/Categories/Yamaha/Yamaha';
+import Comuter from './Componnents/Home/Categories/Comuter/Comuter';
+import Sportsb from './Componnents/Home/Categories/Sports-bike/Sportsb';
+import Nacbike from './Componnents/Home/Categories/Nacked-Bike/Nacbike';
+import Oil from './Componnents/Home/Categories/Groceries/Oil/Oil';
+import Chal from './Componnents/Home/Categories/Groceries/Chal/Chal';
+import Spices from './Componnents/Home/Categories/Groceries/Spices/Spices';
+import Df from './Componnents/Home/Categories/Groceries/Dryfruits/Df';
+import Nokia from './Componnents/Home/Categories/Mobile/Nokia/Nokia';
+import Blackberry from './Componnents/Home/Categories/Mobile/BlackBerry/Blackberry';
+import Realme from './Componnents/Home/Categories/Mobile/Realme/Realme';
+import Samsung from './Componnents/Home/Categories/Mobile/Samsung/Samsung';
+import Walton from './Componnents/Home/Categories/Mobile/Walton/Walton';
+import Iphone from './Componnents/Home/Categories/Mobile/Iphone/Iphone';
+import Android from './Componnents/Home/Categories/Mobile/Android/Android';
+import Asus from './Componnents/Home/Categories/Laptop/Asus/Asus';
+import Dell from './Componnents/Home/Categories/Laptop/Dell/Dell';
+import Hp from './Componnents/Home/Categories/Laptop/Hp/Hp';
+import Lenovo from './Componnents/Home/Categories/Laptop/Lenovo/Lenovo';
+import Macbook from './Componnents/Home/Categories/Laptop/Macbook/Macbook';
+import Television from './Componnents/Home/Categories/Television/Television';
+import HealthBeauty from './Componnents/Home/Categories/HealthandBeauty/HealthBeauty';
+import ManFashion from './Componnents/Home/Categories/MansFashion/ManFashion';
+import WomenFashion from './Componnents/Home/Categories/WomensFashion/WomenFashion';
+import SecurityCam  from './Componnents/Home/Categories/SecurityCamera/SecurityCam';
+import SmartGadgets from './Componnents/Home/Categories/SmartGadgets/SmartGadgets';
+import Sports from './Componnents/Home/Categories/Sports/Sports';
+import Touring from './Componnents/Home/Categories/Touring/Touring';
+import Babytoy from './Componnents/Home/Categories/BabiesandToys/Babytoy'
+import Blender from './Componnents/Home/Categories/HomeandLifestyle/Blender/Blender';
+import ChairTable from './Componnents/Home/Categories/HomeandLifestyle/ChairandTable/ChairTable';
+import Doormat from './Componnents/Home/Categories/HomeandLifestyle/DoorMats/Doormat';
+import WaterFilter from './Componnents/Home/Categories/HomeandLifestyle/Water Filter/WaterFilter';
+import Homeaccess from './Componnents/Home/Categories/HomeandLifestyle/Home Accecories/Homeaccess';
+import Kitchen from './Componnents/Home/Categories/HomeandLifestyle/Kitchen Items/Kitchen';
+import Aboutecomdi from './Componnents/Footerpages/About/Aboutecomdi'
+import InvestRelation from './Componnents/Footerpages/InvRel/InvRel'
+import SellonProduct from './Componnents/Footerpages/SellProduct/Sellpro'
 function App() {
   return (
     <Router>
@@ -178,10 +225,20 @@ function App() {
         <Route path="/jobsNavigation">
           <JobsNavigation />
         </Route>
+        <Route path="/about-ecomdi">
+          <Aboutecomdi />
+        </Route>
+        <Route path="/investor-relation">
+          <InvestRelation />
+        </Route>
+        <Route path='/sell-on-product'>
+          <SellonProduct />
+        </Route>
         <Route path="/">
           <Home_Page />
-        </Route>
+        </Route> 
       </Switch>
+      
       <Footer />
     </Router>
   );
