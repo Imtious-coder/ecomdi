@@ -9,57 +9,57 @@ import './Categories.css';
 const menu = (
     <Menu>
         <Menu.Item>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.antgroup.com">
+            <a target="" rel="noopener noreferrer" href="#">
                 Electronics Devices
             </a>
         </Menu.Item>
         <Menu.Item>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.aliyun.com">
+            <a target="" rel="noopener noreferrer" href="#">
                 Mobile
             </a>
         </Menu.Item>
         <Menu.Item>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+            <a target="" rel="noopener noreferrer" href="#">
                 Laptop
             </a>
         </Menu.Item>
         <Menu.Item>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+            <a target="" rel="noopener noreferrer" href="#">
                 Television
             </a>
         </Menu.Item>
         <Menu.Item>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+            <a target="" rel="noopener noreferrer" href="#">
                 Security Cameras
             </a>
         </Menu.Item>
         <Menu.Item>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+            <a target="" rel="noopener noreferrer" href="#">
                 Bick and Scooter
             </a>
         </Menu.Item>
         <Menu.Item>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+            <a target="" rel="noopener noreferrer" href="#">
                 Groceries
             </a>
         </Menu.Item>
         <Menu.Item>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+            <a target="" rel="noopener noreferrer" href="#">
                 Women's Fasion
             </a>
         </Menu.Item>
         <Menu.Item>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+            <a target="" rel="noopener noreferrer" href="#">
                 Men's Fasion
             </a>
         </Menu.Item>
         <Menu.Item>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+            <a target="" rel="noopener noreferrer" href="#">
                 Babies and Toy's
             </a>
         </Menu.Item>
         <Menu.Item>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.luohanacademy.com">
+            <a target="" rel="noopener noreferrer" href="#">
                 Sports
             </a>
         </Menu.Item>
