@@ -46,7 +46,6 @@ import JobByCategories from './Componnents/Career/JobByCategories/JobByCategorie
 import JobsNavigation from './Componnents/Career/JobsNavigation/JobsNavigation';
 import JobsByTeam from './Componnents/Career/JobsByTeam/JobsByTeam';
 import JobsByLocation from './Componnents/Career/JobsByLocation/JobsByLocation';
-
 import Bikes from './Componnents/Home/Categories/Bikes/Bikes';
 import Scooter from './Componnents/Home/Categories/Scooter/Scooter';
 import MobileData from './Componnents/Home/Categories/Mobile/MobileData';
@@ -116,6 +115,9 @@ function App() {
         </Route>
         <Route path="/home">
           <Main_Page />
+        </Route>
+        <Route path="/iphone">
+          <Iphone />
         </Route>
         <Route path="/categories">
           <AllCategories />

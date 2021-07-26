@@ -9,7 +9,9 @@ const Footer = () => {
             <section className="grid md:grid-cols-4 grid-cols-2 bg-gray-900 Roboto">
                 <div className="text-sm m-10 leading-5">
                     <a href="" className="text-xl text-gray-300"><p><b>Get to Know Us</b></p></a>
+                    <Link to="/career">
                     <a href=""><p className="text-gray-400">Careers</p></a>
+                    </Link>
                     <a href=""><p className="text-gray-400">Blogs</p></a>
                   
                     <Link to='/about-ecomdi' >
