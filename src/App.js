@@ -110,6 +110,138 @@ function App() {
         <Route path="/products">
           <Products />
         </Route>
+        <Route path="/bikes">
+          <Bikes />
+        </Route>
+        <Route path="/scooter">
+          <Scooter />
+        </Route>
+        <Route path="/tvs">
+          <TVS />
+        </Route>
+        <Route path="/suzuki">
+          <Suzuki />
+        </Route>
+        <Route path="/yamaha">
+          <Yamaha />
+        </Route>
+        <Route path="/honda">
+          <Honda />
+        </Route>  
+        <Route path="/hero">
+          <Hero />
+        </Route>
+        <Route path="/comuter-bike">
+          <Comuter />
+        </Route>
+        <Route path="/sports-bike">
+          <Sportsb />
+        </Route>
+        <Route path="/nacked-bike">
+          <Nacbike />
+        </Route>
+        <Route path="/mobile">
+          <MobileData />
+        </Route>
+        <Route path="/nokia">
+          <Nokia />
+        </Route>
+        <Route path="/blackberry">
+          <Blackberry />
+        </Route>
+        <Route path="/realme">
+          <Realme />
+        </Route>
+        <Route path="/samsung">
+          <Samsung />
+        </Route>
+        <Route path="/walton">
+          <Walton />
+        </Route>
+        <Route path="/iphone">
+          <Iphone />
+        </Route>
+        <Route path="/android">
+          <Android />
+        </Route>
+        <Route path="/laptop">
+          <Laptop />
+        </Route>
+        <Route path="/asus">
+          <Asus />
+        </Route>
+        <Route path="/dell">
+          <Dell />
+        </Route>
+        <Route path="/lenovo">
+          <Lenovo />
+        </Route>
+        <Route path="/macbook">
+          <Macbook />
+        </Route>
+        <Route path="/hp">
+          <Hp />
+        </Route>
+        <Route path="/groceries">
+          <Groceries />
+        </Route>
+        <Route path="/oil">
+          <Oil />
+        </Route>
+        <Route path="/chal">
+          <Chal />
+        </Route>
+        <Route path="/spices">
+          <Spices />
+        </Route>
+        <Route path="/dry-fruits">
+          <Df />
+        </Route>
+        <Route path="/television">
+          <Television />
+        </Route>
+        <Route path="/security-camera">
+          <SecurityCam />
+        </Route>
+        <Route path="/health-and-beauty">
+          <HealthBeauty />
+        </Route>
+        <Route path="/men-fashion">
+          <ManFashion />
+        </Route>
+        <Route path="/women-fashion">
+          <WomenFashion />
+        </Route>
+        <Route path="/blender">
+          <Blender />
+        </Route>
+        <Route path="/chair-table">
+          <ChairTable />
+        </Route>
+        <Route path="/doormats">
+          <Doormat />
+        </Route>
+        <Route path="/home-accecories">
+          <Homeaccess />
+        </Route>
+        <Route path="/kitchen">
+          <Kitchen />
+        </Route>
+        <Route path="/water-filter">
+          <WaterFilter />
+        </Route>
+        <Route path="/babies-toys">
+          <Babytoy />
+        </Route>
+        <Route path="/smart-gadgets">
+          <SmartGadgets />
+        </Route>
+        <Route path="/sports">
+          <Sports />
+        </Route>
+        <Route path="/touring">
+          <Touring />
+        </Route>
         <Route path="/footer">
           <Footer />
         </Route>
@@ -196,9 +328,6 @@ function App() {
         </Route>
         <Route path="/manageYourProfiles">
           <ManageYourProfiles />
-        </Route>
-        <Route path="/storeInfo">
-          <StoreInfo />
         </Route>
         <Route path="/devices">
           <Devices />
