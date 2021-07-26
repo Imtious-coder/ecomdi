@@ -14,7 +14,7 @@ const Banner = () => {
         <section className="Banner bg-blue-50">
             <Carousel autoplay>
                 <div>
-                    <img className="Banner_Image" src={Image} alt="" />
+                    <img className="Banner_Image" src={Image4} alt="" />
                 </div>
                 <div>
                     <img className="Banner_Image" src={Image2} alt="" />
@@ -23,7 +23,7 @@ const Banner = () => {
                     <img className="Banner_Image" src={Image3} alt="" />
                 </div>
                 <div>
-                    <img className="Banner_Image" src={Image4} alt="" />
+                    <img className="Banner_Image" src={Image} alt="" />
                 </div>
             </Carousel>
         </section>

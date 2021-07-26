@@ -4,7 +4,7 @@ import Products from '../Products/Products';
 
 const Home_Page = () => {
     return (
-        <div className="BG3_2">
+        <div className="BG3_2 home">
             <Banner />
             <Products />
         </div>

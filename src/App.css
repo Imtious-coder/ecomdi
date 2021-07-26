@@ -98,3 +98,21 @@ html{
 .BG5{
   background-color: #bbff00;
 }
+
+
+/* width */
+html::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+html::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+html::-webkit-scrollbar-thumb {
+  background: #bbff00;
+  border-radius: 10px;
+}
