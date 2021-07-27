@@ -5,32 +5,32 @@ import './About.css'
 import about from './about.json'
 const news = [
     {
-      title: 'Bangkok’s street food vendors stay afloat with app built on AWS',
-      article :'Bangkok’s street food vendors stay afloat with app built on AWS',
+      title: 'Bangkok’s street food vendors stay afloat with app built on ',
+      article :'Bangkok’s street food vendors stay afloat with app built on ',
       image :'https://picsum.photos/id/29/2106/1404',
       id:'trending'
     },
     {
-        title: 'Bangkok’s street food vendors stay afloat with app built on AWS',
-        article :'Bangkok’s street food vendors stay afloat with app built on AWS',
+        title: 'Bangkok’s street food vendors stay afloat with app built on ',
+        article :'Bangkok’s street food vendors stay afloat with app built on ',
         image :'https://picsum.photos/id/29/2106/1404',
         id:'trending'
     },
     {
-        title: 'Bangkok’s street food vendors stay afloat with app built on AWS',
-        article :'Bangkok’s street food vendors stay afloat with app built on AWS',
+        title: 'Bangkok’s street food vendors stay afloat with app built on ',
+        article :'Bangkok’s street food vendors stay afloat with app built on ',
         image :'https://picsum.photos/id/29/2106/1404',
         id:'trending'
     },
     {
-        title: 'Bangkok’s street food vendors stay afloat with app built on AWS',
-        article :'Bangkok’s street food vendors stay afloat with app built on AWS',
+        title: 'Bangkok’s street food vendors stay afloat with app built on ',
+        article :'Bangkok’s street food vendors stay afloat with app built on ',
         image :'https://picsum.photos/id/29/2106/1404',
         id:'trending'
     },
     {
-        title: 'Bangkok’s street food vendors stay afloat with app built on AWS',
-        article :'Bangkok’s street food vendors stay afloat with app built on AWS',
+        title: 'Bangkok’s street food vendors stay afloat with app built on ',
+        article :'Bangkok’s street food vendors stay afloat with app built on ',
         image :'https://picsum.photos/id/29/2106/1404',
         id:'me'
     }
@@ -61,7 +61,7 @@ const Aboutecomdi = () => {
                     <div className="lg:m-4 shadow-md hover:shadow-lg hover:bg-gray-100 rounded-lg bg-white my-12 mx-8">
                         <img src="https://picsum.photos/id/29/2106/1404" alt="" class="overflow-hidden" />
                         <div className="p-4">
-                            <a href='#' className="font-medium text-gray-600 text-lg my-2 uppercase ">Bangkok’s street food vendors stay afloat with app built on AWS</a>
+                            <a href='#' className="font-medium text-gray-600 text-lg my-2 uppercase ">Bangkok’s street food vendors stay afloat with app built on </a>
                             <p className="text-justify mt-2">The be might what days revellers, which sought to a nor. Land from to suits his some. Saw him counsel begun mother though but. Ofttimes soils of since mighty pollution.</p>
                             <div className="mt-5">
                                 <a href="" className="text-black text-left text-bold">Read More</a>
@@ -140,10 +140,10 @@ const Aboutecomdi = () => {
             <section className="grid md:grid-cols-2 grid-cols-1 m-5 p-6  bg-black text-base rounded text-left">
                 <div>
                     <h3 className='' style={{ color: '#FF9900' }}>
-                        Amazon News
+                        Ecomdi News
                     </h3>
                     <p className='' style={{ color: '#fff' }}>
-                        Sign up for the latest news, facts, analysis, and original stories about Amazon delivered to you.
+                        Sign up for the latest news, facts, analysis, and original stories about Ecomdi delivered to you.
                     </p>
                 </div>
                 <div>
@@ -210,7 +210,7 @@ const Aboutecomdi = () => {
                     <div className="lg:m-4 shadow-md hover:shadow-lg hover:bg-gray-100 rounded-lg bg-white my-12 mx-8">
                         <img src="https://picsum.photos/id/29/2106/1404" alt="" class="overflow-hidden" />
                         <div className="p-4">
-                            <a href='#' className="font-medium text-gray-600 text-lg my-2 uppercase ">Bangkok’s street food vendors stay afloat with app built on AWS</a>
+                            <a href='#' className="font-medium text-gray-600 text-lg my-2 uppercase ">Bangkok’s street food vendors stay afloat with app built on </a>
                             <p className="text-justify mt-2">The be might what days revellers, which sought to a nor. Land from to suits his some. Saw him counsel begun mother though but. Ofttimes soils of since mighty pollution.</p>
                             <div className="mt-5">
                                 <a href="" className="text-black text-left text-bold">Read More</a>
@@ -223,7 +223,7 @@ const Aboutecomdi = () => {
                     <div className="lg:m-4 shadow-md hover:shadow-lg hover:bg-gray-100 rounded-lg bg-white my-12 mx-8">
                         <img src="https://picsum.photos/id/29/2106/1404" alt="" class="overflow-hidden" />
                         <div className="p-4">
-                            <a href='#' className="font-medium text-gray-600 text-lg my-2 uppercase ">Bangkok’s street food vendors stay afloat with app built on AWS</a>
+                            <a href='#' className="font-medium text-gray-600 text-lg my-2 uppercase ">Bangkok’s street food vendors stay afloat with app built on </a>
                             <p className="text-justify mt-2">The be might what days revellers, which sought to a nor. Land from to suits his some. Saw him counsel begun mother though but. Ofttimes soils of since mighty pollution.</p>
                             <div className="mt-5">
                                 <a href="" className="text-black text-left text-bold">Read More</a>
@@ -236,7 +236,7 @@ const Aboutecomdi = () => {
                     <div className="lg:m-4 shadow-md hover:shadow-lg hover:bg-gray-100 rounded-lg bg-white my-12 mx-8">
                         <img src="https://picsum.photos/id/29/2106/1404" alt="" class="overflow-hidden" />
                         <div className="p-4">
-                            <a href='#' className="font-medium text-gray-600 text-lg my-2 uppercase ">Bangkok’s street food vendors stay afloat with app built on AWS</a>
+                            <a href='#' className="font-medium text-gray-600 text-lg my-2 uppercase ">Bangkok’s street food vendors stay afloat with app built on </a>
                             <p className="text-justify mt-2">The be might what days revellers, which sought to a nor. Land from to suits his some. Saw him counsel begun mother though but. Ofttimes soils of since mighty pollution.</p>
                             <div className="mt-5">
                                 <a href="" className="text-black text-left text-bold">Read More</a>
@@ -249,7 +249,7 @@ const Aboutecomdi = () => {
                     <div className="lg:m-4 shadow-md hover:shadow-lg hover:bg-gray-100 rounded-lg bg-white my-12 mx-8">
                         <img src="https://picsum.photos/id/29/2106/1404" alt="" class="overflow-hidden" />
                         <div className="p-4">
-                            <a href='#' className="font-medium text-gray-600 text-lg my-2 uppercase ">Bangkok’s street food vendors stay afloat with app built on AWS</a>
+                            <a href='#' className="font-medium text-gray-600 text-lg my-2 uppercase ">Bangkok’s street food vendors stay afloat with app built on </a>
                             <p className="text-justify mt-2">The be might what days revellers, which sought to a nor. Land from to suits his some. Saw him counsel begun mother though but. Ofttimes soils of since mighty pollution.</p>
                             <div className="mt-5">
                                 <a href="" className="text-black text-left text-bold">Read More</a>
@@ -262,7 +262,7 @@ const Aboutecomdi = () => {
                     <div className="lg:m-4 shadow-md hover:shadow-lg hover:bg-gray-100 rounded-lg bg-white my-12 mx-8">
                         <img src="https://picsum.photos/id/29/2106/1404" alt="" class="overflow-hidden" />
                         <div className="p-4">
-                            <a href='#' className="font-medium text-gray-600 text-lg my-2 uppercase ">Bangkok’s street food vendors stay afloat with app built on AWS</a>
+                            <a href='#' className="font-medium text-gray-600 text-lg my-2 uppercase ">Bangkok’s street food vendors stay afloat with app built on </a>
                             <p className="text-justify mt-2">The be might what days revellers, which sought to a nor. Land from to suits his some. Saw him counsel begun mother though but. Ofttimes soils of since mighty pollution.</p>
                             <div className="mt-5">
                                 <a href="" className="text-black text-left text-bold">Read More</a>

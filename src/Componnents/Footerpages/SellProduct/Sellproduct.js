@@ -22,11 +22,11 @@ const Sellproduct = () => {
                 <div className='md:w-2/4 text-left inline-block'>
                     <p className='ml-8 px-8 mt-16'>Sell</p>
                     <h1 className=' ml-8 px-8 md:text-7xl text-4xl text-white '>How to start
-                        selling on Amazon</h1>
-                    <p className=' ml-8 px-8'>Whether you’ve already got an established ecommerce business, a great idea for a new product, or you just have a passion for selling, here’s how to take that next step with Amazon.</p>
+                        selling on Ecomdi</h1>
+                    <p className=' ml-8 px-8'>Whether you’ve already got an established ecommerce business, a great idea for a new product, or you just have a passion for selling, here’s how to take that next step with Ecomdi.</p>
                     <div className='flex inline-block'>
                         <a className='ml-8 px-8 mt=5 text-white' href=''>
-                            Read the beginner's guide to selling on Amazon
+                            Read the beginner's guide to selling on Ecomdi
                         </a>
                         <button className="flex-shrink-0 text-white text-sm  text-black py-1 px-2 rounded hidden md:block" type="button">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -68,7 +68,7 @@ const Sellproduct = () => {
                         <h3 className='text-black text-3xl'>
                             Choose a selling plan
                         </h3>
-                        <p className='text-ehite'>With the Individual plan, you’ll pay $0.99 every time you sell an item. The Professional plan costs $39.99 per month, no matter how many items you sell. For both plans, Amazon also collects a referral fee on each sale, which is a percentage of the total transaction and varies by product category. Visit our pricing page for a summary of selling fees.</p>
+                        <p className='text-ehite'>With the Individual plan, you’ll pay $0.99 every time you sell an item. The Professional plan costs $39.99 per month, no matter how many items you sell. For both plans, Ecomdi also collects a referral fee on each sale, which is a percentage of the total transaction and varies by product category. Visit our pricing page for a summary of selling fees.</p>
                         <div className='flex inline-block text-white'>
                             <a className='ml- px-8 mt=5 text-black' href=''>
                                 Compare plans
@@ -91,7 +91,7 @@ const Sellproduct = () => {
                         <h3 className='text-black text-3xl'>
                             Choose a selling plan
                         </h3>
-                        <p className='text-ehite'>With the Individual plan, you’ll pay $0.99 every time you sell an item. The Professional plan costs $39.99 per month, no matter how many items you sell. For both plans, Amazon also collects a referral fee on each sale, which is a percentage of the total transaction and varies by product category. Visit our pricing page for a summary of selling fees.</p>
+                        <p className='text-ehite'>With the Individual plan, you’ll pay $0.99 every time you sell an item. The Professional plan costs $39.99 per month, no matter how many items you sell. For both plans, Ecomdi also collects a referral fee on each sale, which is a percentage of the total transaction and varies by product category. Visit our pricing page for a summary of selling fees.</p>
                         <div className='flex inline-block text-white'>
                             <a className='ml- px-8 mt=5 text-black' href=''>
                                 Compare plans
@@ -138,7 +138,7 @@ const Sellproduct = () => {
                                 <h3 className='text-black text-3xl'>
                                     Choose a selling plan
                                 </h3>
-                                <p className='text-ehite'>With the Individual plan, you’ll pay $0.99 every time you sell an item. The Professional plan costs $39.99 per month, no matter how many items you sell. For both plans, Amazon also collects a referral fee on each sale, which is a percentage of the total transaction and varies by product category. Visit our pricing page for a summary of selling fees.</p>
+                                <p className='text-ehite'>With the Individual plan, you’ll pay $0.99 every time you sell an item. The Professional plan costs $39.99 per month, no matter how many items you sell. For both plans, Ecomdi also collects a referral fee on each sale, which is a percentage of the total transaction and varies by product category. Visit our pricing page for a summary of selling fees.</p>
                                 <div className='flex inline-block text-white'>
                                     <a className='ml- px-8 mt-5 text-black' href=''>
                                         Compare plans

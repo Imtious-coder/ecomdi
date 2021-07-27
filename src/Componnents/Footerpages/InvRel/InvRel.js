@@ -6,14 +6,14 @@ const InvRel = () => {
     return (
         <div>
             <div className=' '>
-                <img className='w-full h-60' alt='amazon' src={Image2} />
+                <img className='w-full h-64 object-cover object-center  bg-black opacity-50' alt='Ecomdi' src='https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d2Vic2l0ZSUyMGJhbm5lciUyMGUlMjBjb21tZXJjZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60' />
             </div>
             <section className='grid md:grid-cols-3 grid-cols-1 mb-10'>
                 <div className='w-1/3 m-0'>
                     <div className="flex  justify-between text-justify p-2 mt-5 ml-3" style={{width:300}}>
                         <div className='flex-grow'>
                             <a href='#' className=' text-gray-500 text-sm  bold'>
-                                ABOUT AMAZON
+                                ABOUT ECOMDI
                             </a>
                         </div>
                         <div className=''>
@@ -97,9 +97,9 @@ const InvRel = () => {
                                 24th July
                             </h3>
                             <h1 className='text-4xl'>
-                                Amazon.com Announces First Quarter Resuls
+                                Ecomdi.com Announces First Quarter Resuls
                             </h1>
-                            <p>Amazon.com, Inc. (NASDAQ: AMZN) today announced financial results for its first quarter ended March 31, 2021. Operating cash flow increased 69% to $67.2 billion for th...</p>
+                            <p>Ecomdi.com, Inc. (ECOMDI: ECOM) today announced financial results for its first quarter ended March 31, 2021. Operating cash flow increased 69% to $67.2 billion for th...</p>
                             <a className='underline' href='#'>Continue Reading</a>
                         </div>
                     </Card>
@@ -111,9 +111,9 @@ const InvRel = () => {
                                 24th July
                             </h3>
                             <h1 className='text-4xl'>
-                                Amazon.com Announces First Quarter Resuls
+                                Ecomdi.com Announces First Quarter Resuls
                             </h1>
-                            <p>Amazon.com, Inc. (NASDAQ: AMZN) today announced financial results for its first quarter ended March 31, 2021. Operating cash flow increased 69% to $67.2 billion for th...</p>
+                            <p>Ecomdi.com, Inc. (ECOMDI: Ecom) today announced financial results for its first quarter ended March 31, 2021. Operating cash flow increased 69% to $67.2 billion for th...</p>
                             <a className='underline' href='#'>Continue Reading</a>
                         </div>
                     </Card>
@@ -122,7 +122,7 @@ const InvRel = () => {
                 <div className='w-1/3'>
                     <div className="flex space-x-2  mt-4 ml-2" style={{width:300}}>
                         <h1 className='flex-grow text-base '>
-                            NASDAQ: AMZN 
+                            ECOMDI: Ecom 
                             -12.07 (-0.32%)
                         </h1> 
                         <h1 className='flex-none text-2xl '>
@@ -144,9 +144,9 @@ const InvRel = () => {
                                 24th July
                             </h3>
                             <h1 className='text-4xl'>
-                                Amazon.com Announces First Quarter Resuls
+                                Ecomdi.com Announces First Quarter Resuls
                             </h1>
-                            <p>Amazon.com, Inc. (NASDAQ: AMZN) today announced financial results for its first quarter ended March 31, 2021. Operating cash flow increased 69% to $67.2 billion for th...</p>
+                            <p>Ecomdi.com, Inc. (ECOMDI: Ecom) today announced financial results for its first quarter ended March 31, 2021. Operating cash flow increased 69% to $67.2 billion for th...</p>
                             <a className='underline' href='#'>Continue Reading</a>
                         </div>
                     
@@ -159,9 +159,9 @@ const InvRel = () => {
                                 24th July
                             </h3>
                             <h1 className='text-4xl'>
-                                Amazon.com Announces First Quarter Resuls
+                                Ecomdi.com Announces First Quarter Resuls
                             </h1>
-                            <p>Amazon.com, Inc. (NASDAQ: AMZN) today announced financial results for its first quarter ended March 31, 2021. Operating cash flow increased 69% to $67.2 billion for th...</p>
+                            <p>Ecomdi.com, Inc. (ECOMDI: Ecom) today announced financial results for its first quarter ended March 31, 2021. Operating cash flow increased 69% to $67.2 billion for th...</p>
                             <a className='underline' href='#'>Continue Reading</a>
                         </div>
                     </Card>

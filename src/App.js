@@ -93,6 +93,25 @@ import Kitchen from './Componnents/Home/Categories/HomeandLifestyle/Kitchen Item
 import Aboutecomdi from './Componnents/Footerpages/About/Aboutecomdi'
 import InvestRelation from './Componnents/Footerpages/InvRel/InvRel'
 import SellonProduct from './Componnents/Footerpages/SellProduct/Sellpro'
+import SelerHome from './Componnents/SellerHome/SelerHome'
+import Account from './Componnents/Finance/Account Statements/Account';
+import OrderOverview from './Componnents/Finance/Order Overview/OrderOverview';
+import TransOver from './Componnents/Finance/Transaction Overview/TransOver'
+import ProductImage from './Componnents/Products/ProductImages/ProductImage';
+import OrderView from './Componnents/Orders&Reviews/Manage Order/OrderView'
+import ManageReview from './Componnents/Orders&Reviews/Manage Review/ManageReview';
+import Campaign from './Componnents/Promotions/Campaign/Campaign';
+import Bundles from './Componnents/Promotions/Bundles/Bundles';
+import SellerVoucher from './Componnents/Promotions/Seller Voucher/SellerVoucher';
+import Freeshipping from './Componnents/Promotions/Free Shipping/Freeshipping';
+import Sellerpicks from './Componnents/Promotions/Seller Picks/Sellerpicks';
+import PolicyCom from './Componnents/Growth Center/PolicyCom';
+import Assortment from './Componnents/Assortment Growth/Assortment';
+import HelpCenter from './Componnents/Seller Help/Help Center/HelpCenter';
+import Contact from './Componnents/Seller Help/Contact Us/Contact';
+import MediaCenter from './Componnents/Products/Media Center/MediaCenter';
+import AddProduct from '../src/Componnents/Products/AddProduct/AddProduct'
+import Manage from '../src/Componnents/Products/Manage Product/Manage'
 function App() {
   return (
     <Router>
@@ -356,6 +375,64 @@ function App() {
         <Route path="/jobsNavigation">
           <JobsNavigation />
         </Route>
+        {/* Seller page */}
+        <Route path="/seller-home">
+          <SelerHome />
+        </Route>
+        <Route path='/manage-product'>
+             <Manage />
+             </Route>
+             <Route path='/add-product'>
+            <AddProduct />
+            </Route>
+            <Route path='/media-center'>
+            <MediaCenter />
+            </Route>
+            <Route path='/manage-image'>
+            <ProductImage />
+            </Route>
+            <Route path='/manage-order'>
+            <OrderView />
+            </Route>
+            <Route path='/manage-review'>
+            <ManageReview />
+            </Route>
+            <Route path='/campaign'>
+            <Campaign />
+            </Route>
+            <Route path='/bundles'>
+            <Bundles />
+            </Route>
+            <Route path='/seller-voucher'>
+            <SellerVoucher />
+            </Route>
+            <Route path='/free-shipping'>
+            <Freeshipping />
+            </Route>
+            <Route path='/seller-picks'>
+            <Sellerpicks />
+            </Route>
+            <Route path='/policy-compliance'>
+            <PolicyCom />
+            </Route>
+            <Route path='/assortment-growth'>
+            <Assortment />
+            </Route>
+            <Route path='/account-statements'>
+            <Account />
+            </Route>
+            <Route path='/order-overview'>
+            <OrderOverview />
+            </Route>
+            <Route path='/transaction-overview'>
+            <TransOver />
+            </Route>
+            <Route path='/help-center'>
+            <HelpCenter />
+            </Route>
+            <Route path='/contact-us'>
+            <Contact />
+            </Route>
         <Route path="/about-ecomdi">
           <Aboutecomdi />
         </Route>
