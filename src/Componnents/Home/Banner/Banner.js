@@ -14,6 +14,7 @@ import I5 from './tshirt.jpg';
 import I6 from './blender.jpg';
 import I7 from './losion.jpg';
 import I8 from './sports.jpg';
+import I9 from './books.jpg';
 
 
 
@@ -56,7 +57,7 @@ const Banner = () => {
                         <p>Sports</p>
                     </div>
                     <div className="flex Banner_Categories_Items">
-                        <img src={I2} alt="" className="Banner_Categories_Images" />
+                        <img src={I9} alt="" className="Banner_Categories_Images" />
                         <p>Books</p>
                     </div>
                 </div>
@@ -110,41 +111,53 @@ const Banner = () => {
                         <img className="Banner_Image2" src={Image} alt="" />
                     </div>
                 </Carousel>
-                <div className="grid grid-cols-5 m-5">
+                <div className="grid grid-cols-4 p-5 gap-2 bg-white">
                     <div className="Banner_Categories_Items2">
-                        <img src={I1} alt="" className="Banner_Categories_Images2" />
+                        <div style={{ display: "flex", justifyContent: "center" }}>
+                            <img src={I1} alt="" className="Banner_Categories_Images2" />
+                        </div>
                         <p>Electronics</p>
                     </div>
                     <div className="Banner_Categories_Items2">
-                        <img src={I2} alt="" className="Banner_Categories_Images2" />
+                        <div style={{ display: "flex", justifyContent: "center" }}>
+                            <img src={I2} alt="" className="Banner_Categories_Images2" />
+                        </div>
                         <p>Bick & Scooter</p>
                     </div>
                     <div className="Banner_Categories_Items2">
-                        <img src={I3} alt="" className="Banner_Categories_Images2" />
+                        <div style={{ display: "flex", justifyContent: "center" }}>
+                            <img src={I3} alt="" className="Banner_Categories_Images2" />
+                        </div>
                         <p>Groceries</p>
                     </div>
                     <div className="Banner_Categories_Items2">
-                        <img src={I4} alt="" className="Banner_Categories_Images2" />
+                        <div style={{ display: "flex", justifyContent: "center" }}>
+                            <img src={I4} alt="" className="Banner_Categories_Images2" />
+                        </div>
                         <p>Health and Beauty</p>
                     </div>
                     <div className="Banner_Categories_Items2">
-                        <img src={I5} alt="" className="Banner_Categories_Images2" />
-                        <p>Fasion</p>
-                    </div>
-                    <div className="Banner_Categories_Items2">
-                        <img src={I6} alt="" className="Banner_Categories_Images2" />
+                        <div style={{ display: "flex", justifyContent: "center" }}>
+                            <img src={I6} alt="" className="Banner_Categories_Images2" />
+                        </div>
                         <p>Home & Lifestyle</p>
                     </div>
                     <div className="Banner_Categories_Items2">
-                        <img src={I7} alt="" className="Banner_Categories_Images2" />
+                        <div style={{ display: "flex", justifyContent: "center" }}>
+                            <img src={I7} alt="" className="Banner_Categories_Images2" />
+                        </div>
                         <p>Baby</p>
                     </div>
                     <div className="Banner_Categories_Items2">
-                        <img src={I8} alt="" className="Banner_Categories_Images2" />
+                        <div style={{ display: "flex", justifyContent: "center" }}>
+                            <img src={I8} alt="" className="Banner_Categories_Images2" />
+                        </div>
                         <p>Sports</p>
                     </div>
                     <div className="Banner_Categories_Items2">
-                        <img src={I2} alt="" className="Banner_Categories_Images2" />
+                        <div style={{ display: "flex", justifyContent: "center" }}>
+                            <img src={I9} alt="" className="Banner_Categories_Images2" />
+                        </div>
                         <p>Books</p>
                     </div>
                 </div>
