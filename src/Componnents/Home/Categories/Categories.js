@@ -68,8 +68,8 @@ const menu = (
 
 const Categories = () => {
     return (
-        <section className="">
-            <div className="grid md:grid-cols-8 Categories grid-cols-1 Font2 text-center pl-10 pr-10">
+        <section className="mt-1 mb-1">
+            <div className="grid md:grid-cols-7 Categories grid-cols-1 Font2 text-center pl-10 pr-10 gap-1">
                 <div className="flex justify-center">
                     <Dropdown overlay={menu} placement="bottomRight" arrow>
                         <Link to="/categories">
@@ -81,8 +81,7 @@ const Categories = () => {
                 <button className="Categories_Button">Laptop</button>
                 <button className="Categories_Button">Bick & Scooter</button>
                 <button className="Categories_Button">Groceries</button>
-                <button className="Categories_Button">Television</button>
-                <button className="Categories_Button">Sports</button>
+                <button className="Categories_Button">Television</button>                
                 <Link to="/switchToSellerPage">
                     <button className="Categories_Button Roboto text-2xl Sell"><b>Sell</b></button>
                 </Link>
