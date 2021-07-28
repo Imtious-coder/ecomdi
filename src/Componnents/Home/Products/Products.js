@@ -52,7 +52,7 @@ const Products = () => {
     }, [])
 
     return (
-        <div className="ml-5 mb-5">
+        <div className="ml-10 mb-5 mr-5">
             <p className="grid font-bold text-2xl test mt-5">Mobile</p>
             <section style={{ overflowX: "scroll" }} className="flex Scroll mr-5">
                 {

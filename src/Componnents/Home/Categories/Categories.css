@@ -9,13 +9,14 @@
     font-size: 16px;
     outline: none!important;
     color: #ff5e00;
-    /* border: 1px solid #bbff00 ; */
-    padding: 0px 30px 0px 30px;
+    padding: 0px 40px 0px 10px;
+    box-shadow: 0px 0px 5px rgb(255, 255, 0);
     background-color: transparent;
 }
 .All_Categories:hover{
     color: #ff5e00;
     box-shadow: 0px 0px 2px yellow;
+    box-shadow: 0px 0px 5px rgb(202, 182, 0);
 }
 .Categories_Button{
     width: 100%;
@@ -25,12 +26,13 @@
     line-height: 0px;
     color: rgb(54, 54, 54);
     outline: none!important;
-    border: 1px solid #bbff00 ;
+    box-shadow: 0px 0px 5px rgb(255, 255, 0);
     background-color: transparent;
+    border-radius: 1px;
 }
 .Categories_Button:hover{
     color: #ff5e00;
-    box-shadow: 0px 0px 2px yellow;
+    box-shadow: 0px 0px 5px rgb(202, 182, 0);
 }
 .Sell{
     color:blanchedalmond;

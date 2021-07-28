@@ -21,7 +21,7 @@ import I9 from './books.jpg';
 const Banner = () => {
 
     return (
-        <section className="bg-blue-50">
+        <section className="pt-8 pb-2 bg-white">
             <div className="Banner">
                 <div className="Categories_Left">
                     <div className="flex Banner_Categories_Items">
@@ -63,7 +63,7 @@ const Banner = () => {
                 </div>
                 <div className="carousel">
                     <Carousel autoplay >
-                        <div>
+                        <div className="">
                             <img className="Banner_Image" src={Image4} alt="" />
                         </div>
                         <div>
@@ -75,9 +75,15 @@ const Banner = () => {
                         <div>
                             <img className="Banner_Image" src={Image} alt="" />
                         </div>
+                        <div>
+                            <img className="Banner_Image" src={Image} alt="" />
+                        </div>
+                        <div>
+                            <img className="Banner_Image" src={Image} alt="" />
+                        </div>
                     </Carousel>
                 </div>
-                <div className="Right_Side p-3 pb-0">
+                <div className="Right_Side p-3 pt-0 pb-0 pl-5">
                     <div className="Banner_Right_Cards">
                         <p>Groceries</p>
                         <p>40% off</p>
