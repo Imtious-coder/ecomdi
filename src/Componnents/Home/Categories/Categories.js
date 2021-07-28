@@ -1,3 +1,5 @@
+import { faThLarge, faThList } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Menu, Dropdown, Button } from 'antd';
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -10,7 +12,7 @@ const menu = (
     <Menu>
         <Menu.Item>
             <a target="" rel="noopener noreferrer" href="#">
-                Electronics Devices
+            <FontAwesomeIcon icon={faThList} /> Electronics Devices
             </a>
         </Menu.Item>
         <Menu.Item>
@@ -69,11 +71,11 @@ const menu = (
 const Categories = () => {
     return (
         <section className="mt-1 mb-1">
-            <div className="grid md:grid-cols-7 Categories grid-cols-1 Font2 text-center pl-10 pr-10 gap-1">
+            <div className="grid md:grid-cols-7 Categories grid-cols-1 Font2 text-center pl-10 pr-10 gap-2">
                 <div className="flex justify-center">
                     <Dropdown overlay={menu} placement="bottomRight" arrow>
                         <Link to="/categories">
-                            <button className="All_Categories pb-1">All Categories</button>
+                            <button className="All_Categories pb-1"><FontAwesomeIcon icon={faThList} /> All Categories</button>
                         </Link>
                     </Dropdown>
                 </div>

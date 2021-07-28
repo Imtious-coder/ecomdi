@@ -1,126 +1,119 @@
 import React from 'react';
 import './Main_Page.css';
-import Image1 from './Your_Orders.png';
-import Image2 from './Login_Security.png';
-import Image3 from './GiftCard.png';
-import Image4 from './payment.png';
-import Image5 from './Your_Profile.png';
-import Image6 from './digital_devices.png';
-import Image7 from './Messages.jpg';
-import Image8 from './archived_orders.png';
-import Image9 from './Lists.png';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBoxOpen, faClipboardList, faDesktop, faEnvelope, faFileArchive, faMoneyCheckAlt, faTags, faUser, faUserLock } from '@fortawesome/free-solid-svg-icons';
 
 const Main_Page = () => {
     return (
         <section className="pt-5 pb-10">
             {/* Page title */}
             <Link to="/navbar">
-                <header className="text-3xl font-bold text-center mt-10 mb-20">Your Account</header>
+                <header className="text-3xl font-bold text-center mt-5 mb-10 text-gray-600">Your Account</header>
             </Link>
 
             {/* All Cards */}
-            <div className="grid md:grid-cols-3 ml-20 mr-20 mt-10 mb-10 gap-6">
+            <div className="grid md:grid-cols-3 ml-16 mr-16 mt-10 mb-10 gap-6">
                 {/* First card */}
                 <Link to="/yourOrders">
-                    <section className="Cards border rounded flex pb-2">
-                        <div>
-                            <img className="Images mt-8 m-3" src={Image1} alt="" />
-                        </div>
-                        <div className="md:text-left sm:text-center mt-5 pb-8">
-                            <p className="text-xl font-bold pt-2 mt-1">Your Orders</p>
-                            <p>Track, return, or buy things again</p>
+                    <section className="Cards border rounded pb-1">
+                        <FontAwesomeIcon icon={faBoxOpen} className="Profile_Icons" />
+                        <div className="text-gray-600 Cards_Text">
+                            <div>
+                                <p className="text-xl font-bold">Your Orders</p>
+                                <p>Track, return, or buy things again</p>
+                            </div>
                         </div>
                     </section>
                 </Link>
                 {/* Second card */}
                 <Link to="/securityLogin">
-                    <section className=" Cards border rounded flex">
-                        <div>
-                            <img className="Images mt-6 m-4" src={Image2} alt="" />
-                        </div>
-                        <div className="md:text-left sm:text-center m-6">
-                            <p className="text-xl font-bold">Login and security</p>
-                            <p>Edit login, name, and mobile number</p>
+                    <section className="Cards border rounded flex">
+                        <FontAwesomeIcon icon={faUserLock} className="Profile_Icons" />
+                        <div className="text-gray-600 Cards_Text">
+                            <div>
+                                <p className="text-xl font-bold">Login and security</p>
+                                <p>Edit login, name, and mobile number</p>
+                            </div>
                         </div>
                     </section>
                 </Link>
                 {/* Third card */}
                 <Link to="/vouchers">
-                    <section className=" Cards border rounded flex">
-                        <div>
-                            <img className="Images mt-5 m-4" src={Image3} alt="" />
-                        </div>
-                        <div className="md:text-left sm:text-center m-6">
-                            <p className="text-xl font-bold">Voucher</p>
-                            <p>View voucher, redeem, or reload voucher</p>
+                    <section className="Cards border rounded flex">
+                        <FontAwesomeIcon icon={faTags} className="Profile_Icons" />
+                        <div className="text-gray-600 Cards_Text">
+                            <div>
+                                <p className="text-xl font-bold">Voucher</p>
+                                <p>View voucher, redeem, or reload voucher</p>
+                            </div>
                         </div>
                     </section>
                 </Link>
                 {/* Fourth card */}
                 <Link to="/payments">
                     <section className=" Cards border rounded flex">
-                        <div>
-                            <img className="Images mt-10 m-4" src={Image4} alt="" />
-                        </div>
-                        <div className="md:text-left sm:text-center mt-8 pb-4 m-6">
-                            <p className="text-xl font-bold">Your Payments</p>
-                            <p>Manage payment methonds and settings, view all transactions</p>
+                        <FontAwesomeIcon icon={faMoneyCheckAlt} className="Profile_Icons" />
+                        <div className="text-gray-600 Cards_Text">
+                            <div>
+                                <p className="text-xl font-bold">Your Payments</p>
+                                <p>Manage payment methonds and settings, view all transactions</p>
+                            </div>
                         </div>
                     </section>
                 </Link>
                 {/* Fifth card */}
                 <Link to="/profiles">
                     <section className="Cards border rounded flex">
-                        <div>
-                            <img className="Images mt-7 m-4" src={Image5} alt="" />
-                        </div>
-                        <div className="md:text-left sm:text-center m-6">
-                            <p className="text-xl font-bold">Your Profiles</p>
-                            <p>Manage, add, or remove user profiles for personalized <br /> experiences</p>
+                        <FontAwesomeIcon icon={faUser} className="Profile_Icons" />
+                        <div className="text-gray-600 Cards_Text">
+                            <div>
+                                <p className="text-xl font-bold">Your Profiles</p>
+                                <p>Manage, add, or remove user profiles for personalized experiences</p>
+                            </div>
                         </div>
                     </section>
                 </Link>
                 {/* Sixth card */}
                 <Link to="/devices">
                     <section className=" Cards border rounded flex">
-                        <div>
-                            <img className="Images mt-6 m-4" src={Image6} alt="" />
-                        </div>
-                        <div className="md:text-left sm:text-center m-5">
-                            <p className="text-xl font-bold">Your Devices and Contents</p>
-                            <p>Manage your Ecomdi devices and digital content</p>
+                        <FontAwesomeIcon icon={faDesktop} className="Profile_Icons" />
+                        <div className="text-gray-600 Cards_Text">
+                            <div>
+                                <p className="text-xl font-bold">Your Devices and Contents</p>
+                                <p>Manage your Ecomdi devices and digital content</p>
+                            </div>
                         </div>
                     </section>
                 </Link>
                 {/* Seventh card */}
                 <section className=" Cards border rounded flex">
-                    <div>
-                        <img className="Images mt-6 m-4" src={Image7} alt="" />
-                    </div>
-                    <div className="md:text-left sm:text-center m-6">
-                        <p className="text-xl font-bold">Your Messages</p>
-                        <p>View messages to and from Ecomdi, sellers, and buyers</p>
+                    <FontAwesomeIcon icon={faEnvelope} className="Profile_Icons" />
+                    <div className="text-gray-600 Cards_Text">
+                        <div>
+                            <p className="text-xl font-bold">Your Messages</p>
+                            <p>View messages to and from Ecomdi, sellers, and buyers</p>
+                        </div>
                     </div>
                 </section>
                 {/* Eighth card */}
                 <section className=" Cards border rounded flex">
-                    <div>
-                        <img className="Images m-4" src={Image8} alt="" />
-                    </div>
-                    <div className="md:text-left sm:text-center m-6">
-                        <p className="text-xl font-bold">Archived Orders</p>
-                        <p>View and manage your archived orders</p>
+                    <FontAwesomeIcon icon={faFileArchive} className="Profile_Icons" />
+                    <div className="text-gray-600 Cards_Text">
+                        <div>
+                            <p className="text-xl font-bold">Archived Orders</p>
+                            <p>View and manage your archived orders</p>
+                        </div>
                     </div>
                 </section>
                 {/* Ninth card */}
                 <section className=" Cards border rounded flex">
-                    <div>
-                        <img className="Images mt-6 m-4" src={Image9} alt="" />
-                    </div>
-                    <div className="md:text-left sm:text-center m-6">
-                        <p className="text-xl font-bold">Your List</p>
-                        <p>View, modify, and share your lists, or create new ones</p>
+                    <FontAwesomeIcon icon={faClipboardList} className="Profile_Icons" />
+                    <div className="text-gray-600 Cards_Text">
+                        <div>
+                            <p className="text-xl font-bold">Your List</p>
+                            <p>View, modify, and share your lists, or create new ones</p>
+                        </div>
                     </div>
                 </section>
             </div>
