@@ -1,9 +1,5 @@
 import React from 'react';
 import './Banner.css';
-import Image from './brush-sale-banner-vector-260nw-1090866878.jpg';
-import Image2 from './download.jpg';
-import Image3 from './images.png';
-import Image4 from './Image2.png';
 import { Carousel } from 'antd';
 import '../../../../node_modules/antd/dist/antd.min.css';
 import I1 from './electronics.jpg';
@@ -32,35 +28,47 @@ const Banner = () => {
                         </div>
                     </Link>
                     <Link to="/bikes">
-                    <div className="flex Banner_Categories_Items">
-                        <img src={I2} alt="" className="Banner_Categories_Images" />
-                        <p>Bick & Scooter</p>
-                    </div>
+                        <div className="flex Banner_Categories_Items">
+                            <img src={I2} alt="" className="Banner_Categories_Images" />
+                            <p>Bick & Scooter</p>
+                        </div>
                     </Link>
-                    <div className="flex Banner_Categories_Items">
-                        <img src={I3} alt="" className="Banner_Categories_Images" />
-                        <p>Groceries</p>
-                    </div>
-                    <div className="flex Banner_Categories_Items">
-                        <img src={I4} alt="" className="Banner_Categories_Images" />
-                        <p>Health and Beauty</p>
-                    </div>
-                    <div className="flex Banner_Categories_Items">
-                        <img src={I5} alt="" className="Banner_Categories_Images" />
-                        <p>Fasion</p>
-                    </div>
-                    <div className="flex Banner_Categories_Items">
-                        <img src={I6} alt="" className="Banner_Categories_Images" />
-                        <p>Home & Lifestyle</p>
-                    </div>
-                    <div className="flex Banner_Categories_Items">
-                        <img src={I7} alt="" className="Banner_Categories_Images" />
-                        <p>Baby</p>
-                    </div>
-                    <div className="flex Banner_Categories_Items">
-                        <img src={I8} alt="" className="Banner_Categories_Images" />
-                        <p>Sports</p>
-                    </div>
+                    <Link to="/groceries">
+                        <div className="flex Banner_Categories_Items">
+                            <img src={I3} alt="" className="Banner_Categories_Images" />
+                            <p>Groceries</p>
+                        </div>
+                    </Link>
+                    <Link to="/health-and-beauty">
+                        <div className="flex Banner_Categories_Items">
+                            <img src={I4} alt="" className="Banner_Categories_Images" />
+                            <p>Health and Beauty</p>
+                        </div>
+                    </Link>
+                    <Link to="/men-fashion">
+                        <div className="flex Banner_Categories_Items">
+                            <img src={I5} alt="" className="Banner_Categories_Images" />
+                            <p>Fasion</p>
+                        </div>
+                    </Link>
+                    <Link to="/home-accecories">
+                        <div className="flex Banner_Categories_Items">
+                            <img src={I6} alt="" className="Banner_Categories_Images" />
+                            <p>Home & Lifestyle</p>
+                        </div>
+                    </Link>
+                    <Link to="/babies-toys">
+                        <div className="flex Banner_Categories_Items">
+                            <img src={I7} alt="" className="Banner_Categories_Images" />
+                            <p>Baby</p>
+                        </div>
+                    </Link>
+                    <Link to="/sports">
+                        <div className="flex Banner_Categories_Items">
+                            <img src={I8} alt="" className="Banner_Categories_Images" />
+                            <p>Sports</p>
+                        </div>
+                    </Link>
                     <div className="flex Banner_Categories_Items">
                         <img src={I9} alt="" className="Banner_Categories_Images" />
                         <p>Books</p>
@@ -68,58 +76,83 @@ const Banner = () => {
                 </div>
                 <div className="carousel">
                     <Carousel autoplay >
-                        <div className="">
-                            <img className="Banner_Image" src={Image4} alt="" />
+                        <div className="First_Slide">
+                            <div className="First_Slide_Text">
+                                <h1 className="First_Slider_Title">Flash sale on all products</h1>
+                            </div>
                         </div>
-                        <div>
-                            <img className="Banner_Image" src={Image2} alt="" />
+                         <div className="Second_Slide">
+                            <div className="Second_Slide_Text">
+                                {/* <p>Lol</p> */}
+                            </div>
                         </div>
-                        <div>
-                            <img className="Banner_Image" src={Image3} alt="" />
+                        <div className="Third_Slide">
+                            <div className="Third_Slide_Text">
+                                {/* <p>Lol</p> */}
+                            </div>
                         </div>
-                        <div>
-                            <img className="Banner_Image" src={Image} alt="" />
+                        <div className="Fourth_Slide">
+                            <div className="Fourth_Slide_Text">
+                                {/* <p>Lol</p> */}
+                            </div>
                         </div>
-                        <div>
-                            <img className="Banner_Image" src={Image} alt="" />
+                        <div className="Fifth_Slide">
+                            <div className="Fifth_Slide_Text">
+                                {/* <p>Lol</p> */}
+                            </div>
                         </div>
-                        <div>
-                            <img className="Banner_Image" src={Image} alt="" />
+                        <div className="Sixth_Slide">
+                            <div className="Sixth_Slide_Text">
+                                {/* <p>Lol</p> */}
+                            </div>
                         </div>
                     </Carousel>
                 </div>
                 <div className="Right_Side p-3 pt-0 pb-0 pl-5">
-                    <div className="Banner_Right_Cards">
-                        <p>Groceries</p>
-                        <p>40% off</p>
+                    <div className="Banner_Right_Card1">
+                        <p className="Banner_Right_Cards_Text">Groceries</p>
+                        <p className="Banner_Right_Cards_Text2">40% off</p>
                     </div>
-                    <div className="Banner_Right_Cards">
-                        <p>Home applience</p>
-                        <p>35% off</p>
+                    <div className="Banner_Right_Card2">
+                        <p className="Banner_Right_Cards_Text">Home applience</p>
+                        <p className="Banner_Right_Cards_Text2">35% off</p>
                     </div>
-                    <div className="Banner_Right_Cards">
-                        <p>Bicks</p>
-                        <p>Flat 40% off</p>
+                    <div className="Banner_Right_Card3">
+                        <p className="Banner_Right_Cards_Text">Bicks</p>
+                        <p className="Banner_Right_Cards_Text2">Flat 40% off</p>
                     </div>
-                    <div className="Banner_Right_Cards">
-                        <p>TV</p>
-                        <p>40% off</p>
+                    <div className="Banner_Right_Card4">
+                        <p className="Banner_Right_Cards_Text">Books</p>
+                        <p className="Banner_Right_Cards_Text2">40% off</p>
                     </div>
                 </div>
             </div>
             <div className="Mobile_Banner">
                 <Carousel autoplay >
-                    <div>
-                        <img className="Banner_Image2" src={Image4} alt="" />
+                    <div className="First_Slide1">
+                        <div className="First_Slide_Text">
+                        </div>
                     </div>
-                    <div>
-                        <img className="Banner_Image2" src={Image2} alt="" />
+                    <div className="Second_Slide2">
+                        <div className="Second_Slide_Text">
+                        </div>
                     </div>
-                    <div>
-                        <img className="Banner_Image2" src={Image3} alt="" />
+                    <div className="Third_Slide3">
+                        <div className="Third_Slide_Text">
+                        </div>
                     </div>
-                    <div>
-                        <img className="Banner_Image2" src={Image} alt="" />
+                    <div className="Fourth_Slide4">
+                        <div className="Fourth_Slide_Text">
+                        </div>
+                    </div>
+                    <div className="Fifth_Slide5">
+                        <div className="Fifth_Slide_Text">
+                            <p>Lol</p>
+                        </div>
+                    </div>
+                    <div className="Sixth_Slide6">
+                        <div className="Sixth_Slide_Text">
+                        </div>
                     </div>
                 </Carousel>
                 <div className="grid grid-cols-4 p-5 gap-2 bg-white">

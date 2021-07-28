@@ -6,12 +6,7 @@ import Aboutecomdi from '../../AboutEcomdi/Aboutecomdi'
 
 const Footer = () => {
     return (
-<<<<<<< HEAD
-            <section className="grid md:grid-cols-4 grid-cols-2 bg-gray-900 Roboto">
-                
-=======
             <section className="grid md:grid-cols-4 grid-cols-2 bg-gray-900 Roboto pb-10 pt-10 mt-16 Footer">
->>>>>>> 9f63361866aff79b2fd5efe54e898e44698c64fd
                 <div className="text-sm m-10 leading-5">
                     <a href="" className="text-xl text-gray-300"><p><b>Get to Know Us</b></p></a>
                     <Link to="/career">

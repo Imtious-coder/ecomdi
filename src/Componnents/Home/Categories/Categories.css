@@ -43,6 +43,11 @@
     background-image: linear-gradient(to right, rgb(2, 16, 99), black);
 
 }
+.categories_hover_items{
+    margin: 10px;
+    color: rgb(255, 72, 0);
+    letter-spacing: 1px;
+}
 @media(max-width: 948px){
     .Categories_Button{
         font-size: 13px;

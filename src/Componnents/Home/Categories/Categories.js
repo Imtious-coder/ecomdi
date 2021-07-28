@@ -1,4 +1,5 @@
-import { faThLarge, faThList } from '@fortawesome/free-solid-svg-icons';
+import { faBitbucket } from '@fortawesome/free-brands-svg-icons';
+import { faBaby, faBiking, faCamera, faFemale, faFutbol, faLaptop, faMobileAlt, faShoppingBasket, faThLarge, faThList, faTv, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Menu, Dropdown, Button } from 'antd';
 import React from 'react';
@@ -11,59 +12,81 @@ import './Categories.css';
 const menu = (
     <Menu>
         <Menu.Item>
-            <a target="" rel="noopener noreferrer" href="#">
-            <FontAwesomeIcon icon={faThList} /> Electronics Devices
-            </a>
+            <Link to="/blackberry">
+                <a target="" rel="noopener noreferrer" href="#" className="categories_hover_items">
+                    <FontAwesomeIcon icon={faThList} /> Electronics Devices
+                </a>
+            </Link>
         </Menu.Item>
         <Menu.Item>
-            <a target="" rel="noopener noreferrer" href="#">
-                Mobile
-            </a>
+            <Link to="/mobile">
+                <a target="" rel="noopener noreferrer" href="#" className="categories_hover_items">
+                    <FontAwesomeIcon icon={faMobileAlt} className="" /> Mobile
+                </a>
+            </Link>
         </Menu.Item>
         <Menu.Item>
-            <a target="" rel="noopener noreferrer" href="#">
-                Laptop
-            </a>
+            <Link to="/laptop">
+                <a target="" rel="noopener noreferrer" href="#" className="categories_hover_items">
+                    <FontAwesomeIcon icon={faLaptop} className="" />  Laptop
+                </a>
+            </Link>
         </Menu.Item>
         <Menu.Item>
-            <a target="" rel="noopener noreferrer" href="#">
-                Television
-            </a>
+            <Link to="/television">
+                <a target="" rel="noopener noreferrer" href="#" className="categories_hover_items">
+                    <FontAwesomeIcon icon={faTv} className="" /> Television
+                </a>
+            </Link>
         </Menu.Item>
         <Menu.Item>
-            <a target="" rel="noopener noreferrer" href="#">
-                Security Cameras
-            </a>
+            <Link to="/security-camera">
+                <a target="" rel="noopener noreferrer" href="#" className="categories_hover_items">
+                    <FontAwesomeIcon icon={faCamera} className="" />  Security Cameras
+                </a>
+            </Link>
         </Menu.Item>
         <Menu.Item>
-            <a target="" rel="noopener noreferrer" href="#">
-                Bick and Scooter
-            </a>
+            <Link to="/bikes">
+                <a target="" rel="noopener noreferrer" href="#" className="categories_hover_items">
+                    <FontAwesomeIcon icon={faBiking} className="" /> Bick and Scooter
+                </a>
+            </Link>
         </Menu.Item>
         <Menu.Item>
-            <a target="" rel="noopener noreferrer" href="#">
-                Groceries
-            </a>
+            <Link to="/groceries">
+                <a target="" rel="noopener noreferrer" href="#" className="categories_hover_items">
+                    <FontAwesomeIcon icon={faShoppingBasket} className="" />  Groceries
+                </a>
+            </Link>
         </Menu.Item>
         <Menu.Item>
-            <a target="" rel="noopener noreferrer" href="#">
-                Women's Fasion
-            </a>
+            <Link to="/women-fashion">
+                <a target="" rel="noopener noreferrer" href="#" className="categories_hover_items">
+                    <FontAwesomeIcon icon={faFemale} className="" />  Women's Fasion
+                </a>
+            </Link>
         </Menu.Item>
         <Menu.Item>
-            <a target="" rel="noopener noreferrer" href="#">
-                Men's Fasion
-            </a>
+            <Link to="/men-fashion">
+                <a target="" rel="noopener noreferrer" href="#" className="categories_hover_items">
+                    <FontAwesomeIcon icon={faUser} className="" />  Men's Fasion
+                </a>
+            </Link>
         </Menu.Item>
         <Menu.Item>
-            <a target="" rel="noopener noreferrer" href="#">
-                Babies and Toy's
-            </a>
+            <Link to="/babies-toys">
+                <a target="" rel="noopener noreferrer" href="#" className="categories_hover_items">
+                    <FontAwesomeIcon icon={faBaby} className="" />  Babies and Toy's
+                </a>
+            </Link>
         </Menu.Item>
         <Menu.Item>
-            <a target="" rel="noopener noreferrer" href="#">
-                Sports
-            </a>
+            <Link to="/sports">
+                <a target="" rel="noopener noreferrer" href="#" className="categories_hover_items">
+                    <FontAwesomeIcon icon={faFutbol} className="" />  Sports
+                </a>
+            </Link>
         </Menu.Item>
     </Menu>
 );
@@ -83,7 +106,7 @@ const Categories = () => {
                 <button className="Categories_Button">Laptop</button>
                 <button className="Categories_Button">Bick & Scooter</button>
                 <button className="Categories_Button">Groceries</button>
-                <button className="Categories_Button">Television</button>                
+                <button className="Categories_Button">Television</button>
                 <Link to="/switchToSellerPage">
                     <button className="Categories_Button Roboto text-2xl Sell"><b>Sell</b></button>
                 </Link>
