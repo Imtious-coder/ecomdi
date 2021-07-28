@@ -15,6 +15,7 @@ import I6 from './blender.jpg';
 import I7 from './losion.jpg';
 import I8 from './sports.jpg';
 import I9 from './books.jpg';
+import { Link } from 'react-router-dom';
 
 
 
@@ -24,14 +25,18 @@ const Banner = () => {
         <section className="pt-8 pb-2 bg-white">
             <div className="Banner">
                 <div className="Categories_Left">
-                    <div className="flex Banner_Categories_Items">
-                        <img src={I1} alt="" className="Banner_Categories_Images" />
-                        <p>Electronics</p>
-                    </div>
+                    <Link to="/blackberry">
+                        <div className="flex Banner_Categories_Items">
+                            <img src={I1} alt="" className="Banner_Categories_Images" />
+                            <p>Electronics</p>
+                        </div>
+                    </Link>
+                    <Link to="/bikes">
                     <div className="flex Banner_Categories_Items">
                         <img src={I2} alt="" className="Banner_Categories_Images" />
                         <p>Bick & Scooter</p>
                     </div>
+                    </Link>
                     <div className="flex Banner_Categories_Items">
                         <img src={I3} alt="" className="Banner_Categories_Images" />
                         <p>Groceries</p>
