@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { DatePicker, Space, Input } from 'antd';
 import Sidenav from '../SideNavbar/Sidenav';
 import { Slider } from 'antd';
@@ -12,12 +11,16 @@ const onSearch = value => console.log(value);
 
 const PolicyCom = () => {
     return (
-        
-        <div className='flex grid md:grid-cols-5 grid-cols-1 mt-8'>
-            <aside className="h-screen md:sticky mb-4 top-0 w-full ">
+
+        <div className='md:flex flex grid md:grid-cols-5 grid-cols-1 md:mt-8 mt-0'>
+            {/* Sidenav */}
+            <aside className="md:h-screen h-20 md:sticky sticky mb-5 top-0 z-40  ">
                 <Sidenav />
             </aside>
-            <main className='w-full col-span-4 bg-gray-100'>
+            {/*  */}
+            {/* bodypart */}
+            <main className='md:w-full md:ml-0 ml-9 md:col-span-4 col-span-1 bg-gray-100'>
+                {/* Navbar direction */}
                 <div className='w-2/3 h-12 flex  p-3 text-black'>
                     <a href='' className='text-gray-500 mr-1 text-xs uppercase'>
                         home
@@ -34,13 +37,13 @@ const PolicyCom = () => {
                     <a href='' className='text-gray-500 text-xs mr-1 ml-1 uppercase'>
                         Policy Compliance
                     </a>
-
                 </div>
                 <div className='mt-2 p-3 text-2xl'>
                     <p>
                         Growth Center
                     </p>
                 </div>
+                {/* Policy Compliance */}
                 <div className=' ml-3 text-xl'>
                     <p>
                         Policy Compliance
@@ -76,16 +79,16 @@ const PolicyCom = () => {
                         <h1 className='p-3 text-blue-500'>
                             Your Current Points
                         </h1>
-                        <div className='bg-white h-12 p-3  '>    
-                            <Slider className='mt-5'  />
+                        <div className='bg-white h-12 p-3  '>
+                            <Slider className='mt-5' />
                         </div>
-                        <p  className=' m-3'>
-                        Awesome! You are a role model. Thank you for adhering to our policies.
+                        <p className=' m-3'>
+                            Awesome! You are a role model. Thank you for adhering to our policies.
                         </p>
                     </div>
                 </div>
                 <div className='grid md:grid-cols-2 grid-cols-1 mb-5'>
-                    <div className=' ml-3 p-4  bg-white'>
+                    <div className=' ml-3 p-5 md:mb-0 mb-2 bg-white'>
                         <div>
                             <h1 className='text-base'>
                                 Wonderful! You have not been penalized recently yet.
@@ -98,7 +101,7 @@ const PolicyCom = () => {
                             </a>
                         </div>
                         <div className='border p-2 shadow-md mt-2'>
-                            <a href= '' className='text-black'>
+                            <a href='' className='text-black'>
                                 <span className='text-xl mr-2 text-blue-500'>2408</span> <span className='text-md'>Outstanding appeal requests</span>
                             </a>
                         </div>

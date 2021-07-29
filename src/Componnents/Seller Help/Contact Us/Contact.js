@@ -3,11 +3,15 @@ import Sidenav from '../../SideNavbar/Sidenav'
 
 const Contact = () => {
     return (
-        <div className='flex grid md:grid-cols-5 grid-cols-1'>
-            <aside className="h-screen md:sticky mb-5 top-0 w-full ">
+        <div className='md:flex flex grid md:grid-cols-5 grid-cols-1 md:mt-8 mt-0'>
+            {/* Sidenav */}
+            <aside className="md:h-screen h-20 md:sticky sticky mb-5 top-0 z-40  ">
                 <Sidenav />
             </aside>
-            <main className='w-full col-span-4 bg-gray-100'>
+            {/*  */}
+            {/* bodypart */}
+            <main className='md:w-full md:ml-0 ml-9 md:col-span-4 col-span-1 bg-gray-100'>
+                {/* Navbar direction */}
                 <div className='w-2/3 h-12 flex  p-3 text-black'>
                     <a href='' className='text-gray-500 mr-1 text-xs uppercase'>
                         home
@@ -28,6 +32,7 @@ const Contact = () => {
                         Contact Us
                     </p>
                 </div>
+                {/* Ecomdi community section */}
                 <div className='grid md:grid-cols-2 grid-cols-1 gap-4 bg-white p-9 m-5'>
                     <div>
                         <h1 className='text-gray-800 text-2xl'>
@@ -43,7 +48,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <a href='#'>
-                            Learn how to use Ecomdi Talk
+                                Learn how to use Ecomdi Talk
                             </a>
                         </div>
 
@@ -52,19 +57,20 @@ const Contact = () => {
                         <img src='https://cdn.shopify.com/s/files/1/0070/7032/files/EM_SellingPhotosOnline_FinalReview.jpg?v=1601311303&width=1024' />
                     </div>
                 </div>
+                {/* Help center */}
                 <div className=' bg-white p-9 m-5 mb-10'>
-                   <h1 className='text-gray-800 text-2xl'>
-                   Have any questions, complaints or feedback?
-                        </h1>
-                        <p  className='text-gray-500 text-lg mt-5'>
+                    <h1 className='text-gray-800 text-2xl'>
+                        Have any questions, complaints or feedback?
+                    </h1>
+                    <p className='text-gray-500 text-lg mt-5'>
                         Please visit our <a href='#'>Help Center</a> to view answers to the most frequently asked questions.
-If you are unable to find your solution, you may contact us through any of the following channels
-                        </p>
-                        <div>
-                            <a href='#'>
+                        If you are unable to find your solution, you may contact us through any of the following channels
+                    </p>
+                    <div>
+                        <a href='#'>
                             Click here to see more options
-                            </a>
-                        </div>
+                        </a>
+                    </div>
                 </div>
             </main>
         </div>

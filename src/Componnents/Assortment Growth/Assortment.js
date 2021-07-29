@@ -5,12 +5,16 @@ import Sidenav from '../SideNavbar/Sidenav'
 
 const Assortment = () => {
     return (
-        <div className='flex grid md:grid-cols-5 grid-cols-1 mt-8'>
-            <aside className="h-screen md:sticky mb-5 top-0 w-full ">
+        <div className='md:flex flex grid md:grid-cols-5 grid-cols-1 md:mt-8 mt-0'>
+            {/* Sidenav */}
+            <aside className="md:h-screen h-20 md:sticky sticky mb-5 top-0 z-40  ">
                 <Sidenav />
             </aside>
-            <main className='w-full col-span-4 bg-gray-100'>
-            <div className='w-2/3 h-12 flex  p-3 text-black'>
+            {/*  */}
+            {/* bodypart */}
+            <main className='md:w-full md:ml-0 ml-9 md:col-span-4 col-span-1 bg-gray-100'>
+                {/* Navbar direction */}
+                <div className='w-2/3 h-12 flex  p-3 text-black'>
                     <a href='' className='text-gray-500 mr-1 text-xs uppercase'>
                         home
                     </a>
@@ -26,14 +30,15 @@ const Assortment = () => {
                         Assortment Growth
                     </p>
                 </div>
-                <div className='bg-white m-5 h-2/3 rounded '> 
-                    <div className='p-3 text-xl font-bold '>
-                    Existing problems
+                {/* problem list for seller */}
+                <div className='bg-white m-5 h-2/3 rounded '>
+                    <div className='md:p-3 text-xl font-bold '>
+                        Existing problems
                     </div>
-                    <div className= 'relative md:h-32   text-center md:mb-8'>
+                    <div className='relative md:h-32  text-center md:mb-8 mb-4'>
                         <img className='md:ml-64' src='https://img.alicdn.com/tfs/TB1sZ4qtj39YK4jSZPcXXXrUFXa-300-300.png' />
-                         <div className="text-center text-lg md:mb-8">Your items are all good, have a nice day!</div>
-                    
+                        <div className="text-center text-lg md:mb-8 mb-4 ">Your items are all good, have a nice day!</div>
+
                     </div>
                 </div>
             </main>

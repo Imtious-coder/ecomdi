@@ -433,6 +433,7 @@ function App() {
             <Route path='/contact-us'>
             <Contact />
             </Route>
+            {/* seller page end */}
         <Route path="/about-ecomdi">
           <Aboutecomdi />
         </Route>

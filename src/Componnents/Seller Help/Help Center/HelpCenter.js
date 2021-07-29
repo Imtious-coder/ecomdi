@@ -8,16 +8,20 @@ const onSearch = value => console.log(value);
 
 const HelpCenter = () => {
     return (
-        <div className='flex grid md:grid-cols-5 grid-cols-1'>
-            <aside className="h-screen md:sticky mb-5  top-0 w-full ">
+        <div className='md:flex flex grid md:grid-cols-5 grid-cols-1 md:mt-8 mt-0'>
+            {/* Sidenav */}
+            <aside className="md:h-screen h-20 md:sticky sticky mb-5 top-0 z-40  ">
                 <Sidenav />
             </aside>
-            <main className='w-full col-span-4 bg-gray-100'>
+            {/*  */}
+            {/* bodypart */}
+            <main className='md:w-full md:ml-0 ml-9 md:col-span-4 col-span-1 bg-gray-100'>
                 <div className='mt-2 p-3 text-2xl'>
                     <h1>
                         Seller Help Center
                     </h1>
                 </div>
+                {/* Navbar direction */}
                 <div>
                     <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6 md:text-left text-center">
                         <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
@@ -33,6 +37,7 @@ const HelpCenter = () => {
                         </div>
                     </nav>
                 </div>
+                {/* Search bar */}
                 <div className='bg-gray-800 h-48 ml-3 mr-3 mb-8'>
                     <div className=' text-xl text-center'>
                         <h1 className='text-white font-bold py-5'>
@@ -49,6 +54,7 @@ const HelpCenter = () => {
                         </div>
                     </div>
                 </div>
+                {/* Questions for seller  */}
                 <div className='text-center font-bold text-base mt-4 divide-y-4 divide-yellow-600 mb-5 '>
                     <h1 className='text-lg '>
                         Top Questions
@@ -106,10 +112,10 @@ const HelpCenter = () => {
                                     What is the Seller Picks feature and how can I use it?
                                 </a>
                             </li>
-
                         </ul>
                     </div>
                 </div>
+                {/* Categories fro seller  */}
                 <div className='text-center font-bold text-base mt-4 divide-x-2 divide-rose-400 mb-5 '>
                     <h1 className='text-lg divide-x-2 divide-rose-400'>
                         Categories
@@ -177,6 +183,7 @@ const HelpCenter = () => {
                         </p>
                     </div>
                 </div>
+                {/* Chat and claims sections*/}
                 <div className='text-center font-bold text-base mt-4 divide-x-2 divide-rose-400 mt-10 '>
                     <h1 className='text-lg divide-x-2 divide-rose-400'>
                         Still Need Help ?

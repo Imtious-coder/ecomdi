@@ -8,11 +8,15 @@ const onSearch = value => console.log(value);
 
 const SellerVoucher = () => {
     return (
-        <div className='flex grid md:grid-cols-5 grid-cols-1 mt-8'>
-            <aside className="h-screen md:sticky mb-5  top-0 w-full ">
+        <div className='md:flex flex grid md:grid-cols-5 grid-cols-1 md:mt-8 mt-0'>
+            {/* Sidenav */}
+            <aside className="md:h-screen h-20 md:sticky sticky mb-5 top-0 z-40  ">
                 <Sidenav />
             </aside>
-            <main className='w-full col-span-4 bg-gray-100'>
+            {/*  */}
+            {/* bodypart */}
+            <main className='md:w-full md:ml-0 ml-9 md:col-span-4 col-span-1 bg-gray-100'>
+            {/* Navbar direction */}
             <div className='w-2/3 h-12 flex  p-3 text-black'>
                     <a href='' className='text-gray-500 mr-1 text-xs uppercase'>
                         home
@@ -41,6 +45,7 @@ const SellerVoucher = () => {
                         </button>
                     </div>                   
                 </div>
+                {/* navber for collectible and code voucher */}
                 <div>
                     <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6 md:text-left text-center">
                         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
@@ -55,8 +60,8 @@ const SellerVoucher = () => {
                             </div>
                         </div>
                     </nav>
-
                 </div>
+                {/* Search voucher */}
                 <div className='grid md:grid-cols-5 grid-cols-1 gap-3'>
                     <div>
                        <select className='w-full p-1 border'>
@@ -81,8 +86,8 @@ const SellerVoucher = () => {
                             Search
                         </button>
                     </div>
-
                 </div>
+                {/* Tabele for voucher */}
                 <div class="container sm:mt-5">
                     <table class="w-full flex flex-row flex-no-wrap sm:bg-white rounded-lg overflow-hidden sm:shadow-lg my-5">
                         <thead class="text-black">
@@ -94,8 +99,6 @@ const SellerVoucher = () => {
                                 <th className="h-16 border p-1">Discount (off)</th>
                                 <th className="h-16 border p-1">Action</th>
                                 <th className="h-16 border p-1">Fast Share</th>
-                                
-
                             </tr>
 
 

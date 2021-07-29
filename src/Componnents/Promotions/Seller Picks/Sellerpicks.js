@@ -8,11 +8,15 @@ const onSearch = value => console.log(value);
 
 const Sellerpicks = () => {
     return (
-        <div className='flex grid md:grid-cols-5 grid-cols-1 mt-8'>
-            <aside className="h-screen md:sticky mb-5 top-0 w-full ">
+        <div className='md:flex flex grid md:grid-cols-5 grid-cols-1 md:mt-8 mt-0'>
+            {/* Sidenav */}
+            <aside className="md:h-screen h-20 md:sticky sticky mb-5 top-0 z-40  ">
                 <Sidenav />
             </aside>
-            <main className='w-full col-span-4 bg-gray-100'>
+            {/*  */}
+            {/* bodypart */}
+            <main className='md:w-full md:ml-0 ml-9 md:col-span-4 col-span-1 bg-gray-100'>
+            {/* Navbar direction */}
                 <div className='w-2/3 h-12 flex  p-3 text-black'>
                     <a href='' className='text-gray-500 mr-1 text-xs uppercase'>
                         home
@@ -29,7 +33,6 @@ const Sellerpicks = () => {
                     <a href='' className='text-gray-500 text-xs mr-1 ml-1 uppercase'>
                         Seller Picks
                     </a>
-
                 </div>
                 <div className='mt-2 p-3 text-2xl'>
                     <p>
@@ -49,16 +52,17 @@ const Sellerpicks = () => {
                         </li>
                     </ul>
                 </div> */}
+                {/* Button for seller picks */}
                 <div className='mt-2 ml-3'>
                     <button class="bg-yellow-500 hover:bg-gray-200 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-
                         <span>What is Seller Picks ?</span>
                     </button>
                 </div>
-                <div className='mt-5 text-center bg-white  '>
+                <div className='mt-5 text-center bg-white md:p-5 p-2 '>
                     <h1 className='md:text-xl text-lg '>
                         Want to get access to the Seller Picks feature?
                     </h1>
+                    {/* Seller picks features */}
                     <div className='grid md:grid-cols-4 grid-cols-1 gap-2 text-left mt-5 ml-5'>
                         <div>
                             <div className='flex  '>
