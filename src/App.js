@@ -23,8 +23,7 @@ import Step2 from './Componnents/My_Account/SecurityLogin/Step2/Step2';
 import SecureYourAccount from './Componnents/My_Account/SecurityLogin/SecureYourAccount/SecureYourAccount';
 import Vouchers from './Componnents/My_Account/Voucher/Vouchers/Vouchers';
 import YourPayments from './Componnents/My_Account/Payments/YourPayments/YourPayments';
-import YourProfiles from './Componnents/My_Account/Profiles/YourProfiles/YourProfiles';
-import ManageYourProfiles from './Componnents/My_Account/Profiles/ManageYourProfiles/ManageYourProfiles';
+import YourProfiles from './Componnents/My_Account/Profiles/YourProfiles/YourProfiles';import ManageYourProfiles from './Componnents/My_Account/Profiles/ManageYourProfiles/ManageYourProfiles';
 import Devices from './Componnents/My_Account/DeviceAndContents/Devices/Devices';
 import ManageDevices from './Componnents/My_Account/DeviceAndContents/ManageDevices/ManageDevices';
 import Navbar from './Componnents/Home/Navbar/Navbar';
@@ -79,7 +78,7 @@ import Television from './Componnents/Home/Categories/Television/Television';
 import HealthBeauty from './Componnents/Home/Categories/HealthandBeauty/HealthBeauty';
 import ManFashion from './Componnents/Home/Categories/MansFashion/ManFashion';
 import WomenFashion from './Componnents/Home/Categories/WomensFashion/WomenFashion';
-import SecurityCam  from './Componnents/Home/Categories/SecurityCamera/SecurityCam';
+import SecurityCam from './Componnents/Home/Categories/SecurityCamera/SecurityCam';
 import SmartGadgets from './Componnents/Home/Categories/SmartGadgets/SmartGadgets';
 import Sports from './Componnents/Home/Categories/Sports/Sports';
 import Touring from './Componnents/Home/Categories/Touring/Touring';
@@ -120,9 +119,6 @@ function App() {
         <Route path="/navbar">
           <Navbar />
         </Route>
-        <Route path="/mainHome">
-          <Home_Page />
-        </Route>
         <Route path="/banner">
           <Banner />
         </Route>
@@ -146,7 +142,7 @@ function App() {
         </Route>
         <Route path="/honda">
           <Honda />
-        </Route>  
+        </Route>
         <Route path="/hero">
           <Hero />
         </Route>
@@ -264,9 +260,6 @@ function App() {
         <Route path="/footer">
           <Footer />
         </Route>
-        <Route path="/home">
-          <Main_Page />
-        </Route>
         <Route path="/iphone">
           <Iphone />
         </Route>
@@ -380,59 +373,59 @@ function App() {
           <SelerHome />
         </Route>
         <Route path='/manage-product'>
-             <Manage />
-             </Route>
-             <Route path='/add-product'>
-            <AddProduct />
-            </Route>
-            <Route path='/media-center'>
-            <MediaCenter />
-            </Route>
-            <Route path='/manage-image'>
-            <ProductImage />
-            </Route>
-            <Route path='/manage-order'>
-            <OrderView />
-            </Route>
-            <Route path='/manage-review'>
-            <ManageReview />
-            </Route>
-            <Route path='/campaign'>
-            <Campaign />
-            </Route>
-            <Route path='/bundles'>
-            <Bundles />
-            </Route>
-            <Route path='/seller-voucher'>
-            <SellerVoucher />
-            </Route>
-            <Route path='/free-shipping'>
-            <Freeshipping />
-            </Route>
-            <Route path='/seller-picks'>
-            <Sellerpicks />
-            </Route>
-            <Route path='/policy-compliance'>
-            <PolicyCom />
-            </Route>
-            <Route path='/assortment-growth'>
-            <Assortment />
-            </Route>
-            <Route path='/account-statements'>
-            <Account />
-            </Route>
-            <Route path='/order-overview'>
-            <OrderOverview />
-            </Route>
-            <Route path='/transaction-overview'>
-            <TransOver />
-            </Route>
-            <Route path='/help-center'>
-            <HelpCenter />
-            </Route>
-            <Route path='/contact-us'>
-            <Contact />
-            </Route>
+          <Manage />
+        </Route>
+        <Route path='/add-product'>
+          <AddProduct />
+        </Route>
+        <Route path='/media-center'>
+          <MediaCenter />
+        </Route>
+        <Route path='/manage-image'>
+          <ProductImage />
+        </Route>
+        <Route path='/manage-order'>
+          <OrderView />
+        </Route>
+        <Route path='/manage-review'>
+          <ManageReview />
+        </Route>
+        <Route path='/campaign'>
+          <Campaign />
+        </Route>
+        <Route path='/bundles'>
+          <Bundles />
+        </Route>
+        <Route path='/seller-voucher'>
+          <SellerVoucher />
+        </Route>
+        <Route path='/free-shipping'>
+          <Freeshipping />
+        </Route>
+        <Route path='/seller-picks'>
+          <Sellerpicks />
+        </Route>
+        <Route path='/policy-compliance'>
+          <PolicyCom />
+        </Route>
+        <Route path='/assortment-growth'>
+          <Assortment />
+        </Route>
+        <Route path='/account-statements'>
+          <Account />
+        </Route>
+        <Route path='/order-overview'>
+          <OrderOverview />
+        </Route>
+        <Route path='/transaction-overview'>
+          <TransOver />
+        </Route>
+        <Route path='/help-center'>
+          <HelpCenter />
+        </Route>
+        <Route path='/contact-us'>
+          <Contact />
+        </Route>
         <Route path="/about-ecomdi">
           <Aboutecomdi />
         </Route>
@@ -444,9 +437,9 @@ function App() {
         </Route>
         <Route path="/">
           <Home_Page />
-        </Route> 
+        </Route>
       </Switch>
-      
+
       <Footer />
     </Router>
   );

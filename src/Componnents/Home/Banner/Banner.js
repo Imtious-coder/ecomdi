@@ -18,8 +18,10 @@ import { Link } from 'react-router-dom';
 const Banner = () => {
 
     return (
-        <section className="pt-8 pb-2 bg-white">
+        <section className="pb-2 bg-white">
+            {/* ...Laptop view Banner start... */}
             <div className="Banner">
+                {/* ...Left categories start... */}
                 <div className="Categories_Left">
                     <Link to="/blackberry">
                         <div className="flex Banner_Categories_Items">
@@ -74,40 +76,58 @@ const Banner = () => {
                         <p>Books</p>
                     </div>
                 </div>
+                {/* ...Left categories end... */}
+
+                {/* ...Sider start... */}
                 <div className="carousel">
                     <Carousel autoplay >
+                        {/* First slide */}
                         <div className="First_Slide">
                             <div className="First_Slide_Text">
-                                <h1 className="First_Slider_Title">Flash sale on all products</h1>
+                                <h1 className="Slider_Titles Font3">Flash sale today</h1>
+                                <p className="Slider_Description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam delectus optio dolorem repellendus . . .</p>
                             </div>
                         </div>
-                         <div className="Second_Slide">
-                            <div className="Second_Slide_Text">
-                                {/* <p>Lol</p> */}
+                        {/* Second slide */}
+                        <div className="Second_Slide">
+                            <div className="First_Slide_Text">
+                            <h1 className="Slider_Titles Font3">Flash sale today</h1>
+                                <p className="Slider_Description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam delectus optio dolorem repellendus . . .</p>
                             </div>
                         </div>
+                        {/* Third slide */}
                         <div className="Third_Slide">
-                            <div className="Third_Slide_Text">
-                                {/* <p>Lol</p> */}
+                            <div className="First_Slide_Text">
+                            <h1 className="Slider_Titles Font3">Flash sale today</h1>
+                                <p className="Slider_Description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam delectus optio dolorem repellendus . . .</p>
                             </div>
                         </div>
+                        {/* Fourth slide */}
                         <div className="Fourth_Slide">
-                            <div className="Fourth_Slide_Text">
-                                {/* <p>Lol</p> */}
+                            <div className="First_Slide_Text">
+                            <h1 className="Slider_Titles Font3">Flash sale today</h1>
+                                <p className="Slider_Description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam delectus optio dolorem repellendus . . .</p>
                             </div>
                         </div>
+                        {/* Fifth slide */}
                         <div className="Fifth_Slide">
-                            <div className="Fifth_Slide_Text">
-                                {/* <p>Lol</p> */}
+                            <div className="First_Slide_Text">
+                            <h1 className="Slider_Titles Font3">Flash sale today</h1>
+                                <p className="Slider_Description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam delectus optio dolorem repellendus . . .</p>
                             </div>
                         </div>
+                        {/* Sixth slide */}
                         <div className="Sixth_Slide">
-                            <div className="Sixth_Slide_Text">
-                                {/* <p>Lol</p> */}
+                            <div className="First_Slide_Text">
+                            <h1 className="Slider_Titles Font3">Flash sale today</h1>
+                                <p className="Slider_Description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam delectus optio dolorem repellendus . . .</p>
                             </div>
                         </div>
                     </Carousel>
                 </div>
+                {/* ...Slider ends... */}
+
+                {/* ...Right side offers start... */}
                 <div className="Right_Side p-3 pt-0 pb-0 pl-5">
                     <div className="Banner_Right_Card1">
                         <p className="Banner_Right_Cards_Text">Groceries</p>
@@ -126,7 +146,11 @@ const Banner = () => {
                         <p className="Banner_Right_Cards_Text2">40% off</p>
                     </div>
                 </div>
+                {/* ...Right side offers start... */}
             </div>
+            {/* ...Laptop view Banner ends... */}
+
+            {/* ...Mobile view Banner start... */}
             <div className="Mobile_Banner">
                 <Carousel autoplay >
                     <div className="First_Slide1">
@@ -156,48 +180,62 @@ const Banner = () => {
                     </div>
                 </Carousel>
                 <div className="grid grid-cols-4 p-5 gap-2 bg-white">
-                    <div className="Banner_Categories_Items2">
-                        <div style={{ display: "flex", justifyContent: "center" }}>
-                            <img src={I1} alt="" className="Banner_Categories_Images2" />
+                    <Link to="/blackberry">
+                        <div className="Banner_Categories_Items2">
+                            <div style={{ display: "flex", justifyContent: "center" }}>
+                                <img src={I1} alt="" className="Banner_Categories_Images2" />
+                            </div>
+                            <p>Electronics</p>
                         </div>
-                        <p>Electronics</p>
-                    </div>
-                    <div className="Banner_Categories_Items2">
-                        <div style={{ display: "flex", justifyContent: "center" }}>
-                            <img src={I2} alt="" className="Banner_Categories_Images2" />
+                    </Link>
+                    <Link to="/bikes">
+                        <div className="Banner_Categories_Items2">
+                            <div style={{ display: "flex", justifyContent: "center" }}>
+                                <img src={I2} alt="" className="Banner_Categories_Images2" />
+                            </div>
+                            <p>Bick & Scooter</p>
                         </div>
-                        <p>Bick & Scooter</p>
-                    </div>
-                    <div className="Banner_Categories_Items2">
-                        <div style={{ display: "flex", justifyContent: "center" }}>
-                            <img src={I3} alt="" className="Banner_Categories_Images2" />
+                    </Link>
+                    <Link to="/groceries">
+                        <div className="Banner_Categories_Items2">
+                            <div style={{ display: "flex", justifyContent: "center" }}>
+                                <img src={I3} alt="" className="Banner_Categories_Images2" />
+                            </div>
+                            <p>Groceries</p>
                         </div>
-                        <p>Groceries</p>
-                    </div>
-                    <div className="Banner_Categories_Items2">
-                        <div style={{ display: "flex", justifyContent: "center" }}>
-                            <img src={I4} alt="" className="Banner_Categories_Images2" />
+                    </Link>
+                    <Link to="/health-and-beauty">
+                        <div className="Banner_Categories_Items2">
+                            <div style={{ display: "flex", justifyContent: "center" }}>
+                                <img src={I4} alt="" className="Banner_Categories_Images2" />
+                            </div>
+                            <p>Health and Beauty</p>
                         </div>
-                        <p>Health and Beauty</p>
-                    </div>
-                    <div className="Banner_Categories_Items2">
-                        <div style={{ display: "flex", justifyContent: "center" }}>
-                            <img src={I6} alt="" className="Banner_Categories_Images2" />
+                    </Link>
+                    <Link to="/home-accecories">
+                        <div className="Banner_Categories_Items2">
+                            <div style={{ display: "flex", justifyContent: "center" }}>
+                                <img src={I6} alt="" className="Banner_Categories_Images2" />
+                            </div>
+                            <p>Home & Lifestyle</p>
                         </div>
-                        <p>Home & Lifestyle</p>
-                    </div>
-                    <div className="Banner_Categories_Items2">
-                        <div style={{ display: "flex", justifyContent: "center" }}>
-                            <img src={I7} alt="" className="Banner_Categories_Images2" />
+                    </Link>
+                    <Link to="/babies-toys">
+                        <div className="Banner_Categories_Items2">
+                            <div style={{ display: "flex", justifyContent: "center" }}>
+                                <img src={I7} alt="" className="Banner_Categories_Images2" />
+                            </div>
+                            <p>Baby</p>
                         </div>
-                        <p>Baby</p>
-                    </div>
-                    <div className="Banner_Categories_Items2">
-                        <div style={{ display: "flex", justifyContent: "center" }}>
-                            <img src={I8} alt="" className="Banner_Categories_Images2" />
+                    </Link>
+                    <Link to="/sports">
+                        <div className="Banner_Categories_Items2">
+                            <div style={{ display: "flex", justifyContent: "center" }}>
+                                <img src={I8} alt="" className="Banner_Categories_Images2" />
+                            </div>
+                            <p>Sports</p>
                         </div>
-                        <p>Sports</p>
-                    </div>
+                    </Link>
                     <div className="Banner_Categories_Items2">
                         <div style={{ display: "flex", justifyContent: "center" }}>
                             <img src={I9} alt="" className="Banner_Categories_Images2" />

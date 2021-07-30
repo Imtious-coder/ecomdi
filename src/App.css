@@ -76,6 +76,9 @@ html{
 .Font2{
   font-family: 'EB Garamond', serif;
 }
+.Font3{
+  font-family: 'Stylish', sans-serif;
+}
 .Roboto{
   font-family: 'Roboto', sans-serif;
 }
@@ -113,6 +116,6 @@ html::-webkit-scrollbar-track {
 
 /* Handle */
 html::-webkit-scrollbar-thumb {
-  background: #bbff00;
+  background: #ffee00;
   border-radius: 10px;
 }
