@@ -14,7 +14,7 @@ const Navbar = () => {
                     {/* Company Name/Logo */}
                     <section className="flex justify-items-center ImageSection">
                         <div className="flex flex-wrap content-center">
-                            <Link to="/mainHome">
+                            <Link to="/">
                                 <img className="Logo" src={Image2} alt="" />
                             </Link>
                         </div>

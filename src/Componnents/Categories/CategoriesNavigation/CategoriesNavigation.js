@@ -13,7 +13,7 @@ function handleClick(e) {
 
 const CategoriesNavigation = () => {
     return (
-        <section className="">
+        <section className="-mt-5">
             <Menu onClick={handleClick} mode="vertical">
                 <SubMenu title={<div>
                     <FontAwesomeIcon icon={faMobileAlt} className="CategoriesNavigation_Icons" />Mobile & Laptop
