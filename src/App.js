@@ -269,7 +269,8 @@ function App() {
         <Route path="/categorie">
           <Categories />
         </Route>
-        <Route path="/detailsPage">
+        {/* Current... */}
+        <Route path="/product/:id">
           <DetailsPage />
         </Route>
         <Route path="/yourOrders">

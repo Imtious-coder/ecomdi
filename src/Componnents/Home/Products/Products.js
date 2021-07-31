@@ -60,7 +60,7 @@ const Products = () => {
 
                         return (
                             <div className="flex justify-center">
-                                <Link to="/detailsPage">
+                                <Link to={"/product/" + e.id}>
                                     <div className="mb-3 mt-5 Products_Cards">
                                         <img className="mb-2 Products_Images" src={e.image} alt="" />
                                         <p className="text-center font-bold text-xl">{e.name}</p>
@@ -82,15 +82,17 @@ const Products = () => {
                     groceries.map((e) => {
                         return (
                             <div className="flex justify-center ">
-                                <div className="mb-3 mt-5 Products_Cards">
-                                    <img className="mb-2 Products_Images" src={e.image} alt="" />
-                                    <p className="text-center font-bold text-xl">{e.name}</p>
-                                    <div className="grid grid-cols-3 mb-2 text-center mt-3 flex justify-center">
-                                        <p className="Font1 Product_Price">{e.price}</p>
-                                        <p className="Product_Discount Font1">-35%</p>
-                                        <p className="Product_Cart_Icon flex justify-center"><FontAwesomeIcon icon={faCartPlus} /></p>
+                                <Link to={"/product/" + e.id}>
+                                    <div className="mb-3 mt-5 Products_Cards">
+                                        <img className="mb-2 Products_Images" src={e.image} alt="" />
+                                        <p className="text-center font-bold text-xl">{e.name}</p>
+                                        <div className="grid grid-cols-3 mb-2 text-center mt-3 flex justify-center">
+                                            <p className="Font1 Product_Price">{e.price}</p>
+                                            <p className="Product_Discount Font1">-35%</p>
+                                            <p className="Product_Cart_Icon flex justify-center"><FontAwesomeIcon icon={faCartPlus} /></p>
+                                        </div>
                                     </div>
-                                </div>
+                                </Link>
                             </div>)
                     })
                 }
@@ -102,7 +104,7 @@ const Products = () => {
                     laptops.map((e) => {
                         return (
                             <div className="flex justify-center">
-                                <Link to="/detailsPage">
+                                <Link to={"/product/" + e.id}>
                                     <div className="mb-3 mt-5 Products_Cards">
                                         <img className="mb-2 Products_Images" src={e.image} alt="" />
                                         <p className="text-center font-bold text-xl">{e.name}</p>
@@ -124,7 +126,7 @@ const Products = () => {
                     bicks.map((e) => {
                         return (
                             <div className="flex justify-center">
-                                <Link to="/detailsPage">
+                                <Link to={"/product/" + e.id}>
                                     <div className="mb-3 mt-5 Products_Cards">
                                         <img className="mb-2 Products_Images" src={e.image} alt="" />
                                         <p className="text-center font-bold text-xl">{e.name}</p>
